@@ -1,0 +1,7 @@
+C:\Users\mcoffey\EF_Project\Amenity\Amenity\bin\Amenity.dll
+C:\Users\mcoffey\EF_Project\Amenity\Amenity\bin\Amenity.pdb
+C:\Users\mcoffey\EF_Project\Amenity\Amenity\bin\EntityFramework.dll
+C:\Users\mcoffey\EF_Project\Amenity\Amenity\bin\EntityFramework.xml
+C:\Users\mcoffey\EF_Project\Amenity\Amenity\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\mcoffey\EF_Project\Amenity\Amenity\obj\Debug\Amenity.dll
+C:\Users\mcoffey\EF_Project\Amenity\Amenity\obj\Debug\Amenity.pdb
