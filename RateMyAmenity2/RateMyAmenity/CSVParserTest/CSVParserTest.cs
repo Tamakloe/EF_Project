@@ -134,8 +134,7 @@ namespace CSVParserTest
             actual = target.parseAmenity();
             Assert.AreEqual(4, actual.Count);
 
-            Amenity amenity = actual.Find(item => item.Name == "dsfsdfs");
-            Assert.IsNotNull;
+            Amenity amenity = actual.Find(item => item.Name = "Draiocht");
         }
 
         /// <summary>
