@@ -76,7 +76,7 @@ namespace CSVParserTest
         // whether you are testing a page, web service, or a WCF service.
         [TestMethod()]
         [HostType("ASP.NET")]
-        [AspNetDevelopmentServerHost("C:\\Users\\mcoffey\\EF_Project\\RateMyAmenity\\RateMyAmenity", "/")]
+        [AspNetDevelopmentServerHost("C:\\Users\\mcoffey\\EF_Project\\RateMyAmenity2\\RateMyAmenity\\RateMyAmenity", "/")]
         [UrlToTest("http://localhost:57136/")]
         public void CSVParserConstructorTest()
         {
@@ -86,13 +86,10 @@ namespace CSVParserTest
 
         /// <summary>
         ///A test for RateMyAmenity.DataImport.IDataParser.parseAmenity
-        ///</summary>
-        // TODO: Ensure that the UrlToTest attribute specifies a URL to an ASP.NET page (for example,
-        // http://.../Default.aspx). This is necessary for the unit test to be executed on the web server,
-        // whether you are testing a page, web service, or a WCF service.
+
         [TestMethod()]
         [HostType("ASP.NET")]
-        [AspNetDevelopmentServerHost("C:\\Users\\mcoffey\\EF_Project\\RateMyAmenity\\RateMyAmenity", "/")]
+        [AspNetDevelopmentServerHost("C:\\Users\\mcoffey\\EF_Project\\RateMyAmenity2\\RateMyAmenity\\RateMyAmenity", "/")]
         [UrlToTest("http://localhost:57136/")]
         [DeploymentItem("RateMyAmenity.dll")]
         public void parseAmenityTest()
@@ -105,27 +102,18 @@ namespace CSVParserTest
             Assert.Inconclusive("Verify the correctness of this test method.");
         }
 
-        /// <summary>
-        ///A test for RateMyAmenity.DataImport.IDataParser.setStreamSource
-        ///</summary>
-        // TODO: Ensure that the UrlToTest attribute specifies a URL to an ASP.NET page (for example,
-        // http://.../Default.aspx). This is necessary for the unit test to be executed on the web server,
-        // whether you are testing a page, web service, or a WCF service.
+        // Test to verify file stream
         [TestMethod()]
-        //[HostType("ASP.NET")]
-        //[AspNetDevelopmentServerHost("C:\\Users\\mcoffey\\EF_Project\\RateMyAmenity\\RateMyAmenity", "/")]
-        //[UrlToTest("http://localhost:57136/")]
-        //[DeploymentItem("RateMyAmenity.dll")]
         public void setStreamSourceTest()
         {
-            StreamReader reader = new StreamReader("C:\\Users\\mcoffey\\EF_Project\\RateMyAmenity\\RateMyAmenity\\Content\\ArtCentres.csv",true); // TODO: Initialize to an appropriate value
+            StreamReader reader = new StreamReader("C:\\Users\\mcoffey\\EF_Project\\RateMyAmenity2\\RateMyAmenity\\RateMyAmenity\\Content\\ArtCentres.csv",true); // TODO: Initialize to an appropriate value
             
             IDataParser target = new CSVParser();
 
             target.setStreamSource(reader);
 
-            Amenity a1 = new Amenity();
-            a1.Name = "Draiocht";
+            //Amenity a1 = new Amenity();
+           // a1.Name = "Draiocht";
 
            // List<Amenity> expected = new List<Amenity>();
             //expected.Add(a);
@@ -134,40 +122,39 @@ namespace CSVParserTest
             actual = target.parseAmenity();
             Assert.AreEqual(4, actual.Count);
 
-            Amenity amenity = actual.Find(item => item.Name = "Draiocht");
+            Amenity amenity = actual.Find(item => item.Name == "Draiocht");
         }
 
-        /// <summary>
-        ///A test for RateMyAmenity.DataImport.IDataParser.supportsType
-        ///</summary>
-        // TODO: Ensure that the UrlToTest attribute specifies a URL to an ASP.NET page (for example,
-        // http://.../Default.aspx). This is necessary for the unit test to be executed on the web server,
-        // whether you are testing a page, web service, or a WCF service.
-        [TestMethod()]
+        // test to check format = csv
+        [TestMethod()]  
         public void supportsTypeTest1()
         {
-            IDataParser target = new CSVParser();   // test to check format = csv
+            IDataParser target = new CSVParser();   
             string format = "csv"; 
             bool expected = true; 
             bool actual;
             actual = target.supportsType(format);
             Assert.AreEqual(expected, actual);
         }
+
+        // test to check format for null (i.e. no file)
         [TestMethod()]
         public void supportsTypeTest2()
         {
-            IDataParser target = new CSVParser();  // test to check format for null (i.e. no file)
+            IDataParser target = new CSVParser();  
             string format = null; 
             bool expected = false; 
             bool actual;
             actual = target.supportsType(format);
             Assert.AreEqual(expected, actual);
         }
+
+        // test to check format = something other than csv
         [TestMethod()]
         public void supportsTypeTest3()
         {
-            IDataParser target = new CSVParser(); // test to check format = something other than csv
-            string format = "noncsv"; 
+            IDataParser target = new CSVParser(); 
+            string format = "csv"; 
             bool expected = false; 
             bool actual;
             actual = target.supportsType(format);

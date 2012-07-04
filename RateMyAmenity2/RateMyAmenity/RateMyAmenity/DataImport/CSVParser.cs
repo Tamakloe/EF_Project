@@ -51,9 +51,8 @@ namespace RateMyAmenity.DataImport
                     } else if (headers[i].Equals("Long")) {
                         exObj.Long = Convert.ToDouble(csv[i]);
                     }
-                }
-                facility.Add(exObj);
-                
+                }           
+                facility.Add(exObj);   
             }
             return facility;
 
