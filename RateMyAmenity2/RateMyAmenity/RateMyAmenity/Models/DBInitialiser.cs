@@ -60,10 +60,10 @@ namespace RateMyAmenity.Models
                 //  code to fetch the csv from a URI instead of locally.  uses system.net.
                 HttpWebRequest reqFP = (HttpWebRequest)HttpWebRequest.Create(amenities[i, 0]);
                 HttpWebResponse rspFP = (HttpWebResponse)reqFP.GetResponse();
-                Stream st = rspFP.GetResponseStream();
+               // Stream st = rspFP.GetResponseStream();
 
 
-                StreamReader tmp = new StreamReader(st);
+                StreamReader tmp = new StreamReader(rspFP.GetResponseStream());
                 ourcsv.setStreamSource(tmp);
 
                 // pass the amenity type to parseAmenity
