@@ -286,6 +286,7 @@
   <ItemGroup>
     <None Include="ClassDiagram1.cd" />
     <None Include="Content\ArtCentres.csv" />
+    <None Include="Content\PlayAreas.csv" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

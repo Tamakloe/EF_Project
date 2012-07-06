@@ -41,11 +41,11 @@ namespace RateMyAmenity.Controllers
 
         public ActionResult Create()
         {
-          //  IDataParser ourcsv = new CSVParser();
-          //  StreamReader tmp = new StreamReader("C:\\Users\\mcoffey\\EF_Project\\RateMyAmenity\\RateMyAmenity\\Content\\ArtCentres.csv");
+        //    IDataParser ourcsv = new CSVParser();
+          //  StreamReader tmp = new StreamReader("C:\\Users\\mcoffey\\EF_Project\\RateMyAmenity2\\RateMyAmenity\\Content\\ArtCentres.csv");
           //  ourcsv.setStreamSource(tmp);
-          //  ourcsv.parseAmenity();
-            return View();
+           // ourcsv.parseAmenity();
+           return View();
         }
 
         //

@@ -15,7 +15,7 @@ namespace RateMyAmenity.DataImport
         private String supportedFormat = "csv";
         private StreamReader reader;
 
-        List<Models.Amenity> IDataParser.parseAmenity()
+        List<Models.Amenity> IDataParser.parseAmenity(String amenitytype)
         {
             CsvReader csv = new CsvReader(reader, true);
             int fieldCount = csv.FieldCount;
@@ -46,13 +46,14 @@ namespace RateMyAmenity.DataImport
                         exObj.Email = csv[i];
                     } else if (headers[i].Equals("Website")) {
                         exObj.Website = csv[i];
-                    } else if (headers[i].Equals("Lat")) {
+                    } else if (headers[i].Equals("LAT")) {
                         exObj.Lat = Convert.ToDouble(csv[i]);
-                    } else if (headers[i].Equals("Long")) {
+                    } else if (headers[i].Equals("LONG")) {
                         exObj.Long = Convert.ToDouble(csv[i]);
                     }
-                }           
-                facility.Add(exObj);   
+                }
+              exObj.Type = amenitytype;
+                facility.Add(exObj);
             }
             return facility;
 

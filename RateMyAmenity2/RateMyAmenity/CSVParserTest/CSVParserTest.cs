@@ -97,7 +97,7 @@ namespace CSVParserTest
             IDataParser target = new CSVParser(); // TODO: Initialize to an appropriate value
             List<Amenity> expected = null; // TODO: Initialize to an appropriate value
             List<Amenity> actual;
-            actual = target.parseAmenity();
+            actual = target.parseAmenity("Art Centres");
             Assert.AreEqual(expected, actual);
             Assert.Inconclusive("Verify the correctness of this test method.");
         }
@@ -119,10 +119,10 @@ namespace CSVParserTest
             //expected.Add(a);
 
             List<Amenity> actual;
-            actual = target.parseAmenity();
+            actual = target.parseAmenity("Art Centres");
             Assert.AreEqual(4, actual.Count);
 
-            Amenity amenity = actual.Find(item => item.Name == "Draiocht");
+            Amenity amenity = actual.Find(item => item.Website == "http://www.seamusenniscentre.com");
         }
 
         // test to check format = csv

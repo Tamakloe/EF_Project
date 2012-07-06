@@ -10,7 +10,7 @@ namespace RateMyAmenity.DataImport
 {
     interface IDataParser
     {
-        List<Amenity> parseAmenity();
+        List<Amenity> parseAmenity(String amenitytype);
         void setStreamSource(StreamReader reader);
         Boolean supportsType(String format);
     }
