@@ -92,6 +92,34 @@
     <div class="display-field">
         @Html.DisplayFor(model => model.DefaultImage)
     </div>
+
+    @* Displays the Ratings / User for each Amenity *@
+    <div class="display-label">
+        @Html.LabelFor(model => model.Ratings)
+    </div>
+    <div class="display-field">
+    <table>
+        <tr>
+            <th>User ID</th>
+            <th>Rating Value</th>
+            <th>Comment</th>
+        </tr>
+        @foreach (var item in Model.Ratings)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.User.UserID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.RatingValue)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Comments)
+                </td>
+            </tr>
+        }
+    </table>
+    </div>
 </fieldset>
 <p>
     @Html.ActionLink("Edit", "Edit", new { id=Model.AmenityID }) |

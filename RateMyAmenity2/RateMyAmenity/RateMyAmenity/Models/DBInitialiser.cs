@@ -28,19 +28,6 @@ namespace RateMyAmenity.Models
             Users.ForEach(s => context.Users.Add(s));
             context.SaveChanges();
 
-            var Rating = new List<Rating>
-            {
-                new Rating { RatingValue = 3, Comments = "Chemistry",      Image = "image.jpg" },
-                new Rating { RatingValue = 3, Comments = "Microeconomics", Image = "image.jpg" },
-                new Rating { RatingValue = 3, Comments = "Macroeconomics", Image = "image.jpg" },
-                new Rating { RatingValue = 4, Comments = "Calculus",       Image = "image.jpg" },
-                new Rating { RatingValue = 4, Comments = "Trigonometry",   Image = "image.jpg" },
-                new Rating { RatingValue = 3, Comments = "Composition",    Image = "image.jpg" },
-                new Rating { RatingValue = 4, Comments = "Literature",     Image = "image.jpg" }
-            };
-            Rating.ForEach(s => context.Ratings.Add(s));
-            context.SaveChanges();
-
 
             // Add uri and type for each amenity to a multidimensional array.
             string[,] amenities = new string[,] { 
@@ -74,6 +61,19 @@ namespace RateMyAmenity.Models
                 context.SaveChanges();
 
             }
+
+            var Rating = new List<Rating>
+            {
+                new Rating { RatingValue = 3, AmenityID = 1, UserID = 1, Comments = "Lovely",      Image = "image.jpg" },
+                new Rating { RatingValue = 3, AmenityID = 1, UserID = 2, Comments = "Wonderful", Image = "image.jpg" },
+                new Rating { RatingValue = 3, AmenityID = 2, UserID = 2, Comments = "Clean and Tidy", Image = "image.jpg" },
+                new Rating { RatingValue = 4, AmenityID = 3, UserID = 3, Comments = "Best Ever",       Image = "image.jpg" },
+                new Rating { RatingValue = 4, AmenityID = 4, UserID = 4, Comments = "Excellent",   Image = "image.jpg" },
+                new Rating { RatingValue = 3, AmenityID = 5, UserID = 5, Comments = "Nice",    Image = "image.jpg" },
+                new Rating { RatingValue = 4, AmenityID = 5, UserID = 5, Comments = "Really good amenity",     Image = "image.jpg" }
+            };
+            Rating.ForEach(s => context.Ratings.Add(s));
+            context.SaveChanges();
 
         }
     }
