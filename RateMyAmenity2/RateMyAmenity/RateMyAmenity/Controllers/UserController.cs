@@ -9,8 +9,6 @@ using RateMyAmenity.Models;
 
 namespace RateMyAmenity.Controllers
 {
-    // Restricts access to class to the Admin Role//
-    [Authorize(Roles = "Admin")]
     public class UserController : Controller
     {
         private DatabaseDB db = new DatabaseDB();

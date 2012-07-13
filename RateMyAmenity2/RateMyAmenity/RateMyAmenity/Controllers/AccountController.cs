@@ -8,8 +8,8 @@ using RateMyAmenity.Models;
 
 namespace RateMyAmenity.Controllers
 {
-    // Restricts access to class to the Admin Role//
-    [Authorize(Roles = "Admin")]
+
+    [Authorize]
     public class AccountController : Controller
     {
 
