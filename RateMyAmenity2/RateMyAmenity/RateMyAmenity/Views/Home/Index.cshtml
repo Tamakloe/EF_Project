@@ -8,50 +8,10 @@
 
 <div id="submenu">
 	<h3 class="clear" style="display:inline">Amenity Type</h3>
-
+	 <div class = "center">  @Html.Partial("_AmenityDetails")</div>
  </div>
 
 
-<div id="map">
-	<h3 class="clear" style="display:inline">Google Map</h3>
-	<!--canvas for Google map -->
-	<div class = "center">
-	<div id="map_canvas"></div>   
-	</div>
-</div>
+ <div>  @Html.Partial("_GoogleMap")</div>
 
-<div id="twidget">
-	<h3 class="clear" style="display:inline">Twitter Widget</h3>
-	<div class = "center">
-		<script type ="text/javascript" charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
-<script type="text/javascript">
-	new TWTR.Widget({
-		version: 2,
-		type: 'search',
-		search: 'Fingal, Ireland', //Insert Search string here.
-		interval: 30000,
-		title: 'Fingal', 		// Add a title & Subject
-		subject: 'News',
-		width: "100%",
-		height: 300,
-		theme: {
-			shell: {
-				background: '#8ec1da',
-				color: '#ffffff'
-			},
-			tweets: {
-				background: '#ffffff',
-				color: '#444444',
-				links: '#1985b5'
-			}
-		},
-		features: {
-			scrollbar: false,
-			loop: true,
-			live: true,
-			behavior: 'default'
-		}
-	}).render().start();
-</script>
-		</div>
-	</div>
+<div>  @Html.Partial("_Twidget")</div>
