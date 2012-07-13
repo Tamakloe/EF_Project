@@ -9,6 +9,8 @@ using RateMyAmenity.Models;
 
 namespace RateMyAmenity.Controllers
 {
+    [Authorize(Roles = "admin")]
+
     public class UserController : Controller
     {
         private DatabaseDB db = new DatabaseDB();
