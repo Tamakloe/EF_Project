@@ -1,0 +1,70 @@
+﻿@model RateMyAmenity.Models.User
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>User</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.UserName)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.UserName)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Email)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Email)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Password)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Password)
+    </div>
+
+
+    @* Displays the Ratings / Amentiy for each User *@
+    <div class="display-label">
+        @Html.LabelFor(model => model.Ratings)
+    </div>
+    <div class="display-field">
+    <table>
+        <tr>
+            <th>Amenity Type</th>
+            <th>Amenity Name</th>
+            <th>Rating Value</th>
+            <th>Comment</th>
+        </tr>
+        @foreach (var item in Model.Ratings)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Amenity.Type)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Amenity.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.RatingValue)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Comments)
+                </td>
+            </tr>
+        }
+    </table>
+    </div>
+
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.UserID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

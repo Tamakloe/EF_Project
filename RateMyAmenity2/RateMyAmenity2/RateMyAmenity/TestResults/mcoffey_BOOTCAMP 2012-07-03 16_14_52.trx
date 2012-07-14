@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="489b7704-1c4d-4554-84bb-460eede976ad" name="mcoffey@BOOTCAMP 2012-07-03 16:14:52" runUser="Bootcamp\mcoffey" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="8c66278b-102f-4790-aa18-58e31257b1d1">
+    <Deployment runDeploymentRoot="mcoffey_BOOTCAMP 2012-07-03 16_14_52">
+      <DeploymentItem filename="C:\Users\mcoffey\EF_Project\RateMyAmenity2\RateMyAmenity\packages\Microsoft.AspNet.Web.Optimization.1.0.0-beta2\lib\net40\System.Web.Optimization.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft ASP.NET\ASP.NET MVC 4\Assemblies\System.Net.Http.WebRequest.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft ASP.NET\ASP.NET MVC 4\Assemblies\System.Web.Http.WebHost.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft ASP.NET\ASP.NET MVC 4\Assemblies\System.Net.Http.Formatting.dll" />
+      <DeploymentItem filename="C:\Users\mcoffey\EF_Project\RateMyAmenity2\RateMyAmenity\packages\WebGrease.1.0.0\lib\Antlr3.Runtime.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\System.Web.WebPages.Deployment.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft ASP.NET\ASP.NET MVC 4\Assemblies\System.Net.Http.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\System.Web.Razor.dll" />
+      <DeploymentItem filename="C:\Users\mcoffey\EF_Project\RateMyAmenity2\RateMyAmenity\packages\Newtonsoft.Json.4.5.1\lib\net40\Newtonsoft.Json.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\System.Web.WebPages.dll" />
+      <DeploymentItem filename="C:\Users\mcoffey\EF_Project\RateMyAmenity2\RateMyAmenity\packages\Microsoft.AspNet.Providers.Core.1.0\lib\net40\System.Web.Providers.dll" />
+      <DeploymentItem filename="C:\Users\mcoffey\EF_Project\RateMyAmenity2\RateMyAmenity\packages\EntityFramework.5.0.0-rc\lib\net40\EntityFramework.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\System.Web.Helpers.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\Microsoft.Web.Infrastructure.dll" />
+      <DeploymentItem filename="C:\Users\mcoffey\EF_Project\RateMyAmenity2\RateMyAmenity\packages\WebGrease.1.0.0\lib\WebGrease.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\System.Web.WebPages.Razor.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft ASP.NET\ASP.NET MVC 4\Assemblies\System.Web.Http.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft ASP.NET\ASP.NET MVC 4\Assemblies\System.Web.Mvc.dll" />
+      <DeploymentItem filename="C:\Users\mcoffey\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\RateMyAmenity.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-07-03T16:14:52.3950000+01:00" queuing="2012-07-03T16:14:54.3370000+01:00" start="2012-07-03T16:14:54.4520000+01:00" finish="2012-07-03T16:14:55.3760000+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="setStreamSourceTest" storage="c:\users\mcoffey\ef_project\ratemyamenity2\ratemyamenity\csvparsertest\bin\debug\csvparsertest.dll" id="cbe7228b-9640-f481-7a05-a1d64c3d6e64">
+      <Execution id="16ec3022-75f4-4f1a-a81a-b3e34578d7b8" />
+      <TestMethod codeBase="C:/Users/mcoffey/EF_Project/RateMyAmenity2/RateMyAmenity/CSVParserTest/bin/Debug/CSVParserTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CSVParserTest.CSVParserTest, CSVParserTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="setStreamSourceTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="cbe7228b-9640-f481-7a05-a1d64c3d6e64" executionId="16ec3022-75f4-4f1a-a81a-b3e34578d7b8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="16ec3022-75f4-4f1a-a81a-b3e34578d7b8" testId="cbe7228b-9640-f481-7a05-a1d64c3d6e64" testName="setStreamSourceTest" computerName="BOOTCAMP" duration="00:00:00.1399107" startTime="2012-07-03T16:14:54.5590000+01:00" endTime="2012-07-03T16:14:55.2670000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="16ec3022-75f4-4f1a-a81a-b3e34578d7b8">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method CSVParserTest.CSVParserTest.setStreamSourceTest threw exception: 
+System.IO.FileNotFoundException: Could not find file 'C:\Users\mcoffey\EF_Project\RateMyAmenity\RateMyAmenity\Content\ArtCentres.csv'.</Message>
+          <StackTrace>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path, Boolean detectEncodingFromByteOrderMarks)
+   at CSVParserTest.CSVParserTest.setStreamSourceTest() in C:\Users\mcoffey\EF_Project\RateMyAmenity2\RateMyAmenity\CSVParserTest\CSVParserTest.cs:line 121
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

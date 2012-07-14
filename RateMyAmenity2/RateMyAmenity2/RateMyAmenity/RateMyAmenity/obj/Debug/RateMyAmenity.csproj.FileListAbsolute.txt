@@ -1,0 +1,369 @@
+c:\users\mcoffey\documents\visual studio 2010\Projects\RateMyAmenity\RateMyAmenity\bin\RateMyAmenity.dll
+c:\users\mcoffey\documents\visual studio 2010\Projects\RateMyAmenity\RateMyAmenity\bin\RateMyAmenity.pdb
+c:\users\mcoffey\documents\visual studio 2010\Projects\RateMyAmenity\RateMyAmenity\bin\Antlr3.Runtime.dll
+c:\users\mcoffey\documents\visual studio 2010\Projects\RateMyAmenity\RateMyAmenity\bin\EntityFramework.dll
+c:\users\mcoffey\documents\visual studio 2010\Projects\RateMyAmenity\RateMyAmenity\bin\Microsoft.Web.Infrastructure.dll
+c:\users\mcoffey\documents\visual studio 2010\Projects\RateMyAmenity\RateMyAmenity\bin\Newtonsoft.Json.dll
+c:\users\mcoffey\documents\visual studio 2010\Projects\RateMyAmenity\RateMyAmenity\bin\System.Net.Http.dll
+c:\users\mcoffey\documents\visual studio 2010\Projects\RateMyAmenity\RateMyAmenity\bin\System.Net.Http.Formatting.dll
+c:\users\mcoffey\documents\visual studio 2010\Projects\RateMyAmenity\RateMyAmenity\bin\System.Net.Http.WebRequest.dll
+c:\users\mcoffey\documents\visual studio 2010\Projects\RateMyAmenity\RateMyAmenity\bin\System.Web.Helpers.dll
+c:\users\mcoffey\documents\visual studio 2010\Projects\RateMyAmenity\RateMyAmenity\bin\System.Web.Http.dll
+c:\users\mcoffey\documents\visual studio 2010\Projects\RateMyAmenity\RateMyAmenity\bin\System.Web.Http.WebHost.dll
+c:\users\mcoffey\documents\visual studio 2010\Projects\RateMyAmenity\RateMyAmenity\bin\System.Web.Mvc.dll
+c:\users\mcoffey\documents\visual studio 2010\Projects\RateMyAmenity\RateMyAmenity\bin\System.Web.Optimization.dll
+c:\users\mcoffey\documents\visual studio 2010\Projects\RateMyAmenity\RateMyAmenity\bin\System.Web.Providers.dll
+c:\users\mcoffey\documents\visual studio 2010\Projects\RateMyAmenity\RateMyAmenity\bin\System.Web.Razor.dll
+c:\users\mcoffey\documents\visual studio 2010\Projects\RateMyAmenity\RateMyAmenity\bin\System.Web.WebPages.Deployment.dll
+c:\users\mcoffey\documents\visual studio 2010\Projects\RateMyAmenity\RateMyAmenity\bin\System.Web.WebPages.dll
+c:\users\mcoffey\documents\visual studio 2010\Projects\RateMyAmenity\RateMyAmenity\bin\System.Web.WebPages.Razor.dll
+c:\users\mcoffey\documents\visual studio 2010\Projects\RateMyAmenity\RateMyAmenity\bin\WebGrease.dll
+c:\users\mcoffey\documents\visual studio 2010\Projects\RateMyAmenity\RateMyAmenity\bin\EntityFramework.xml
+c:\users\mcoffey\documents\visual studio 2010\Projects\RateMyAmenity\RateMyAmenity\bin\Newtonsoft.Json.xml
+c:\users\mcoffey\documents\visual studio 2010\Projects\RateMyAmenity\RateMyAmenity\bin\System.Net.Http.xml
+c:\users\mcoffey\documents\visual studio 2010\Projects\RateMyAmenity\RateMyAmenity\bin\System.Net.Http.Formatting.xml
+c:\users\mcoffey\documents\visual studio 2010\Projects\RateMyAmenity\RateMyAmenity\bin\System.Net.Http.WebRequest.xml
+c:\users\mcoffey\documents\visual studio 2010\Projects\RateMyAmenity\RateMyAmenity\bin\System.Web.Helpers.xml
+c:\users\mcoffey\documents\visual studio 2010\Projects\RateMyAmenity\RateMyAmenity\bin\System.Web.Http.xml
+c:\users\mcoffey\documents\visual studio 2010\Projects\RateMyAmenity\RateMyAmenity\bin\System.Web.Http.WebHost.xml
+c:\users\mcoffey\documents\visual studio 2010\Projects\RateMyAmenity\RateMyAmenity\bin\System.Web.Mvc.xml
+c:\users\mcoffey\documents\visual studio 2010\Projects\RateMyAmenity\RateMyAmenity\bin\System.Web.Razor.xml
+c:\users\mcoffey\documents\visual studio 2010\Projects\RateMyAmenity\RateMyAmenity\bin\System.Web.WebPages.xml
+c:\users\mcoffey\documents\visual studio 2010\Projects\RateMyAmenity\RateMyAmenity\bin\System.Web.WebPages.Deployment.xml
+c:\users\mcoffey\documents\visual studio 2010\Projects\RateMyAmenity\RateMyAmenity\bin\System.Web.WebPages.Razor.xml
+c:\users\mcoffey\documents\visual studio 2010\Projects\RateMyAmenity\RateMyAmenity\obj\Debug\ResolveAssemblyReference.cache
+c:\users\mcoffey\documents\visual studio 2010\Projects\RateMyAmenity\RateMyAmenity\obj\Debug\RateMyAmenity.dll
+c:\users\mcoffey\documents\visual studio 2010\Projects\RateMyAmenity\RateMyAmenity\obj\Debug\RateMyAmenity.pdb
+C:\Users\mcoffey\EF_Project\RateMyAmenity\RateMyAmenity\bin\RateMyAmenity.dll
+C:\Users\mcoffey\EF_Project\RateMyAmenity\RateMyAmenity\bin\RateMyAmenity.pdb
+C:\Users\mcoffey\EF_Project\RateMyAmenity\RateMyAmenity\bin\Antlr3.Runtime.dll
+C:\Users\mcoffey\EF_Project\RateMyAmenity\RateMyAmenity\bin\EntityFramework.dll
+C:\Users\mcoffey\EF_Project\RateMyAmenity\RateMyAmenity\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\mcoffey\EF_Project\RateMyAmenity\RateMyAmenity\bin\Newtonsoft.Json.dll
+C:\Users\mcoffey\EF_Project\RateMyAmenity\RateMyAmenity\bin\System.Net.Http.dll
+C:\Users\mcoffey\EF_Project\RateMyAmenity\RateMyAmenity\bin\System.Net.Http.Formatting.dll
+C:\Users\mcoffey\EF_Project\RateMyAmenity\RateMyAmenity\bin\System.Net.Http.WebRequest.dll
+C:\Users\mcoffey\EF_Project\RateMyAmenity\RateMyAmenity\bin\System.Web.Helpers.dll
+C:\Users\mcoffey\EF_Project\RateMyAmenity\RateMyAmenity\bin\System.Web.Http.dll
+C:\Users\mcoffey\EF_Project\RateMyAmenity\RateMyAmenity\bin\System.Web.Http.WebHost.dll
+C:\Users\mcoffey\EF_Project\RateMyAmenity\RateMyAmenity\bin\System.Web.Mvc.dll
+C:\Users\mcoffey\EF_Project\RateMyAmenity\RateMyAmenity\bin\System.Web.Optimization.dll
+C:\Users\mcoffey\EF_Project\RateMyAmenity\RateMyAmenity\bin\System.Web.Providers.dll
+C:\Users\mcoffey\EF_Project\RateMyAmenity\RateMyAmenity\bin\System.Web.Razor.dll
+C:\Users\mcoffey\EF_Project\RateMyAmenity\RateMyAmenity\bin\System.Web.WebPages.Deployment.dll
+C:\Users\mcoffey\EF_Project\RateMyAmenity\RateMyAmenity\bin\System.Web.WebPages.dll
+C:\Users\mcoffey\EF_Project\RateMyAmenity\RateMyAmenity\bin\System.Web.WebPages.Razor.dll
+C:\Users\mcoffey\EF_Project\RateMyAmenity\RateMyAmenity\bin\WebGrease.dll
+C:\Users\mcoffey\EF_Project\RateMyAmenity\RateMyAmenity\bin\EntityFramework.xml
+C:\Users\mcoffey\EF_Project\RateMyAmenity\RateMyAmenity\bin\Newtonsoft.Json.xml
+C:\Users\mcoffey\EF_Project\RateMyAmenity\RateMyAmenity\bin\System.Net.Http.xml
+C:\Users\mcoffey\EF_Project\RateMyAmenity\RateMyAmenity\bin\System.Net.Http.Formatting.xml
+C:\Users\mcoffey\EF_Project\RateMyAmenity\RateMyAmenity\bin\System.Net.Http.WebRequest.xml
+C:\Users\mcoffey\EF_Project\RateMyAmenity\RateMyAmenity\bin\System.Web.Helpers.xml
+C:\Users\mcoffey\EF_Project\RateMyAmenity\RateMyAmenity\bin\System.Web.Http.xml
+C:\Users\mcoffey\EF_Project\RateMyAmenity\RateMyAmenity\bin\System.Web.Http.WebHost.xml
+C:\Users\mcoffey\EF_Project\RateMyAmenity\RateMyAmenity\bin\System.Web.Mvc.xml
+C:\Users\mcoffey\EF_Project\RateMyAmenity\RateMyAmenity\bin\System.Web.Razor.xml
+C:\Users\mcoffey\EF_Project\RateMyAmenity\RateMyAmenity\bin\System.Web.WebPages.xml
+C:\Users\mcoffey\EF_Project\RateMyAmenity\RateMyAmenity\bin\System.Web.WebPages.Deployment.xml
+C:\Users\mcoffey\EF_Project\RateMyAmenity\RateMyAmenity\bin\System.Web.WebPages.Razor.xml
+C:\Users\mcoffey\EF_Project\RateMyAmenity\RateMyAmenity\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\mcoffey\EF_Project\RateMyAmenity\RateMyAmenity\obj\Debug\RateMyAmenity.dll
+C:\Users\mcoffey\EF_Project\RateMyAmenity\RateMyAmenity\obj\Debug\RateMyAmenity.pdb
+C:\Users\mcoffey\Documents\EF_Project\RateMyAmenity\RateMyAmenity\bin\RateMyAmenity.dll
+C:\Users\mcoffey\Documents\EF_Project\RateMyAmenity\RateMyAmenity\bin\RateMyAmenity.pdb
+C:\Users\mcoffey\Documents\EF_Project\RateMyAmenity\RateMyAmenity\bin\Antlr3.Runtime.dll
+C:\Users\mcoffey\Documents\EF_Project\RateMyAmenity\RateMyAmenity\bin\EntityFramework.dll
+C:\Users\mcoffey\Documents\EF_Project\RateMyAmenity\RateMyAmenity\bin\LumenWorks.Framework.IO.dll
+C:\Users\mcoffey\Documents\EF_Project\RateMyAmenity\RateMyAmenity\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\mcoffey\Documents\EF_Project\RateMyAmenity\RateMyAmenity\bin\Newtonsoft.Json.dll
+C:\Users\mcoffey\Documents\EF_Project\RateMyAmenity\RateMyAmenity\bin\System.Net.Http.dll
+C:\Users\mcoffey\Documents\EF_Project\RateMyAmenity\RateMyAmenity\bin\System.Net.Http.Formatting.dll
+C:\Users\mcoffey\Documents\EF_Project\RateMyAmenity\RateMyAmenity\bin\System.Net.Http.WebRequest.dll
+C:\Users\mcoffey\Documents\EF_Project\RateMyAmenity\RateMyAmenity\bin\System.Web.Helpers.dll
+C:\Users\mcoffey\Documents\EF_Project\RateMyAmenity\RateMyAmenity\bin\System.Web.Http.dll
+C:\Users\mcoffey\Documents\EF_Project\RateMyAmenity\RateMyAmenity\bin\System.Web.Http.WebHost.dll
+C:\Users\mcoffey\Documents\EF_Project\RateMyAmenity\RateMyAmenity\bin\System.Web.Mvc.dll
+C:\Users\mcoffey\Documents\EF_Project\RateMyAmenity\RateMyAmenity\bin\System.Web.Optimization.dll
+C:\Users\mcoffey\Documents\EF_Project\RateMyAmenity\RateMyAmenity\bin\System.Web.Providers.dll
+C:\Users\mcoffey\Documents\EF_Project\RateMyAmenity\RateMyAmenity\bin\System.Web.Razor.dll
+C:\Users\mcoffey\Documents\EF_Project\RateMyAmenity\RateMyAmenity\bin\System.Web.WebPages.Deployment.dll
+C:\Users\mcoffey\Documents\EF_Project\RateMyAmenity\RateMyAmenity\bin\System.Web.WebPages.dll
+C:\Users\mcoffey\Documents\EF_Project\RateMyAmenity\RateMyAmenity\bin\System.Web.WebPages.Razor.dll
+C:\Users\mcoffey\Documents\EF_Project\RateMyAmenity\RateMyAmenity\bin\WebGrease.dll
+C:\Users\mcoffey\Documents\EF_Project\RateMyAmenity\RateMyAmenity\bin\LumenWorks.Framework.IO.xml
+C:\Users\mcoffey\Documents\EF_Project\RateMyAmenity\RateMyAmenity\bin\EntityFramework.xml
+C:\Users\mcoffey\Documents\EF_Project\RateMyAmenity\RateMyAmenity\bin\Newtonsoft.Json.xml
+C:\Users\mcoffey\Documents\EF_Project\RateMyAmenity\RateMyAmenity\bin\System.Net.Http.xml
+C:\Users\mcoffey\Documents\EF_Project\RateMyAmenity\RateMyAmenity\bin\System.Net.Http.Formatting.xml
+C:\Users\mcoffey\Documents\EF_Project\RateMyAmenity\RateMyAmenity\bin\System.Net.Http.WebRequest.xml
+C:\Users\mcoffey\Documents\EF_Project\RateMyAmenity\RateMyAmenity\bin\System.Web.Helpers.xml
+C:\Users\mcoffey\Documents\EF_Project\RateMyAmenity\RateMyAmenity\bin\System.Web.Http.xml
+C:\Users\mcoffey\Documents\EF_Project\RateMyAmenity\RateMyAmenity\bin\System.Web.Http.WebHost.xml
+C:\Users\mcoffey\Documents\EF_Project\RateMyAmenity\RateMyAmenity\bin\System.Web.Mvc.xml
+C:\Users\mcoffey\Documents\EF_Project\RateMyAmenity\RateMyAmenity\bin\System.Web.Razor.xml
+C:\Users\mcoffey\Documents\EF_Project\RateMyAmenity\RateMyAmenity\bin\System.Web.WebPages.xml
+C:\Users\mcoffey\Documents\EF_Project\RateMyAmenity\RateMyAmenity\bin\System.Web.WebPages.Deployment.xml
+C:\Users\mcoffey\Documents\EF_Project\RateMyAmenity\RateMyAmenity\bin\System.Web.WebPages.Razor.xml
+C:\Users\mcoffey\Documents\EF_Project\RateMyAmenity\RateMyAmenity\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\mcoffey\Documents\EF_Project\RateMyAmenity\RateMyAmenity\obj\Debug\RateMyAmenity.dll
+C:\Users\mcoffey\Documents\EF_Project\RateMyAmenity\RateMyAmenity\obj\Debug\RateMyAmenity.pdb
+C:\Users\mcoffey\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\RateMyAmenity.dll
+C:\Users\mcoffey\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\RateMyAmenity.pdb
+C:\Users\mcoffey\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\Antlr3.Runtime.dll
+C:\Users\mcoffey\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\EntityFramework.dll
+C:\Users\mcoffey\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\LumenWorks.Framework.IO.dll
+C:\Users\mcoffey\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\mcoffey\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\Newtonsoft.Json.dll
+C:\Users\mcoffey\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Net.Http.dll
+C:\Users\mcoffey\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Net.Http.Formatting.dll
+C:\Users\mcoffey\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Net.Http.WebRequest.dll
+C:\Users\mcoffey\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.Helpers.dll
+C:\Users\mcoffey\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.Http.dll
+C:\Users\mcoffey\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.Http.WebHost.dll
+C:\Users\mcoffey\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.Mvc.dll
+C:\Users\mcoffey\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.Optimization.dll
+C:\Users\mcoffey\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.Providers.dll
+C:\Users\mcoffey\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.Razor.dll
+C:\Users\mcoffey\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.WebPages.Deployment.dll
+C:\Users\mcoffey\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.WebPages.dll
+C:\Users\mcoffey\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.WebPages.Razor.dll
+C:\Users\mcoffey\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\WebGrease.dll
+C:\Users\mcoffey\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\LumenWorks.Framework.IO.xml
+C:\Users\mcoffey\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\EntityFramework.xml
+C:\Users\mcoffey\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\Newtonsoft.Json.xml
+C:\Users\mcoffey\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Net.Http.xml
+C:\Users\mcoffey\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Net.Http.Formatting.xml
+C:\Users\mcoffey\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Net.Http.WebRequest.xml
+C:\Users\mcoffey\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.Helpers.xml
+C:\Users\mcoffey\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.Http.xml
+C:\Users\mcoffey\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.Http.WebHost.xml
+C:\Users\mcoffey\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.Mvc.xml
+C:\Users\mcoffey\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.Razor.xml
+C:\Users\mcoffey\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.WebPages.xml
+C:\Users\mcoffey\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.WebPages.Deployment.xml
+C:\Users\mcoffey\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.WebPages.Razor.xml
+C:\Users\mcoffey\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\mcoffey\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\obj\Debug\RateMyAmenity.dll
+C:\Users\mcoffey\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\obj\Debug\RateMyAmenity.pdb
+C:\Users\brian\Documents\GitHub\EF_Project.git\wirefame\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\RateMyAmenity.dll
+C:\Users\brian\Documents\GitHub\EF_Project.git\wirefame\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\RateMyAmenity.pdb
+C:\Users\brian\Documents\GitHub\EF_Project.git\wirefame\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\Antlr3.Runtime.dll
+C:\Users\brian\Documents\GitHub\EF_Project.git\wirefame\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\EntityFramework.dll
+C:\Users\brian\Documents\GitHub\EF_Project.git\wirefame\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\LumenWorks.Framework.IO.dll
+C:\Users\brian\Documents\GitHub\EF_Project.git\wirefame\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\brian\Documents\GitHub\EF_Project.git\wirefame\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\Newtonsoft.Json.dll
+C:\Users\brian\Documents\GitHub\EF_Project.git\wirefame\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Net.Http.dll
+C:\Users\brian\Documents\GitHub\EF_Project.git\wirefame\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Net.Http.Formatting.dll
+C:\Users\brian\Documents\GitHub\EF_Project.git\wirefame\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Net.Http.WebRequest.dll
+C:\Users\brian\Documents\GitHub\EF_Project.git\wirefame\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.Helpers.dll
+C:\Users\brian\Documents\GitHub\EF_Project.git\wirefame\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.Http.dll
+C:\Users\brian\Documents\GitHub\EF_Project.git\wirefame\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.Http.WebHost.dll
+C:\Users\brian\Documents\GitHub\EF_Project.git\wirefame\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.Mvc.dll
+C:\Users\brian\Documents\GitHub\EF_Project.git\wirefame\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.Optimization.dll
+C:\Users\brian\Documents\GitHub\EF_Project.git\wirefame\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.Providers.dll
+C:\Users\brian\Documents\GitHub\EF_Project.git\wirefame\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.Razor.dll
+C:\Users\brian\Documents\GitHub\EF_Project.git\wirefame\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.WebPages.Deployment.dll
+C:\Users\brian\Documents\GitHub\EF_Project.git\wirefame\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.WebPages.dll
+C:\Users\brian\Documents\GitHub\EF_Project.git\wirefame\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.WebPages.Razor.dll
+C:\Users\brian\Documents\GitHub\EF_Project.git\wirefame\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\WebGrease.dll
+C:\Users\brian\Documents\GitHub\EF_Project.git\wirefame\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\LumenWorks.Framework.IO.xml
+C:\Users\brian\Documents\GitHub\EF_Project.git\wirefame\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\EntityFramework.xml
+C:\Users\brian\Documents\GitHub\EF_Project.git\wirefame\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\Newtonsoft.Json.xml
+C:\Users\brian\Documents\GitHub\EF_Project.git\wirefame\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Net.Http.xml
+C:\Users\brian\Documents\GitHub\EF_Project.git\wirefame\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Net.Http.Formatting.xml
+C:\Users\brian\Documents\GitHub\EF_Project.git\wirefame\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Net.Http.WebRequest.xml
+C:\Users\brian\Documents\GitHub\EF_Project.git\wirefame\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.Helpers.xml
+C:\Users\brian\Documents\GitHub\EF_Project.git\wirefame\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.Http.xml
+C:\Users\brian\Documents\GitHub\EF_Project.git\wirefame\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.Http.WebHost.xml
+C:\Users\brian\Documents\GitHub\EF_Project.git\wirefame\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.Mvc.xml
+C:\Users\brian\Documents\GitHub\EF_Project.git\wirefame\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.Razor.xml
+C:\Users\brian\Documents\GitHub\EF_Project.git\wirefame\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.WebPages.xml
+C:\Users\brian\Documents\GitHub\EF_Project.git\wirefame\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.WebPages.Deployment.xml
+C:\Users\brian\Documents\GitHub\EF_Project.git\wirefame\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.WebPages.Razor.xml
+C:\Users\brian\Documents\GitHub\EF_Project.git\wirefame\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\obj\Debug\RateMyAmenity.dll
+C:\Users\brian\Documents\GitHub\EF_Project.git\wirefame\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\obj\Debug\RateMyAmenity.pdb
+C:\Users\brian\Desktop\7thJuly\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\RateMyAmenity.dll
+C:\Users\brian\Desktop\7thJuly\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\RateMyAmenity.pdb
+C:\Users\brian\Desktop\7thJuly\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\Antlr3.Runtime.dll
+C:\Users\brian\Desktop\7thJuly\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\EntityFramework.dll
+C:\Users\brian\Desktop\7thJuly\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\LumenWorks.Framework.IO.dll
+C:\Users\brian\Desktop\7thJuly\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\brian\Desktop\7thJuly\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\Newtonsoft.Json.dll
+C:\Users\brian\Desktop\7thJuly\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Net.Http.dll
+C:\Users\brian\Desktop\7thJuly\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Net.Http.Formatting.dll
+C:\Users\brian\Desktop\7thJuly\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Net.Http.WebRequest.dll
+C:\Users\brian\Desktop\7thJuly\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.Helpers.dll
+C:\Users\brian\Desktop\7thJuly\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.Http.dll
+C:\Users\brian\Desktop\7thJuly\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.Http.WebHost.dll
+C:\Users\brian\Desktop\7thJuly\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.Mvc.dll
+C:\Users\brian\Desktop\7thJuly\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.Optimization.dll
+C:\Users\brian\Desktop\7thJuly\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.Providers.dll
+C:\Users\brian\Desktop\7thJuly\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.Razor.dll
+C:\Users\brian\Desktop\7thJuly\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.WebPages.Deployment.dll
+C:\Users\brian\Desktop\7thJuly\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.WebPages.dll
+C:\Users\brian\Desktop\7thJuly\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.WebPages.Razor.dll
+C:\Users\brian\Desktop\7thJuly\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\WebGrease.dll
+C:\Users\brian\Desktop\7thJuly\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\LumenWorks.Framework.IO.xml
+C:\Users\brian\Desktop\7thJuly\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\EntityFramework.xml
+C:\Users\brian\Desktop\7thJuly\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\Newtonsoft.Json.xml
+C:\Users\brian\Desktop\7thJuly\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Net.Http.xml
+C:\Users\brian\Desktop\7thJuly\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Net.Http.Formatting.xml
+C:\Users\brian\Desktop\7thJuly\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Net.Http.WebRequest.xml
+C:\Users\brian\Desktop\7thJuly\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.Helpers.xml
+C:\Users\brian\Desktop\7thJuly\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.Http.xml
+C:\Users\brian\Desktop\7thJuly\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.Http.WebHost.xml
+C:\Users\brian\Desktop\7thJuly\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.Mvc.xml
+C:\Users\brian\Desktop\7thJuly\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.Razor.xml
+C:\Users\brian\Desktop\7thJuly\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.WebPages.xml
+C:\Users\brian\Desktop\7thJuly\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.WebPages.Deployment.xml
+C:\Users\brian\Desktop\7thJuly\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.WebPages.Razor.xml
+C:\Users\brian\Desktop\7thJuly\RateMyAmenity2\RateMyAmenity\RateMyAmenity\obj\Debug\RateMyAmenity.csprojResolveAssemblyReference.cache
+C:\Users\brian\Desktop\7thJuly\RateMyAmenity2\RateMyAmenity\RateMyAmenity\obj\Debug\RateMyAmenity.dll
+C:\Users\brian\Desktop\7thJuly\RateMyAmenity2\RateMyAmenity\RateMyAmenity\obj\Debug\RateMyAmenity.pdb
+C:\Users\Gerry\Documents\GitHub\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\RateMyAmenity.dll
+C:\Users\Gerry\Documents\GitHub\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\RateMyAmenity.pdb
+C:\Users\Gerry\Documents\GitHub\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\Antlr3.Runtime.dll
+C:\Users\Gerry\Documents\GitHub\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\EntityFramework.dll
+C:\Users\Gerry\Documents\GitHub\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\LumenWorks.Framework.IO.dll
+C:\Users\Gerry\Documents\GitHub\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Gerry\Documents\GitHub\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\Newtonsoft.Json.dll
+C:\Users\Gerry\Documents\GitHub\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Net.Http.dll
+C:\Users\Gerry\Documents\GitHub\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Net.Http.Formatting.dll
+C:\Users\Gerry\Documents\GitHub\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Net.Http.WebRequest.dll
+C:\Users\Gerry\Documents\GitHub\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.Helpers.dll
+C:\Users\Gerry\Documents\GitHub\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.Http.dll
+C:\Users\Gerry\Documents\GitHub\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.Http.WebHost.dll
+C:\Users\Gerry\Documents\GitHub\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.Mvc.dll
+C:\Users\Gerry\Documents\GitHub\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.Optimization.dll
+C:\Users\Gerry\Documents\GitHub\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.Providers.dll
+C:\Users\Gerry\Documents\GitHub\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.Razor.dll
+C:\Users\Gerry\Documents\GitHub\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Gerry\Documents\GitHub\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.WebPages.dll
+C:\Users\Gerry\Documents\GitHub\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.WebPages.Razor.dll
+C:\Users\Gerry\Documents\GitHub\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\WebGrease.dll
+C:\Users\Gerry\Documents\GitHub\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\LumenWorks.Framework.IO.xml
+C:\Users\Gerry\Documents\GitHub\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\EntityFramework.xml
+C:\Users\Gerry\Documents\GitHub\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\Newtonsoft.Json.xml
+C:\Users\Gerry\Documents\GitHub\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Net.Http.xml
+C:\Users\Gerry\Documents\GitHub\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Net.Http.Formatting.xml
+C:\Users\Gerry\Documents\GitHub\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Net.Http.WebRequest.xml
+C:\Users\Gerry\Documents\GitHub\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.Helpers.xml
+C:\Users\Gerry\Documents\GitHub\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.Http.xml
+C:\Users\Gerry\Documents\GitHub\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.Http.WebHost.xml
+C:\Users\Gerry\Documents\GitHub\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.Mvc.xml
+C:\Users\Gerry\Documents\GitHub\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.Razor.xml
+C:\Users\Gerry\Documents\GitHub\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.WebPages.xml
+C:\Users\Gerry\Documents\GitHub\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Gerry\Documents\GitHub\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.WebPages.Razor.xml
+C:\Users\Gerry\Documents\GitHub\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Gerry\Documents\GitHub\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\obj\Debug\RateMyAmenity.dll
+C:\Users\Gerry\Documents\GitHub\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\obj\Debug\RateMyAmenity.pdb
+F:\PGDipCloud\Semester3\Enterprise_Frameworks\Project\EF_Project\RateMyAmenity\bin\RateMyAmenity.dll
+F:\PGDipCloud\Semester3\Enterprise_Frameworks\Project\EF_Project\RateMyAmenity\bin\RateMyAmenity.pdb
+F:\PGDipCloud\Semester3\Enterprise_Frameworks\Project\EF_Project\RateMyAmenity\bin\Microsoft.Web.Infrastructure.dll
+F:\PGDipCloud\Semester3\Enterprise_Frameworks\Project\EF_Project\RateMyAmenity\bin\System.Net.Http.dll
+F:\PGDipCloud\Semester3\Enterprise_Frameworks\Project\EF_Project\RateMyAmenity\bin\System.Net.Http.Formatting.dll
+F:\PGDipCloud\Semester3\Enterprise_Frameworks\Project\EF_Project\RateMyAmenity\bin\System.Net.Http.WebRequest.dll
+F:\PGDipCloud\Semester3\Enterprise_Frameworks\Project\EF_Project\RateMyAmenity\bin\System.Web.Helpers.dll
+F:\PGDipCloud\Semester3\Enterprise_Frameworks\Project\EF_Project\RateMyAmenity\bin\System.Web.Http.dll
+F:\PGDipCloud\Semester3\Enterprise_Frameworks\Project\EF_Project\RateMyAmenity\bin\System.Web.Http.WebHost.dll
+F:\PGDipCloud\Semester3\Enterprise_Frameworks\Project\EF_Project\RateMyAmenity\bin\System.Web.Mvc.dll
+F:\PGDipCloud\Semester3\Enterprise_Frameworks\Project\EF_Project\RateMyAmenity\bin\System.Web.Razor.dll
+F:\PGDipCloud\Semester3\Enterprise_Frameworks\Project\EF_Project\RateMyAmenity\bin\System.Web.WebPages.Deployment.dll
+F:\PGDipCloud\Semester3\Enterprise_Frameworks\Project\EF_Project\RateMyAmenity\bin\System.Web.WebPages.dll
+F:\PGDipCloud\Semester3\Enterprise_Frameworks\Project\EF_Project\RateMyAmenity\bin\System.Web.WebPages.Razor.dll
+F:\PGDipCloud\Semester3\Enterprise_Frameworks\Project\EF_Project\RateMyAmenity\bin\LumenWorks.Framework.IO.xml
+F:\PGDipCloud\Semester3\Enterprise_Frameworks\Project\EF_Project\RateMyAmenity\bin\EntityFramework.xml
+F:\PGDipCloud\Semester3\Enterprise_Frameworks\Project\EF_Project\RateMyAmenity\bin\Microsoft.Web.Infrastructure.xml
+F:\PGDipCloud\Semester3\Enterprise_Frameworks\Project\EF_Project\RateMyAmenity\bin\Newtonsoft.Json.xml
+F:\PGDipCloud\Semester3\Enterprise_Frameworks\Project\EF_Project\RateMyAmenity\bin\System.Net.Http.xml
+F:\PGDipCloud\Semester3\Enterprise_Frameworks\Project\EF_Project\RateMyAmenity\bin\System.Net.Http.Formatting.xml
+F:\PGDipCloud\Semester3\Enterprise_Frameworks\Project\EF_Project\RateMyAmenity\bin\System.Net.Http.WebRequest.xml
+F:\PGDipCloud\Semester3\Enterprise_Frameworks\Project\EF_Project\RateMyAmenity\bin\System.Web.Helpers.xml
+F:\PGDipCloud\Semester3\Enterprise_Frameworks\Project\EF_Project\RateMyAmenity\bin\System.Web.Http.xml
+F:\PGDipCloud\Semester3\Enterprise_Frameworks\Project\EF_Project\RateMyAmenity\bin\System.Web.Http.WebHost.xml
+F:\PGDipCloud\Semester3\Enterprise_Frameworks\Project\EF_Project\RateMyAmenity\bin\System.Web.Mvc.xml
+F:\PGDipCloud\Semester3\Enterprise_Frameworks\Project\EF_Project\RateMyAmenity\bin\System.Web.Razor.xml
+F:\PGDipCloud\Semester3\Enterprise_Frameworks\Project\EF_Project\RateMyAmenity\bin\System.Web.WebPages.xml
+F:\PGDipCloud\Semester3\Enterprise_Frameworks\Project\EF_Project\RateMyAmenity\bin\System.Web.WebPages.Deployment.xml
+F:\PGDipCloud\Semester3\Enterprise_Frameworks\Project\EF_Project\RateMyAmenity\bin\System.Web.WebPages.Razor.xml
+F:\PGDipCloud\Semester3\Enterprise_Frameworks\Project\EF_Project\RateMyAmenity\obj\Debug\ResolveAssemblyReference.cache
+F:\PGDipCloud\Semester3\Enterprise_Frameworks\Project\EF_Project\RateMyAmenity\obj\Debug\RateMyAmenity.dll
+F:\PGDipCloud\Semester3\Enterprise_Frameworks\Project\EF_Project\RateMyAmenity\obj\Debug\RateMyAmenity.pdb
+C:\Users\brian\Desktop\RateMyAmenity12july12\RateMyAmenity\RateMyAmenity\bin\RateMyAmenity.dll
+C:\Users\brian\Desktop\RateMyAmenity12july12\RateMyAmenity\RateMyAmenity\bin\RateMyAmenity.pdb
+C:\Users\brian\Desktop\RateMyAmenity12july12\RateMyAmenity\RateMyAmenity\bin\Antlr3.Runtime.dll
+C:\Users\brian\Desktop\RateMyAmenity12july12\RateMyAmenity\RateMyAmenity\bin\EntityFramework.dll
+C:\Users\brian\Desktop\RateMyAmenity12july12\RateMyAmenity\RateMyAmenity\bin\LumenWorks.Framework.IO.dll
+C:\Users\brian\Desktop\RateMyAmenity12july12\RateMyAmenity\RateMyAmenity\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\brian\Desktop\RateMyAmenity12july12\RateMyAmenity\RateMyAmenity\bin\Newtonsoft.Json.dll
+C:\Users\brian\Desktop\RateMyAmenity12july12\RateMyAmenity\RateMyAmenity\bin\System.Net.Http.dll
+C:\Users\brian\Desktop\RateMyAmenity12july12\RateMyAmenity\RateMyAmenity\bin\System.Net.Http.Formatting.dll
+C:\Users\brian\Desktop\RateMyAmenity12july12\RateMyAmenity\RateMyAmenity\bin\System.Net.Http.WebRequest.dll
+C:\Users\brian\Desktop\RateMyAmenity12july12\RateMyAmenity\RateMyAmenity\bin\System.Web.Helpers.dll
+C:\Users\brian\Desktop\RateMyAmenity12july12\RateMyAmenity\RateMyAmenity\bin\System.Web.Http.dll
+C:\Users\brian\Desktop\RateMyAmenity12july12\RateMyAmenity\RateMyAmenity\bin\System.Web.Http.WebHost.dll
+C:\Users\brian\Desktop\RateMyAmenity12july12\RateMyAmenity\RateMyAmenity\bin\System.Web.Mvc.dll
+C:\Users\brian\Desktop\RateMyAmenity12july12\RateMyAmenity\RateMyAmenity\bin\System.Web.Optimization.dll
+C:\Users\brian\Desktop\RateMyAmenity12july12\RateMyAmenity\RateMyAmenity\bin\System.Web.Providers.dll
+C:\Users\brian\Desktop\RateMyAmenity12july12\RateMyAmenity\RateMyAmenity\bin\System.Web.Razor.dll
+C:\Users\brian\Desktop\RateMyAmenity12july12\RateMyAmenity\RateMyAmenity\bin\System.Web.WebPages.Deployment.dll
+C:\Users\brian\Desktop\RateMyAmenity12july12\RateMyAmenity\RateMyAmenity\bin\System.Web.WebPages.dll
+C:\Users\brian\Desktop\RateMyAmenity12july12\RateMyAmenity\RateMyAmenity\bin\System.Web.WebPages.Razor.dll
+C:\Users\brian\Desktop\RateMyAmenity12july12\RateMyAmenity\RateMyAmenity\bin\WebGrease.dll
+C:\Users\brian\Desktop\RateMyAmenity12july12\RateMyAmenity\RateMyAmenity\bin\LumenWorks.Framework.IO.xml
+C:\Users\brian\Desktop\RateMyAmenity12july12\RateMyAmenity\RateMyAmenity\bin\EntityFramework.xml
+C:\Users\brian\Desktop\RateMyAmenity12july12\RateMyAmenity\RateMyAmenity\bin\Newtonsoft.Json.xml
+C:\Users\brian\Desktop\RateMyAmenity12july12\RateMyAmenity\RateMyAmenity\bin\System.Net.Http.xml
+C:\Users\brian\Desktop\RateMyAmenity12july12\RateMyAmenity\RateMyAmenity\bin\System.Net.Http.Formatting.xml
+C:\Users\brian\Desktop\RateMyAmenity12july12\RateMyAmenity\RateMyAmenity\bin\System.Net.Http.WebRequest.xml
+C:\Users\brian\Desktop\RateMyAmenity12july12\RateMyAmenity\RateMyAmenity\bin\System.Web.Helpers.xml
+C:\Users\brian\Desktop\RateMyAmenity12july12\RateMyAmenity\RateMyAmenity\bin\System.Web.Http.xml
+C:\Users\brian\Desktop\RateMyAmenity12july12\RateMyAmenity\RateMyAmenity\bin\System.Web.Http.WebHost.xml
+C:\Users\brian\Desktop\RateMyAmenity12july12\RateMyAmenity\RateMyAmenity\bin\System.Web.Mvc.xml
+C:\Users\brian\Desktop\RateMyAmenity12july12\RateMyAmenity\RateMyAmenity\bin\System.Web.Razor.xml
+C:\Users\brian\Desktop\RateMyAmenity12july12\RateMyAmenity\RateMyAmenity\bin\System.Web.WebPages.xml
+C:\Users\brian\Desktop\RateMyAmenity12july12\RateMyAmenity\RateMyAmenity\bin\System.Web.WebPages.Deployment.xml
+C:\Users\brian\Desktop\RateMyAmenity12july12\RateMyAmenity\RateMyAmenity\bin\System.Web.WebPages.Razor.xml
+C:\Users\brian\Desktop\RateMyAmenity12july12\RateMyAmenity\RateMyAmenity\obj\Debug\RateMyAmenity.csprojResolveAssemblyReference.cache
+C:\Users\brian\Desktop\RateMyAmenity12july12\RateMyAmenity\RateMyAmenity\obj\Debug\RateMyAmenity.dll
+C:\Users\brian\Desktop\RateMyAmenity12july12\RateMyAmenity\RateMyAmenity\obj\Debug\RateMyAmenity.pdb
+C:\Users\mcoffey\Documents\temp\RateMyAmenity2\RateMyAmenity\RateMyAmenity\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\mcoffey\Documents\temp\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\RateMyAmenity.dll
+C:\Users\mcoffey\Documents\temp\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\RateMyAmenity.pdb
+C:\Users\mcoffey\Documents\temp\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\Antlr3.Runtime.dll
+C:\Users\mcoffey\Documents\temp\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\EntityFramework.dll
+C:\Users\mcoffey\Documents\temp\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\LumenWorks.Framework.IO.dll
+C:\Users\mcoffey\Documents\temp\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\mcoffey\Documents\temp\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\Newtonsoft.Json.dll
+C:\Users\mcoffey\Documents\temp\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Net.Http.dll
+C:\Users\mcoffey\Documents\temp\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Net.Http.Formatting.dll
+C:\Users\mcoffey\Documents\temp\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Net.Http.WebRequest.dll
+C:\Users\mcoffey\Documents\temp\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.Helpers.dll
+C:\Users\mcoffey\Documents\temp\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.Http.dll
+C:\Users\mcoffey\Documents\temp\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.Http.WebHost.dll
+C:\Users\mcoffey\Documents\temp\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.Mvc.dll
+C:\Users\mcoffey\Documents\temp\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.Optimization.dll
+C:\Users\mcoffey\Documents\temp\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.Providers.dll
+C:\Users\mcoffey\Documents\temp\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.Razor.dll
+C:\Users\mcoffey\Documents\temp\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.WebPages.Deployment.dll
+C:\Users\mcoffey\Documents\temp\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.WebPages.dll
+C:\Users\mcoffey\Documents\temp\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.WebPages.Razor.dll
+C:\Users\mcoffey\Documents\temp\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\WebGrease.dll
+C:\Users\mcoffey\Documents\temp\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\LumenWorks.Framework.IO.xml
+C:\Users\mcoffey\Documents\temp\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\EntityFramework.xml
+C:\Users\mcoffey\Documents\temp\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\Newtonsoft.Json.xml
+C:\Users\mcoffey\Documents\temp\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Net.Http.xml
+C:\Users\mcoffey\Documents\temp\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Net.Http.Formatting.xml
+C:\Users\mcoffey\Documents\temp\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Net.Http.WebRequest.xml
+C:\Users\mcoffey\Documents\temp\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.Helpers.xml
+C:\Users\mcoffey\Documents\temp\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.Http.xml
+C:\Users\mcoffey\Documents\temp\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.Http.WebHost.xml
+C:\Users\mcoffey\Documents\temp\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.Mvc.xml
+C:\Users\mcoffey\Documents\temp\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.Razor.xml
+C:\Users\mcoffey\Documents\temp\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.WebPages.xml
+C:\Users\mcoffey\Documents\temp\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.WebPages.Deployment.xml
+C:\Users\mcoffey\Documents\temp\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.WebPages.Razor.xml
+C:\Users\mcoffey\Documents\temp\RateMyAmenity2\RateMyAmenity\RateMyAmenity\obj\Debug\RateMyAmenity.dll
+C:\Users\mcoffey\Documents\temp\RateMyAmenity2\RateMyAmenity\RateMyAmenity\obj\Debug\RateMyAmenity.pdb
