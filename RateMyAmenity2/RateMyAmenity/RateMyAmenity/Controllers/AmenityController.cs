@@ -13,7 +13,7 @@ namespace RateMyAmenity.Controllers
 {
     public class AmenityController : Controller
     {
-        private DatabaseDB db = new DatabaseDB();
+        private RateMyAmenityContext db = new RateMyAmenityContext();
 
         //
         // GET: /Amenity/
@@ -28,13 +28,15 @@ namespace RateMyAmenity.Controllers
         {
             ViewBag.TypeSortParm = String.IsNullOrEmpty(sortOrder) ? "Type desc" : "";
             ViewBag.NameSortParm = sortOrder == "Name" ? "Name desc" : "Name";
+            ViewBag.Address4SortParm = sortOrder == "Address4" ? "Address4 desc" : "Address4";
             var amenities = from s in db.Amenities
                            select s;
 
             if (!String.IsNullOrEmpty(searchString))
             {
                 amenities = amenities.Where(s => s.Type.ToUpper().Contains(searchString.ToUpper())
-                                       || s.Name.ToUpper().Contains(searchString.ToUpper()));
+                                       || s.Name.ToUpper().Contains(searchString.ToUpper())
+                                       || s.Address4.ToUpper().Contains(searchString.ToUpper()));
             }
 
 
@@ -45,6 +47,18 @@ namespace RateMyAmenity.Controllers
                     break;
                 case "Name":
                     amenities = amenities.OrderBy(s => s.Name);
+                    break;
+                case "Address1 desc":
+                    amenities = amenities.OrderBy(s => s.Address1);
+                    break;
+                case "Address2 desc":
+                    amenities = amenities.OrderBy(s => s.Address2);
+                    break;
+                case "Address3 desc":
+                    amenities = amenities.OrderBy(s => s.Address3);
+                    break;
+                case "Address4 desc":
+                    amenities = amenities.OrderBy(s => s.Address4);
                     break;
                 default:
                     amenities = amenities.OrderBy(s => s.Type);

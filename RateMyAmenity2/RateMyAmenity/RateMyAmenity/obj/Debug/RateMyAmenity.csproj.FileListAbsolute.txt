@@ -329,6 +329,7 @@ C:\Users\brian\Desktop\RateMyAmenity12july12\RateMyAmenity\RateMyAmenity\bin\Sys
 C:\Users\brian\Desktop\RateMyAmenity12july12\RateMyAmenity\RateMyAmenity\obj\Debug\RateMyAmenity.csprojResolveAssemblyReference.cache
 C:\Users\brian\Desktop\RateMyAmenity12july12\RateMyAmenity\RateMyAmenity\obj\Debug\RateMyAmenity.dll
 C:\Users\brian\Desktop\RateMyAmenity12july12\RateMyAmenity\RateMyAmenity\obj\Debug\RateMyAmenity.pdb
+C:\Users\mcoffey\Documents\temp\RateMyAmenity2\RateMyAmenity\RateMyAmenity\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\mcoffey\Documents\temp\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\RateMyAmenity.dll
 C:\Users\mcoffey\Documents\temp\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\RateMyAmenity.pdb
 C:\Users\mcoffey\Documents\temp\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\Antlr3.Runtime.dll
@@ -364,6 +365,5 @@ C:\Users\mcoffey\Documents\temp\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\S
 C:\Users\mcoffey\Documents\temp\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.WebPages.xml
 C:\Users\mcoffey\Documents\temp\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.WebPages.Deployment.xml
 C:\Users\mcoffey\Documents\temp\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\System.Web.WebPages.Razor.xml
-C:\Users\mcoffey\Documents\temp\RateMyAmenity2\RateMyAmenity\RateMyAmenity\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\mcoffey\Documents\temp\RateMyAmenity2\RateMyAmenity\RateMyAmenity\obj\Debug\RateMyAmenity.dll
 C:\Users\mcoffey\Documents\temp\RateMyAmenity2\RateMyAmenity\RateMyAmenity\obj\Debug\RateMyAmenity.pdb

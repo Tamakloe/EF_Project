@@ -132,6 +132,8 @@
     <Compile Include="Controllers\AmenityController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\RatingController.cs" />
+    <Compile Include="DAL\GetCSV.cs" />
+    <Compile Include="DAL\RateMyAmenityContext.cs" />
     <Compile Include="DataImport\CSVParser.cs" />
     <Compile Include="DataImport\IDataParser.cs" />
     <Compile Include="Global.asax.cs">
@@ -139,8 +141,6 @@
     </Compile>
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Models\Amenity.cs" />
-    <Compile Include="Models\DatabaseDB.cs" />
-    <Compile Include="Models\DBInitialiser.cs" />
     <Compile Include="Models\Rating.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

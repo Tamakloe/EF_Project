@@ -38,7 +38,8 @@
             @Html.DisplayNameFor(model => model.Address3)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Address4)
+         @*   @Html.DisplayNameFor(model => model.Address4) *@
+            @Html.ActionLink("Address4", "Index", new { sortOrder=ViewBag.Address4SortParm })
         </th>
         <th>
             @Html.DisplayNameFor(model => model.Phone)

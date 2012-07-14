@@ -7,6 +7,7 @@ using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
 using System.Data.Entity;
+using RateMyAmenity.DAL;
 using RateMyAmenity.Models;
 
 
@@ -24,7 +25,7 @@ namespace RateMyAmenity
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
-            Database.SetInitializer<DatabaseDB>(new DBInitialiser());
+            Database.SetInitializer<RateMyAmenityContext>(new GetCSV());
         }
     }
 }

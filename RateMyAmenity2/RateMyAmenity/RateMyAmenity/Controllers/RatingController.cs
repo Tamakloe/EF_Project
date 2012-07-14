@@ -12,7 +12,7 @@ namespace RateMyAmenity.Controllers
 {
     public class RatingController : Controller
     {
-        private DatabaseDB db = new DatabaseDB();
+        private RateMyAmenityContext db = new RateMyAmenityContext();
 
         //
         // GET: /Rating/
