@@ -11,10 +11,9 @@ namespace RateMyAmenity.Models
 {
     public class DatabaseDB : DbContext
     {
-        public DbSet<User> Users { get; set; }
+        /* public DbSet<User> Users { get; set; }  */
         public DbSet<Rating> Ratings { get; set; }
         public DbSet<Amenity> Amenities { get; set; }
-
     }
 
      /*  code that stops DB names being created in the plural

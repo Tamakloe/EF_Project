@@ -14,7 +14,7 @@ namespace RateMyAmenity.Models
     {
         protected override void Seed(DatabaseDB context)
         {
-            var Users = new List<User>
+    /*        var Users = new List<User>
             {
                 new User { UserName = "Carson",   Email = "Alexander.com", Password = "12345" },
                 new User { UserName = "Meredith", Email = "Alonso.com",    Password = "12345" },
@@ -27,7 +27,7 @@ namespace RateMyAmenity.Models
             };
             Users.ForEach(s => context.Users.Add(s));
             context.SaveChanges();
-
+*/
 
             // Add uri and type for each amenity to a multidimensional array.
             string[,] amenities = new string[,] { 
@@ -62,19 +62,19 @@ namespace RateMyAmenity.Models
 
             }
 
-            var Rating = new List<Rating>
+     /*       var Rating = new List<Rating>
             {
-                new Rating { RatingValue = 3, AmenityID = 1, UserID = 1, Comments = "Lovely",      Image = "image.jpg" },
-                new Rating { RatingValue = 3, AmenityID = 1, UserID = 2, Comments = "Wonderful", Image = "image.jpg" },
-                new Rating { RatingValue = 3, AmenityID = 2, UserID = 2, Comments = "Clean and Tidy", Image = "image.jpg" },
-                new Rating { RatingValue = 4, AmenityID = 3, UserID = 3, Comments = "Best Ever",       Image = "image.jpg" },
-                new Rating { RatingValue = 4, AmenityID = 4, UserID = 4, Comments = "Excellent",   Image = "image.jpg" },
-                new Rating { RatingValue = 3, AmenityID = 5, UserID = 5, Comments = "Nice",    Image = "image.jpg" },
-                new Rating { RatingValue = 4, AmenityID = 5, UserID = 5, Comments = "Really good amenity",     Image = "image.jpg" }
+                new Rating { RatingValue = 3, AmenityID = 1, UserId = 1, Comments = "Lovely",      Image = "image.jpg" },
+                new Rating { RatingValue = 3, AmenityID = 1, UserId = 2, Comments = "Wonderful", Image = "image.jpg" },
+                new Rating { RatingValue = 3, AmenityID = 2, UserId = 2, Comments = "Clean and Tidy", Image = "image.jpg" },
+                new Rating { RatingValue = 4, AmenityID = 3, UserId = 3, Comments = "Best Ever",       Image = "image.jpg" },
+                new Rating { RatingValue = 4, AmenityID = 4, UserId = 4, Comments = "Excellent",   Image = "image.jpg" },
+                new Rating { RatingValue = 3, AmenityID = 5, UserId = 5, Comments = "Nice",    Image = "image.jpg" },
+                new Rating { RatingValue = 4, AmenityID = 5, UserId = 5, Comments = "Really good amenity",     Image = "image.jpg" }
             };
             Rating.ForEach(s => context.Ratings.Add(s));
             context.SaveChanges();
-
+            */
         }
     }
 }

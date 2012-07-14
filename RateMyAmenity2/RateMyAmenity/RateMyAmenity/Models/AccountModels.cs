@@ -7,7 +7,6 @@ using System.Web.Security;
 
 namespace RateMyAmenity.Models
 {
-
     public class ChangePasswordModel
     {
         [Required]

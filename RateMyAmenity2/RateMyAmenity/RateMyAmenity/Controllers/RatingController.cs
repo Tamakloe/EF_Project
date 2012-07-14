@@ -6,6 +6,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using RateMyAmenity.Models;
+using System.Web.Security;
 
 namespace RateMyAmenity.Controllers
 {
@@ -50,6 +51,8 @@ namespace RateMyAmenity.Controllers
         {
             if (ModelState.IsValid)
             {
+                rating.UserId = (Guid)Membership.GetUser().ProviderUserKey;
+                rating.AmenityID = 1;
                 db.Ratings.Add(rating);
                 db.SaveChanges();
                 return RedirectToAction("Index");

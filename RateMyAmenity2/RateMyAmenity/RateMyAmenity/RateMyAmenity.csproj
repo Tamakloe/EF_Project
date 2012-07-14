@@ -132,7 +132,6 @@
     <Compile Include="Controllers\AmenityController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\RatingController.cs" />
-    <Compile Include="Controllers\UserController.cs" />
     <Compile Include="DataImport\CSVParser.cs" />
     <Compile Include="DataImport\IDataParser.cs" />
     <Compile Include="Global.asax.cs">
@@ -143,7 +142,6 @@
     <Compile Include="Models\DatabaseDB.cs" />
     <Compile Include="Models\DBInitialiser.cs" />
     <Compile Include="Models\Rating.cs" />
-    <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -240,21 +238,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Views\User\Index.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Views\User\Details.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Views\User\Create.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Views\User\Edit.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Views\User\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Rating\Index.cshtml" />

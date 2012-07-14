@@ -18,10 +18,48 @@ namespace RateMyAmenity.Controllers
         //
         // GET: /Amenity/
 
-        public ActionResult Index()
+   //     public ActionResult Index()
+   //     {
+   //         return View(db.Amenities.ToList());
+   //     }
+
+
+        public ViewResult Index(string sortOrder, string searchString)
         {
-            return View(db.Amenities.ToList());
+            ViewBag.TypeSortParm = String.IsNullOrEmpty(sortOrder) ? "Type desc" : "";
+            ViewBag.NameSortParm = sortOrder == "Name" ? "Name desc" : "Name";
+            var amenities = from s in db.Amenities
+                           select s;
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                amenities = amenities.Where(s => s.Type.ToUpper().Contains(searchString.ToUpper())
+                                       || s.Name.ToUpper().Contains(searchString.ToUpper()));
+            }
+
+
+            switch (sortOrder)
+            {
+                case "Type desc":
+                    amenities = amenities.OrderByDescending(s => s.Type);
+                    break;
+                case "Name":
+                    amenities = amenities.OrderBy(s => s.Name);
+                    break;
+                default:
+                    amenities = amenities.OrderBy(s => s.Type);
+                    break;
+            }
+            return View(amenities.ToList());
         }
+
+
+
+
+
+
+
+
 
         //
         // GET: /Amenity/Details/5
