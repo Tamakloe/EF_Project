@@ -1,8 +1,0 @@
-C:\Users\mcoffey\EF_Project\Amenity\Amenity.Tests\bin\Debug\Amenity.Tests.dll.config
-C:\Users\mcoffey\EF_Project\Amenity\Amenity.Tests\bin\Debug\Amenity.Tests.dll
-C:\Users\mcoffey\EF_Project\Amenity\Amenity.Tests\bin\Debug\Amenity.Tests.pdb
-C:\Users\mcoffey\EF_Project\Amenity\Amenity.Tests\bin\Debug\Amenity.dll
-C:\Users\mcoffey\EF_Project\Amenity\Amenity.Tests\bin\Debug\Amenity.pdb
-C:\Users\mcoffey\EF_Project\Amenity\Amenity.Tests\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\mcoffey\EF_Project\Amenity\Amenity.Tests\obj\Debug\Amenity.Tests.dll
-C:\Users\mcoffey\EF_Project\Amenity\Amenity.Tests\obj\Debug\Amenity.Tests.pdb
