@@ -1,0 +1,60 @@
+﻿@model IEnumerable<RateMyAmenity.Models.Amenity>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+
+@using (Html.BeginForm())
+{
+    <p>
+        Find Amenity: @Html.TextBox("SearchString")  
+        <input type="submit" value="Search" /></p>
+}
+
+
+<table>
+    <tr>
+        <th>
+         @*   @Html.DisplayNameFor(model => model.Type) *@
+        @Html.ActionLink("Type", "Index", new { sortOrder=ViewBag.TypeSortParm })
+        </th>
+        <th>
+          @*  @Html.DisplayNameFor(model => model.Name) *@
+            @Html.ActionLink("Name", "Index", new { sortOrder=ViewBag.NameSortParm })
+        </th>
+        <th></th>
+    </tr>
+
+@*
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Type)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+    </tr>
+}
+*@
+
+
+    <div id="amenityNav"> 
+    <ul>
+        @foreach (var group in Model.GroupBy(item => item.Type)) { 
+
+            <li><a href="#">@Html.Encode(group.Key)</a> 
+            
+            <ul>
+            @foreach (var item in group) { 
+                <li><a href="#">@Html.Encode(item.Name) </a></li>  
+            } 
+            </ul>
+            
+            </li>
+    } 
+    </ul>
+    </div>
+
+</table>

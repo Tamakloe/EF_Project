@@ -116,6 +116,46 @@ footer {
     height: 100px;
 }
 
+/*sidebar Amenity Navigation */
+#amenityNav ul
+{
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+
+#amenityNav li { margin: 0; }
+
+#amenityNav a
+{
+display: block;
+color: #FFF;
+background-color: #036;
+/* width: 9em; */
+padding: 3px 12px 3px 8px;
+text-decoration: none;
+border-bottom: 1px solid #fff;
+font-weight: bold;
+}
+
+#amenityNav a:hover
+{
+background-color: #369;
+color: #FFF;
+}
+
+#amenityNav li li a
+{
+display: block;
+color: #FFF;
+background-color: #69C;
+/* width: 9em; */
+padding: 3px 3px 3px 3px;
+text-decoration: none;
+border-bottom: 1px solid #fff;
+font-weight: normal;
+}
+
 
 /* site title
 ----------------------------------------------------------*/

@@ -1,111 +1,17 @@
-﻿@model IEnumerable<RateMyAmenity.Models.Amenity>
-
-@{
-    ViewBag.Title = "Index";
-}
-
-<h2>Index</h2>
-
-<p>
-    @Html.ActionLink("Create New", "Create")
-</p>
-
-@using (Html.BeginForm())
-{
-    <p>
-        Find by type or name: @Html.TextBox("SearchString")  
-        <input type="submit" value="Search" /></p>
+﻿@{
+	ViewBag.Title = "Home Page";
+	
+	<script src="../../Scripts/setMap.js" type="text/javascript"></script>
 }
 
 
-<table>
-    <tr>
-        <th>
-         @*   @Html.DisplayNameFor(model => model.Type) *@
-        @Html.ActionLink("Type", "Index", new { sortOrder=ViewBag.TypeSortParm })
-        </th>
-        <th>
-          @*  @Html.DisplayNameFor(model => model.Name) *@
-            @Html.ActionLink("Name", "Index", new { sortOrder=ViewBag.NameSortParm })
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Address1)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Address2)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Address3)
-        </th>
-        <th>
-         @*   @Html.DisplayNameFor(model => model.Address4) *@
-            @Html.ActionLink("Address4", "Index", new { sortOrder=ViewBag.Address4SortParm })
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Phone)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Email)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Website)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Lat)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Long)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.DefaultImage)
-        </th>
-        <th></th>
-    </tr>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.Type)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Name)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Address1)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Address2)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Address3)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Address4)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Phone)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Email)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Website)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Lat)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Long)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.DefaultImage)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.AmenityID }) |
-            @Html.ActionLink("Details", "Details", new { id=item.AmenityID }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.AmenityID })
-        </td>
-    </tr>
-}
+<div id="submenu">
+	<h3 class="clear" style="display:inline">Amenity Type</h3>
+	 <div class = "center">  @Html.Partial("_AmenityDetails")</div>
+ </div>
 
-</table>
+
+ <div>  @Html.Partial("_GoogleMap")</div>
+
+<div>  @Html.Partial("_Twidget")</div>

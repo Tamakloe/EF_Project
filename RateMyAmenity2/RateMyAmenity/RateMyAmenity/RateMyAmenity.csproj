@@ -255,7 +255,7 @@
     <Content Include="Views\Rating\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Amenity\Index.cshtml" />
+    <Content Include="Views\Amenity\Index-orig.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Amenity\Details.cshtml" />
@@ -273,9 +273,11 @@
     <None Include="ClassDiagram1.cd" />
     <None Include="Content\ArtCentres.csv" />
     <None Include="Content\PlayAreas.csv" />
-    <Content Include="Views\Home\_Twidget.cshtml" />
+    <Content Include="Views\Shared\_Twidget.cshtml" />
     <Content Include="Views\Shared\_GoogleMap.cshtml" />
-    <Content Include="Views\Home\_AmenityDetails.cshtml" />
+    <Content Include="Views\Home\_AmenityDetails-old.cshtml" />
+    <Content Include="Views\Amenity\_AmenityDetails.cshtml" />
+    <Content Include="Views\Amenity\Index.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

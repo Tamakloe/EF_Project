@@ -32,11 +32,19 @@ namespace RateMyAmenity.Controllers
             var amenities = from s in db.Amenities
                            select s;
 
+            
+            // search fields for search box on home page
             if (!String.IsNullOrEmpty(searchString))
             {
                 amenities = amenities.Where(s => s.Type.ToUpper().Contains(searchString.ToUpper())
                                        || s.Name.ToUpper().Contains(searchString.ToUpper())
-                                       || s.Address4.ToUpper().Contains(searchString.ToUpper()));
+                                       || s.Address1.ToUpper().Contains(searchString.ToUpper())
+                                       || s.Address2.ToUpper().Contains(searchString.ToUpper())
+                                       || s.Address3.ToUpper().Contains(searchString.ToUpper())
+                                       || s.Address4.ToUpper().Contains(searchString.ToUpper())
+                                       || s.Phone.ToUpper().Contains(searchString.ToUpper())
+                                       || s.Email.ToUpper().Contains(searchString.ToUpper())
+                                       || s.Website.ToUpper().Contains(searchString.ToUpper()));
             }
 
 
@@ -66,13 +74,6 @@ namespace RateMyAmenity.Controllers
             }
             return View(amenities.ToList());
         }
-
-
-
-
-
-
-
 
 
         //
