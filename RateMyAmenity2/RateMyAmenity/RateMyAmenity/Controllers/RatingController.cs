@@ -47,16 +47,28 @@ namespace RateMyAmenity.Controllers
         // POST: /Rating/Create
 
         [HttpPost]
-        public ActionResult Create(Rating rating)
+        public ActionResult Create(Rating rating, int id)
         {
-            if (ModelState.IsValid)
+            try
             {
-                rating.UserId = (Guid)Membership.GetUser().ProviderUserKey;
-                rating.AmenityID = 1;
-                db.Ratings.Add(rating);
-                db.SaveChanges();
-                return RedirectToAction("Index");
+
+                if (ModelState.IsValid)
+                {
+                    rating.UserId = (Guid)Membership.GetUser().ProviderUserKey;
+
+                    var amenityRating = db.Amenities.Find(id);
+                    rating.AmenityID = amenityRating.AmenityID;
+
+                    db.Ratings.Add(rating);
+                    db.SaveChanges();
+                    return RedirectToAction("Index");
+                }
             }
+            catch (DataException)
+            {
+                //Log the error (add a variable name after DataException)
+                ModelState.AddModelError("", "Unable to save changes due an unforeseen error.  Please try again.");
+            } 
 
             return View(rating);
         }

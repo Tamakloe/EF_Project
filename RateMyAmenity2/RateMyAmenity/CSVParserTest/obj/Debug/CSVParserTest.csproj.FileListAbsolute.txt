@@ -204,7 +204,6 @@ C:\Users\brian\Desktop\RateMyAmenity12july12\RateMyAmenity\CSVParserTest\bin\Deb
 C:\Users\brian\Desktop\RateMyAmenity12july12\RateMyAmenity\CSVParserTest\obj\Debug\CSVParserTest.csprojResolveAssemblyReference.cache
 C:\Users\brian\Desktop\RateMyAmenity12july12\RateMyAmenity\CSVParserTest\obj\Debug\CSVParserTest.dll
 C:\Users\brian\Desktop\RateMyAmenity12july12\RateMyAmenity\CSVParserTest\obj\Debug\CSVParserTest.pdb
-C:\Users\mcoffey\Documents\temp\RateMyAmenity2\RateMyAmenity\CSVParserTest\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\mcoffey\Documents\temp\RateMyAmenity2\RateMyAmenity\CSVParserTest\bin\Debug\CSVParserTest.dll
 C:\Users\mcoffey\Documents\temp\RateMyAmenity2\RateMyAmenity\CSVParserTest\bin\Debug\CSVParserTest.pdb
 C:\Users\mcoffey\Documents\temp\RateMyAmenity2\RateMyAmenity\CSVParserTest\bin\Debug\Antlr3.Runtime.dll
@@ -243,5 +242,6 @@ C:\Users\mcoffey\Documents\temp\RateMyAmenity2\RateMyAmenity\CSVParserTest\bin\D
 C:\Users\mcoffey\Documents\temp\RateMyAmenity2\RateMyAmenity\CSVParserTest\bin\Debug\System.Web.WebPages.Deployment.xml
 C:\Users\mcoffey\Documents\temp\RateMyAmenity2\RateMyAmenity\CSVParserTest\bin\Debug\System.Web.WebPages.Razor.xml
 C:\Users\mcoffey\Documents\temp\RateMyAmenity2\RateMyAmenity\CSVParserTest\bin\Debug\LumenWorks.Framework.IO.xml
+C:\Users\mcoffey\Documents\temp\RateMyAmenity2\RateMyAmenity\CSVParserTest\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\mcoffey\Documents\temp\RateMyAmenity2\RateMyAmenity\CSVParserTest\obj\Debug\CSVParserTest.dll
 C:\Users\mcoffey\Documents\temp\RateMyAmenity2\RateMyAmenity\CSVParserTest\obj\Debug\CSVParserTest.pdb

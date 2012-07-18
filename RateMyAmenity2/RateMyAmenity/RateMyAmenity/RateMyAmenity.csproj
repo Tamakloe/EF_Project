@@ -143,6 +143,7 @@
     <Compile Include="Models\Amenity.cs" />
     <Compile Include="Models\Rating.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModels\RatingAverage.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
@@ -255,10 +256,10 @@
     <Content Include="Views\Rating\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Amenity\Index-orig.cshtml" />
+    <Content Include="Views\Amenity\List.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Amenity\Details.cshtml" />
+    <Content Include="Views\Amenity\_RatingDetails.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Amenity\Create.cshtml" />
@@ -276,8 +277,9 @@
     <Content Include="Views\Shared\_Twidget.cshtml" />
     <Content Include="Views\Shared\_GoogleMap.cshtml" />
     <Content Include="Views\Home\_AmenityDetails-old.cshtml" />
-    <Content Include="Views\Amenity\_AmenityDetails.cshtml" />
+    <Content Include="Views\Shared\_Home.cshtml" />
     <Content Include="Views\Amenity\Index.cshtml" />
+    <Content Include="Views\Amenity\Details.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -295,7 +297,7 @@
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>2707</DevelopmentServerPort>
+          <DevelopmentServerPort>55151</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>
           </IISUrl>

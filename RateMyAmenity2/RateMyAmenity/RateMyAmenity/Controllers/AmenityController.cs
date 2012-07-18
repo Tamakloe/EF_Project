@@ -6,6 +6,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using RateMyAmenity.Models;
+using RateMyAmenity.ViewModels;
 using RateMyAmenity.DataImport;
 using System.IO;
 
@@ -18,10 +19,10 @@ namespace RateMyAmenity.Controllers
         //
         // GET: /Amenity/
 
-   //     public ActionResult Index()
-   //     {
-   //         return View(db.Amenities.ToList());
-   //     }
+        public ActionResult List()
+        {
+            return View(db.Amenities.ToList());
+        }
 
 
         public ViewResult Index(string sortOrder, string searchString)
@@ -80,13 +81,32 @@ namespace RateMyAmenity.Controllers
         // GET: /Amenity/Details/5
 
         public ActionResult Details(int id = 0)
-        {
+        {   
             Amenity amenity = db.Amenities.Find(id);
             if (amenity == null)
             {
                 return HttpNotFound();
             }
+
             return View(amenity);
+     //       return View(data);
+        }
+
+
+        [ChildActionOnly]
+        public ActionResult RatingDetails()
+        {
+            // Get Rating Value Average
+            var data = from rating in db.Ratings      
+                       group rating by rating.AmenityID into avgRating
+                       select new RatingAverage()
+                       {
+                           AmenityID = avgRating.Key,
+                           RatingValue = avgRating.Average(r => r.RatingValue)
+
+                       };
+
+            return PartialView("_RatingDetails", data);
         }
 
         //
@@ -94,10 +114,6 @@ namespace RateMyAmenity.Controllers
 
         public ActionResult Create()
         {
-        //    IDataParser ourcsv = new CSVParser();
-          //  StreamReader tmp = new StreamReader("C:\\Users\\mcoffey\\EF_Project\\RateMyAmenity2\\RateMyAmenity\\Content\\ArtCentres.csv");
-          //  ourcsv.setStreamSource(tmp);
-           // ourcsv.parseAmenity();
            return View();
         }
 

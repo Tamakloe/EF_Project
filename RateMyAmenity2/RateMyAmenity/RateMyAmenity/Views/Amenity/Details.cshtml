@@ -1,10 +1,12 @@
-﻿@model RateMyAmenity.Models.Amenity
+﻿@model RateMyAmenity.Models.Amenity  
 
 @{
     ViewBag.Title = "Details";
 }
 
 <h2>Details</h2>
+
+
 
 <fieldset>
     <legend>Amenity</legend>
@@ -100,7 +102,7 @@
     <div class="display-field">
     <table>
         <tr>
-            <th>User ID</th>
+            <th>User Name</th>
             <th>Rating Value</th>
             <th>Comment</th>
         </tr>
@@ -108,7 +110,8 @@
         {
             <tr>
                 <td>
-                    @Html.DisplayFor(modelItem => item.UserId)
+                   
+                    @Html.DisplayName(User.Identity.Name)
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.RatingValue)
@@ -119,8 +122,14 @@
             </tr>
         }
     </table>
+    <p>
+         @Html.ActionLink("Add a Rating", "Create", new { controller = "Rating", action = "Create", id = Model.AmenityID }) 
+    </p>
     </div>
 </fieldset>
+
+
+
 <p>
     @Html.ActionLink("Edit", "Edit", new { id=Model.AmenityID }) |
     @Html.ActionLink("Back to List", "Index")
