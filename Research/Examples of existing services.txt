@@ -1,0 +1,8 @@
+﻿Research into Open Data Sources
+
+Examples of exisiting services are
+> - https://services.cro.ie/
+> - http://data.fingal.ie/
+> - https://nycopendata.socrata.com/
+> - http://www.dublinked.ie/datastore/index.php 
+
