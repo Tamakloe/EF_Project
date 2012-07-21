@@ -25,7 +25,7 @@ namespace RateMyAmenity
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
-            Database.SetInitializer<RateMyAmenityContext>(new GetCSV());
+            //Database.SetInitializer<RateMyAmenityContext>(new GetCSV());
         }
     }
 }

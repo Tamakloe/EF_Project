@@ -8,12 +8,16 @@ using System.Web.Mvc;
 using RateMyAmenity.Models;
 using RateMyAmenity.ViewModels;
 using RateMyAmenity.DataImport;
+using RateMyAmenity.DAL;
+using RateMyAmenity.BLL;
 using System.IO;
 
 namespace RateMyAmenity.Controllers
 {
     public class AmenityController : Controller
     {
+
+        
         private RateMyAmenityContext db = new RateMyAmenityContext();
 
         //
@@ -22,6 +26,13 @@ namespace RateMyAmenity.Controllers
         public ActionResult List()
         {
             return View(db.Amenities.ToList());
+        }
+
+        public ActionResult CreateDB()
+        {
+            BLLGetCSV bllgetcsv = new BLLGetCSV();
+            bllgetcsv.CreateAmenityDB();
+            return View("Index");
         }
 
 
