@@ -12,6 +12,5 @@ namespace RateMyAmenity.Models
     {
         public DbSet<Rating> Ratings { get; set; }
         public DbSet<Amenity> Amenities { get; set; }
-        public DbSet<Parking> Parking { get; set; }
     }
 }

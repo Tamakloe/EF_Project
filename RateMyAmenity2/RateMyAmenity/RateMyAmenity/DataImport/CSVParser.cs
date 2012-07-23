@@ -11,9 +11,10 @@ namespace RateMyAmenity.DataImport
 {
     public class CSVParser :IDataParser
     {
+
         private String supportedFormat = "csv";
         private StreamReader reader;
-        
+
         List<Models.Amenity> IDataParser.parseAmenity(String amenitytype)
         {
             CsvReader csv = new CsvReader(reader, true);
@@ -48,53 +49,21 @@ namespace RateMyAmenity.DataImport
                     } else if (headers[i].Equals("LAT")) {
                         exObj.Latitude = Convert.ToDouble(csv[i]);
                     } else if (headers[i].Equals("LONG")) {
-                        exObj.Longtitude = Convert.ToDouble(csv[i]);
+                        exObj.Longitude = Convert.ToDouble(csv[i]);
                     }
                 }
               exObj.Description = amenitytype;
                 facility.Add(exObj);
             }
             return facility;
-        }
 
-
-        List<Models.Parking> IDataParser.parseParking (String parkingtype)
-        {
-            CsvReader csv = new CsvReader(reader, true);
-            int fieldCount = csv.FieldCount;
-
-            List<Parking> facility = new List<Parking>();
-
-            String[] headers = csv.GetFieldHeaders();
-
-            while (csv.ReadNextRecord())
-            {
-                Parking exObj = new Parking();
-
-                for (int i = 0; i < fieldCount; i++)
-                { // need to make this more robust for non expected values
-                    if (headers[i].Equals("AREA_DESC")) {
-                        exObj.AreaDesc = csv[i];
-                    } else if (headers[i].Equals("ROADNAME")) {
-                        exObj.RoadName = csv[i];
-                    } else if (headers[i].Equals("TOTAL_SPACES")) {
-                        exObj.TotalSpaces = csv[i];
-                    } else if (headers[i].Equals("LAT")) {
-                        exObj.Latitude = Convert.ToDouble(csv[i]); 
-                    } else if (headers[i].Equals("LONG")) {
-                        exObj.Longtitude = Convert.ToDouble(csv[i]);
-                    }
-                }
-                exObj.Description = parkingtype;
-                facility.Add(exObj);
-            }
-            return facility;
         }
 
         void IDataParser.setStreamSource(StreamReader reader)
         //void IDataParser.setStreamSource(String MyCsv)    
         {
             this.reader = reader;
+
         }
 
         bool IDataParser.supportsType(string format)

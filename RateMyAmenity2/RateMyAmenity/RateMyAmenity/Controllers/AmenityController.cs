@@ -8,67 +8,50 @@ using System.Web.Mvc;
 using RateMyAmenity.Models;
 using RateMyAmenity.ViewModels;
 using RateMyAmenity.DataImport;
-using RateMyAmenity.DAL;
-using RateMyAmenity.BLL;
 using System.IO;
 
 namespace RateMyAmenity.Controllers
 {
     public class AmenityController : Controller
-    {     
+    {
         private RateMyAmenityContext db = new RateMyAmenityContext();
-        private AmenityDal amenitydal = new AmenityDal();
 
         //
         // GET: /Amenity/
 
-        [Authorize(Roles = "admin")]
         public ActionResult List()
         {
             return View(db.Amenities.ToList());
         }
 
 
-        [Authorize(Roles = "admin")]
-        public ActionResult CreateDB()
-        {
-            BLLGetCSV bllgetcsv = new BLLGetCSV();
-            bllgetcsv.ImportCSV();
-            return View("Index");
-        }
-
-
         public ViewResult Index(string sortOrder, string searchString)
         {
-            BLLSortFilterData bllsortfilterdata = new BLLSortFilterData();
-            //var amenities = bllsortfilterdata.SortFilterData(sortOrder, searchString);
-
-
-            ViewBag.TypeSortParm = String.IsNullOrEmpty(sortOrder) ? "Type desc" : "";
+            ViewBag.DescriptionSortParm = String.IsNullOrEmpty(sortOrder) ? "Description desc" : "";
             ViewBag.NameSortParm = sortOrder == "Name" ? "Name desc" : "Name";
             ViewBag.Address4SortParm = sortOrder == "Address4" ? "Address4 desc" : "Address4";
             var amenities = from s in db.Amenities
-                            select s;
+                           select s;
 
-
+            
             // search fields for search box on home page
             if (!String.IsNullOrEmpty(searchString))
             {
                 amenities = amenities.Where(s => s.Description.ToUpper().Contains(searchString.ToUpper())
-                                        || s.Name.ToUpper().Contains(searchString.ToUpper())
-                                        || s.Address1.ToUpper().Contains(searchString.ToUpper())
-                                        || s.Address2.ToUpper().Contains(searchString.ToUpper())
-                                        || s.Address3.ToUpper().Contains(searchString.ToUpper())
-                                        || s.Address4.ToUpper().Contains(searchString.ToUpper())
-                                        || s.Phone.ToUpper().Contains(searchString.ToUpper())
-                                        || s.Email.ToUpper().Contains(searchString.ToUpper())
-                                        || s.Website.ToUpper().Contains(searchString.ToUpper()));
+                                       || s.Name.ToUpper().Contains(searchString.ToUpper())
+                                       || s.Address1.ToUpper().Contains(searchString.ToUpper())
+                                       || s.Address2.ToUpper().Contains(searchString.ToUpper())
+                                       || s.Address3.ToUpper().Contains(searchString.ToUpper())
+                                       || s.Address4.ToUpper().Contains(searchString.ToUpper())
+                                       || s.Phone.ToUpper().Contains(searchString.ToUpper())
+                                       || s.Email.ToUpper().Contains(searchString.ToUpper())
+                                       || s.Website.ToUpper().Contains(searchString.ToUpper()));
             }
 
 
             switch (sortOrder)
             {
-                case "Type desc":
+                case "Description desc":
                     amenities = amenities.OrderByDescending(s => s.Description);
                     break;
                 case "Name":
@@ -90,8 +73,6 @@ namespace RateMyAmenity.Controllers
                     amenities = amenities.OrderBy(s => s.Description);
                     break;
             }
-
-            
             return View(amenities.ToList());
         }
 
@@ -108,33 +89,25 @@ namespace RateMyAmenity.Controllers
             }
 
             return View(amenity);
+     //       return View(data);
         }
 
 
         [ChildActionOnly]
         public ActionResult RatingDetails()
         {
-            var data = amenitydal.GetAvgRating();
+            // Get Rating Value Average
+            var data = from rating in db.Ratings      
+                       group rating by rating.AmenityID into avgRating
+                       select new RatingAverage()
+                       {
+                           AmenityID = avgRating.Key,
+                           RatingValue = avgRating.Average(r => r.RatingValue)
+
+                       };
 
             return PartialView("_RatingDetails", data);
         }
-
-
-        // GET: /Amenity/_ParkingDetails
-
-       [ChildActionOnly]
-        public ActionResult ParkingDetails(int id)
-        {
-            Amenity amenity = db.Amenities.Find(id); 
-            
-            var lat1 = amenity.Latitude;
-            var long1 = amenity.Longtitude;
-
-            var data = amenitydal.GetParkingDetails(lat1, long1);
-
-           return PartialView("_ParkingDetails", data);
-        }
-
 
         //
         // GET: /Amenity/Create
@@ -148,7 +121,6 @@ namespace RateMyAmenity.Controllers
         // POST: /Amenity/Create
 
         [HttpPost]
-        [Authorize(Roles = "admin")]
         public ActionResult Create(Amenity amenity)
         {
             if (ModelState.IsValid)
@@ -164,7 +136,6 @@ namespace RateMyAmenity.Controllers
         //
         // GET: /Amenity/Edit/5
 
-        [Authorize(Roles = "admin")]
         public ActionResult Edit(int id = 0)
         {
             Amenity amenity = db.Amenities.Find(id);
@@ -179,7 +150,6 @@ namespace RateMyAmenity.Controllers
         // POST: /Amenity/Edit/5
 
         [HttpPost]
-        [Authorize(Roles = "admin")]
         public ActionResult Edit(Amenity amenity)
         {
             if (ModelState.IsValid)
@@ -194,7 +164,6 @@ namespace RateMyAmenity.Controllers
         //
         // GET: /Amenity/Delete/5
 
-        [Authorize(Roles = "admin")]
         public ActionResult Delete(int id = 0)
         {
             Amenity amenity = db.Amenities.Find(id);
@@ -209,7 +178,6 @@ namespace RateMyAmenity.Controllers
         // POST: /Amenity/Delete/5
 
         [HttpPost, ActionName("Delete")]
-        [Authorize(Roles = "admin")]
         public ActionResult DeleteConfirmed(int id)
         {
             Amenity amenity = db.Amenities.Find(id);
