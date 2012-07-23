@@ -1,7 +1,7 @@
 ﻿@model IEnumerable<RateMyAmenity.Models.Amenity>
 
 @{
-    ViewBag.Title = "Amenity List";
+    ViewBag.Title = "Index";
 }
 
 <h2>Index</h2>
@@ -21,11 +21,11 @@
 <table>
     <tr>
         <th>
-            @* Heading name can be clicked to change sort order *@
-            @Html.ActionLink("Description", "Index", new { sortOrder=ViewBag.DescriptionSortParm })
+         @*   @Html.DisplayNameFor(model => model.Type) *@
+        @Html.ActionLink("Type", "Index", new { sortOrder=ViewBag.TypeSortParm })
         </th>
         <th>
-            @* Heading name can be clicked to change sort order *@
+          @*  @Html.DisplayNameFor(model => model.Name) *@
             @Html.ActionLink("Name", "Index", new { sortOrder=ViewBag.NameSortParm })
         </th>
         <th>
@@ -51,10 +51,10 @@
             @Html.DisplayNameFor(model => model.Website)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Latitude)
+            @Html.DisplayNameFor(model => model.Lat)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Longitude)
+            @Html.DisplayNameFor(model => model.Long)
         </th>
         <th>
             @Html.DisplayNameFor(model => model.DefaultImage)
@@ -65,7 +65,7 @@
 @foreach (var item in Model) {
     <tr>
         <td>
-            @Html.DisplayFor(modelItem => item.Description)
+            @Html.DisplayFor(modelItem => item.Type)
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.Name)
@@ -92,20 +92,19 @@
             @Html.DisplayFor(modelItem => item.Website)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.Latitude)
+            @Html.DisplayFor(modelItem => item.Lat)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.Longitude)
+            @Html.DisplayFor(modelItem => item.Long)
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.DefaultImage)
         </td>
-		<td>
+        <td>
             @Html.ActionLink("Edit", "Edit", new { id=item.AmenityID }) |
             @Html.ActionLink("Details", "Details", new { id=item.AmenityID }) |
             @Html.ActionLink("Delete", "Delete", new { id=item.AmenityID })
         </td>
-
     </tr>
 }
 

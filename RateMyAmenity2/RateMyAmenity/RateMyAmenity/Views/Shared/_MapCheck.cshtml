@@ -1,0 +1,40 @@
+﻿
+<script type="text/javascript" src="http://ecn.dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=7.0"></script>
+<script src="../../Scripts/RateMyAmenity.js" type="text/javascript"></script>
+
+
+<div id="map">
+	<h3 style="display:inline">Bing Map</h3>
+
+	<div class = "center">
+ 
+		<div id="searchBox">
+			Enter your location @Html.TextBox("Location")
+			<input id="search" type="submit" value="Search"/>
+		</div>
+
+		<div id="theMap">
+		</div>
+
+	</div>
+
+	</div>
+
+<script type="text/javascript">
+
+	$(document).ready(function () {
+		RateMyAmenity.LoadMap();
+		$("#theMap").width("100%").height("360px"); 
+
+	});
+
+	$("#search").click(function (evt) {
+		var where = jQuery.trim($("#Location").val());
+		if (where.length < 1)
+			return;
+		RateMyAmenity.FindAddress(where);
+	});
+
+</script>
+
+	

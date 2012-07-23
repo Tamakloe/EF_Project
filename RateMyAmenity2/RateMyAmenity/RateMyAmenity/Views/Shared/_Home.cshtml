@@ -9,59 +9,42 @@
 {
     <p>
         Find Amenity: @Html.TextBox("SearchString")  
-        <input type="submit" value="Search" /></p>
+        <input type="submit" value="Search" />
+	</p>
 }
 
 
-<table>
-    <tr>
-        <th>
-         @*   @Html.DisplayNameFor(model => model.Type) *@
-        @Html.ActionLink("Type", "Index", new { sortOrder=ViewBag.TypeSortParm })
-        </th>
-        <th>
-          @*  @Html.DisplayNameFor(model => model.Name) *@
-            @Html.ActionLink("Name", "Index", new { sortOrder=ViewBag.NameSortParm })
-        </th>
-        <th></th>
-    </tr>
 
-@*
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.Type)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Name)
-        </td>
-    </tr>
-}
-*@
+   
 
-
-    <div id="amenityNav"> 
-    <ul>
         @if (Model != null)
-        {
-        foreach (var group in Model.GroupBy(item => item.Type))
-        { 
+		{
+			
+			foreach (var group in Model.GroupBy(item => item.Description))
+			
+			{ 
+				<!--DROP LIST-->
+				<div class="dropList_header">
+					@Html.Encode(group.Key) 
+				</div>
+			
+			<div class="dropList_content">
+					<div>				
+			@foreach (var item in group)
+			{
+				
+						<p> 
+							@Html.ActionLink(item.Name, "Details", new { id = item.AmenityID })
+						</p>
+				       
+			}
+			</div>
+				</div>
 
-            <li><a href="#">@Html.Encode(group.Key)</a> 
-            
-            <ul>
-            @foreach (var item in group)
-            { 
-                <li>  @Html.ActionLink(item.Name, "Details", new { id = item.AmenityID })
-                </li>  
-            } 
-            </ul>
-            
-            </li>
-        }
+		}
         } 
-    </ul>
-    </div>
+    
+  
 
-</table>
+
 

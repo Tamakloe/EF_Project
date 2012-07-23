@@ -47,12 +47,12 @@ namespace RateMyAmenity.DataImport
                     } else if (headers[i].Equals("Website")) {
                         exObj.Website = csv[i];
                     } else if (headers[i].Equals("LAT")) {
-                        exObj.Lat = Convert.ToDouble(csv[i]);
+                        exObj.Latitude = Convert.ToDouble(csv[i]);
                     } else if (headers[i].Equals("LONG")) {
-                        exObj.Long = Convert.ToDouble(csv[i]);
+                        exObj.Longitude = Convert.ToDouble(csv[i]);
                     }
                 }
-              exObj.Type = amenitytype;
+              exObj.Description = amenitytype;
                 facility.Add(exObj);
             }
             return facility;

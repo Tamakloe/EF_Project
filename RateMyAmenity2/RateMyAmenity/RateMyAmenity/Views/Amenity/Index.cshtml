@@ -2,15 +2,10 @@
 @{
 	ViewBag.Title = "Home Page";
 	
-	<script src="../../Scripts/setMap.js" type="text/javascript"></script>
 }
 
-<div id ="Create DB">
-    @Html.ActionLink("Recreate Database", "CreateDB")
-</div>
-
-
 <div id="RatingAverage">
+ @*  @Html.Partial("_RatingDetails") *@
     @Html.Action("RatingDetails")
 </div>
 
@@ -20,7 +15,7 @@
  </div>
 
 
- <div>  @Html.Partial("_GoogleMap")</div>
+ <div>  @Html.Partial("_MapCheck")</div>
 
 <div>  @Html.Partial("_Twidget")</div>
 

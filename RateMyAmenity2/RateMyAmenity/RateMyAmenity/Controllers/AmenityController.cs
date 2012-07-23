@@ -8,16 +8,12 @@ using System.Web.Mvc;
 using RateMyAmenity.Models;
 using RateMyAmenity.ViewModels;
 using RateMyAmenity.DataImport;
-using RateMyAmenity.DAL;
-using RateMyAmenity.BLL;
 using System.IO;
 
 namespace RateMyAmenity.Controllers
 {
     public class AmenityController : Controller
     {
-
-        
         private RateMyAmenityContext db = new RateMyAmenityContext();
 
         //
@@ -28,17 +24,10 @@ namespace RateMyAmenity.Controllers
             return View(db.Amenities.ToList());
         }
 
-        public ActionResult CreateDB()
-        {
-            BLLGetCSV bllgetcsv = new BLLGetCSV();
-            bllgetcsv.CreateAmenityDB();
-            return View("Index");
-        }
-
 
         public ViewResult Index(string sortOrder, string searchString)
         {
-            ViewBag.TypeSortParm = String.IsNullOrEmpty(sortOrder) ? "Type desc" : "";
+            ViewBag.DescriptionSortParm = String.IsNullOrEmpty(sortOrder) ? "Description desc" : "";
             ViewBag.NameSortParm = sortOrder == "Name" ? "Name desc" : "Name";
             ViewBag.Address4SortParm = sortOrder == "Address4" ? "Address4 desc" : "Address4";
             var amenities = from s in db.Amenities
@@ -48,7 +37,7 @@ namespace RateMyAmenity.Controllers
             // search fields for search box on home page
             if (!String.IsNullOrEmpty(searchString))
             {
-                amenities = amenities.Where(s => s.Type.ToUpper().Contains(searchString.ToUpper())
+                amenities = amenities.Where(s => s.Description.ToUpper().Contains(searchString.ToUpper())
                                        || s.Name.ToUpper().Contains(searchString.ToUpper())
                                        || s.Address1.ToUpper().Contains(searchString.ToUpper())
                                        || s.Address2.ToUpper().Contains(searchString.ToUpper())
@@ -62,8 +51,8 @@ namespace RateMyAmenity.Controllers
 
             switch (sortOrder)
             {
-                case "Type desc":
-                    amenities = amenities.OrderByDescending(s => s.Type);
+                case "Description desc":
+                    amenities = amenities.OrderByDescending(s => s.Description);
                     break;
                 case "Name":
                     amenities = amenities.OrderBy(s => s.Name);
@@ -81,7 +70,7 @@ namespace RateMyAmenity.Controllers
                     amenities = amenities.OrderBy(s => s.Address4);
                     break;
                 default:
-                    amenities = amenities.OrderBy(s => s.Type);
+                    amenities = amenities.OrderBy(s => s.Description);
                     break;
             }
             return View(amenities.ToList());
