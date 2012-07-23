@@ -1,14 +1,10 @@
 ﻿@model IEnumerable<RateMyAmenity.Models.Amenity>
 
 @{
-    ViewBag.Title = "Amenity List";
+    ViewBag.Title = "Index";
 }
 
-<h2>Amenities Listing</h2>
-
-<div id ="Create DB">
-    @Html.ActionLink("Recreate Database", "CreateDB")
-</div>
+<h2>Index</h2>
 
 <p>
     @Html.ActionLink("Create New", "Create")
@@ -16,20 +12,20 @@
 
 @using (Html.BeginForm())
 {
- @*   <p>
+    <p>
         Find by type or name: @Html.TextBox("SearchString")  
-        <input type="submit" value="Search" /></p>  *@
+        <input type="submit" value="Search" /></p>
 }
 
 
 <table>
     <tr>
         <th>
-            @* Heading name can be clicked to change sort order *@
-            @Html.ActionLink("Description", "Index", new { sortOrder=ViewBag.DescriptionSortParm })
+         @*   @Html.DisplayNameFor(model => model.Type) *@
+        @Html.ActionLink("Type", "Index", new { sortOrder=ViewBag.TypeSortParm })
         </th>
         <th>
-            @* Heading name can be clicked to change sort order *@
+          @*  @Html.DisplayNameFor(model => model.Name) *@
             @Html.ActionLink("Name", "Index", new { sortOrder=ViewBag.NameSortParm })
         </th>
         <th>
@@ -55,14 +51,10 @@
             @Html.DisplayNameFor(model => model.Website)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Latitude)
+            @Html.DisplayNameFor(model => model.Lat)
         </th>
         <th>
-<<<<<<< HEAD
-            @Html.DisplayNameFor(model => model.Longtitude)
-=======
-            @Html.DisplayNameFor(model => model.Longitude)
->>>>>>> da9d7126f6476305b3ff206c4be1baef7b3fb321
+            @Html.DisplayNameFor(model => model.Long)
         </th>
         <th>
             @Html.DisplayNameFor(model => model.DefaultImage)
@@ -73,15 +65,7 @@
 @foreach (var item in Model) {
     <tr>
         <td>
-<<<<<<< HEAD
-            @Html.ActionLink("Edit", "Edit", new { id=item.AmenityID }) |
-            @Html.ActionLink("Details", "Details", new { id=item.AmenityID }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.AmenityID })
-        </td>
-        <td>
-=======
->>>>>>> da9d7126f6476305b3ff206c4be1baef7b3fb321
-            @Html.DisplayFor(modelItem => item.Description)
+            @Html.DisplayFor(modelItem => item.Type)
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.Name)
@@ -108,24 +92,19 @@
             @Html.DisplayFor(modelItem => item.Website)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.Latitude)
+            @Html.DisplayFor(modelItem => item.Lat)
         </td>
         <td>
-<<<<<<< HEAD
-            @Html.DisplayFor(modelItem => item.Longtitude)
-=======
-            @Html.DisplayFor(modelItem => item.Longitude)
->>>>>>> da9d7126f6476305b3ff206c4be1baef7b3fb321
+            @Html.DisplayFor(modelItem => item.Long)
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.DefaultImage)
         </td>
-		<td>
+        <td>
             @Html.ActionLink("Edit", "Edit", new { id=item.AmenityID }) |
             @Html.ActionLink("Details", "Details", new { id=item.AmenityID }) |
             @Html.ActionLink("Delete", "Delete", new { id=item.AmenityID })
         </td>
-
     </tr>
 }
 

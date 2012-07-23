@@ -9,10 +9,12 @@
 {
     <p>
         Find Amenity: @Html.TextBox("SearchString")  
-        <input type="submit" value="Search" /></p>
+        <input type="submit" value="Search" />
+	</p>
 }
 
 
+<<<<<<< HEAD
 <table>
     <tr>
         <th>
@@ -43,9 +45,39 @@
             
             </li>
         }
-        } 
-    </ul>
-    </div>
+=======
 
-</table>
+   
+
+        @if (Model != null)
+		{
+			
+			foreach (var group in Model.GroupBy(item => item.Description))
+			
+			{ 
+				<!--DROP LIST-->
+				<div class="dropList_header">
+					@Html.Encode(group.Key) 
+				</div>
+			
+			<div class="dropList_content">
+					<div>				
+			@foreach (var item in group)
+			{
+				
+						<p> 
+							@Html.ActionLink(item.Name, "Details", new { id = item.AmenityID })
+						</p>
+				       
+			}
+			</div>
+				</div>
+
+		}
+>>>>>>> da9d7126f6476305b3ff206c4be1baef7b3fb321
+        } 
+    
+  
+
+
 

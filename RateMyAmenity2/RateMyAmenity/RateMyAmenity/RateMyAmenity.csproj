@@ -128,13 +128,20 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+<<<<<<< HEAD
     <Compile Include="BLL\BLLGetCSV.cs" />
     <Compile Include="BLL\BLLSortFilterData.cs" />
+=======
+>>>>>>> da9d7126f6476305b3ff206c4be1baef7b3fb321
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\AmenityController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\RatingController.cs" />
+<<<<<<< HEAD
     <Compile Include="DAL\AmenityDal.cs" />
+=======
+    <Compile Include="Controllers\SearchController.cs" />
+>>>>>>> da9d7126f6476305b3ff206c4be1baef7b3fb321
     <Compile Include="DAL\GetCSV.cs" />
     <Compile Include="DAL\RateMyAmenityContext.cs" />
     <Compile Include="DataImport\CSVParser.cs" />
@@ -180,6 +187,7 @@
     <Content Include="Content\themes\base\jquery.ui.theme.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="Scripts\dropList.js" />
     <Content Include="Scripts\jquery-1.6.2-vsdoc.js" />
     <Content Include="Scripts\jquery-1.6.2.js" />
     <Content Include="Scripts\jquery-1.6.2.min.js" />
@@ -195,6 +203,7 @@
     <Content Include="Scripts\knockout-2.0.0.debug.js" />
     <Content Include="Scripts\knockout-2.0.0.js" />
     <Content Include="Scripts\modernizr-2.0.6-development-only.js" />
+    <Content Include="Scripts\RateMyAmenity.js" />
     <Content Include="Scripts\setMap.js" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
@@ -285,7 +294,15 @@
     <Content Include="Views\Shared\_Home.cshtml" />
     <Content Include="Views\Amenity\Index.cshtml" />
     <Content Include="Views\Amenity\Details.cshtml" />
+<<<<<<< HEAD
     <Content Include="Views\Amenity\_ParkingDetails.cshtml" />
+=======
+    <Content Include="Views\Amenity\_Map.cshtml" />
+    <Content Include="Views\Rating\_RatingForm.cshtml" />
+    <Content Include="Views\Home\MapCheck.cshtml" />
+    <Content Include="Views\Shared\_MapCheck.cshtml" />
+    <Content Include="Views\Shared\_Clock.cshtml" />
+>>>>>>> da9d7126f6476305b3ff206c4be1baef7b3fb321
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -303,7 +320,11 @@
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
+<<<<<<< HEAD
           <DevelopmentServerPort>50481</DevelopmentServerPort>
+=======
+          <DevelopmentServerPort>55151</DevelopmentServerPort>
+>>>>>>> da9d7126f6476305b3ff206c4be1baef7b3fb321
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>
           </IISUrl>

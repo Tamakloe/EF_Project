@@ -1,0 +1,89 @@
+﻿  <h4>
+  <script type="text/javascript" >
+
+<!--
+
+  	var tags_before_clock = "<b>Today is: "
+  	var tags_middle_clock = "  "
+  	var tags_after_clock = "</b>"
+
+  	if (navigator.appName == "Netscape") {
+  		document.write('<layer id="clock"></layer><br>');
+  	}
+
+  	if (navigator.appVersion.indexOf("MSIE") != -1) {
+  		document.write('<span id="clock"></span>');
+  	}
+
+  	DaysofWeek = new Array()
+  	DaysofWeek[0] = "Sunday"
+  	DaysofWeek[1] = "Monday"
+  	DaysofWeek[2] = "Tuesday"
+  	DaysofWeek[3] = "Wednesday"
+  	DaysofWeek[4] = "Thursday"
+  	DaysofWeek[5] = "Friday"
+  	DaysofWeek[6] = "Saturday"
+
+  	Months = new Array()
+  	Months[0] = "January"
+  	Months[1] = "February"
+  	Months[2] = "March"
+  	Months[3] = "April"
+  	Months[4] = "May"
+  	Months[5] = "June"
+  	Months[6] = "July"
+  	Months[7] = "August"
+  	Months[8] = "September"
+  	Months[9] = "October"
+  	Months[10] = "November"
+  	Months[11] = "December"
+
+  	function upclock() {
+  		var dte = new Date();
+  		var hrs = dte.getHours();
+  		var min = dte.getMinutes();
+  		var sec = dte.getSeconds();
+  		var day = DaysofWeek[dte.getDay()]
+  		var date = dte.getDate()
+  		var month = Months[dte.getMonth()]
+  		var year = dte.getFullYear()
+
+  		var col = ":";
+  		var spc = " ";
+  		var com = ",";
+  		var per = "."
+
+  		if (date == 1 || date == 21 || date == 31)
+  		{ ender = "<sup>st</sup>" }
+  		else
+  			if (date == 2 || date == 22)
+  			{ ender = "<sup>nd</sup>" }
+  			else
+  				if (date == 3 || date == 23)
+  				{ ender = "<sup>rd</sup>" }
+
+  				else
+  				{ ender = "<sup>th</sup>" }
+
+
+
+  		if (hrs <= 9) hrs = "0" + hrs;
+  		if (min <= 9) min = "0" + min;
+  		if (sec <= 9) sec = "0" + sec;
+
+  		if (navigator.appName == "Netscape") {
+  			document.clock.document.write(tags_before_clock + spc + day + spc + date + ender + spc + month + com + spc + year + per + tags_middle_clock + hrs + col + min + col + sec + spc + tags_after_clock);
+  			document.clock.document.close();
+  		}
+
+  		if (navigator.appVersion.indexOf("MSIE") != -1) {
+  			clock.innerHTML = tags_before_clock + spc + day + spc + date + ender + spc + month + com + spc + year + per + tags_middle_clock + hrs + col + min + col + sec + spc + tags_after_clock;
+  		}
+
+  	}
+
+  	setInterval("upclock()", 1000);
+//-->
+</script>
+
+</h4>

@@ -48,7 +48,11 @@ namespace RateMyAmenity.DataImport
                     } else if (headers[i].Equals("LAT")) {
                         exObj.Latitude = Convert.ToDouble(csv[i]);
                     } else if (headers[i].Equals("LONG")) {
+<<<<<<< HEAD
                         exObj.Longtitude = Convert.ToDouble(csv[i]);
+=======
+                        exObj.Longitude = Convert.ToDouble(csv[i]);
+>>>>>>> da9d7126f6476305b3ff206c4be1baef7b3fb321
                     }
                 }
               exObj.Description = amenitytype;
