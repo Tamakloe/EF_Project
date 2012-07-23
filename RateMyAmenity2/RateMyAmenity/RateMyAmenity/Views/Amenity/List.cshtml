@@ -26,7 +26,7 @@
     <tr>
         <th>
             @* Heading name can be clicked to change sort order *@
-            @Html.ActionLink("Description", "Index", new { sortOrder=ViewBag.DescriptionSortParm })
+            @Html.ActionLink("Type", "Index", new { sortOrder=ViewBag.TypeSortParm })
         </th>
         <th>
             @* Heading name can be clicked to change sort order *@
@@ -58,11 +58,7 @@
             @Html.DisplayNameFor(model => model.Latitude)
         </th>
         <th>
-<<<<<<< HEAD
             @Html.DisplayNameFor(model => model.Longtitude)
-=======
-            @Html.DisplayNameFor(model => model.Longitude)
->>>>>>> da9d7126f6476305b3ff206c4be1baef7b3fb321
         </th>
         <th>
             @Html.DisplayNameFor(model => model.DefaultImage)
@@ -73,14 +69,11 @@
 @foreach (var item in Model) {
     <tr>
         <td>
-<<<<<<< HEAD
             @Html.ActionLink("Edit", "Edit", new { id=item.AmenityID }) |
             @Html.ActionLink("Details", "Details", new { id=item.AmenityID }) |
             @Html.ActionLink("Delete", "Delete", new { id=item.AmenityID })
         </td>
         <td>
-=======
->>>>>>> da9d7126f6476305b3ff206c4be1baef7b3fb321
             @Html.DisplayFor(modelItem => item.Description)
         </td>
         <td>
@@ -111,19 +104,10 @@
             @Html.DisplayFor(modelItem => item.Latitude)
         </td>
         <td>
-<<<<<<< HEAD
             @Html.DisplayFor(modelItem => item.Longtitude)
-=======
-            @Html.DisplayFor(modelItem => item.Longitude)
->>>>>>> da9d7126f6476305b3ff206c4be1baef7b3fb321
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.DefaultImage)
-        </td>
-		<td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.AmenityID }) |
-            @Html.ActionLink("Details", "Details", new { id=item.AmenityID }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.AmenityID })
         </td>
 
     </tr>

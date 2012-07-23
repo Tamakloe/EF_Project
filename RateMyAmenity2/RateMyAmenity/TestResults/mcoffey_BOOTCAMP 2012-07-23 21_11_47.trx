@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="a1d3b4ec-c9a6-47dd-bb43-7f1ed9bfa82a" name="mcoffey@BOOTCAMP 2012-07-23 21:11:47" runUser="Bootcamp\mcoffey" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="1b5ae21a-d326-463a-9bb7-95b4af508907">
+    <Deployment runDeploymentRoot="mcoffey_BOOTCAMP 2012-07-23 21_11_47">
+      <DeploymentItem filename="C:\Users\mcoffey\EF_Project\RateMyAmenity2\RateMyAmenity\packages\Microsoft.AspNet.Web.Optimization.1.0.0-beta2\lib\net40\System.Web.Optimization.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft ASP.NET\ASP.NET MVC 4\Assemblies\System.Net.Http.WebRequest.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft ASP.NET\ASP.NET MVC 4\Assemblies\System.Web.Http.WebHost.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft ASP.NET\ASP.NET MVC 4\Assemblies\System.Net.Http.Formatting.dll" />
+      <DeploymentItem filename="C:\Users\mcoffey\EF_Project\RateMyAmenity2\RateMyAmenity\packages\WebGrease.1.0.0\lib\Antlr3.Runtime.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\System.Web.WebPages.Deployment.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft ASP.NET\ASP.NET MVC 4\Assemblies\System.Net.Http.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\System.Web.Razor.dll" />
+      <DeploymentItem filename="C:\Users\mcoffey\EF_Project\RateMyAmenity2\RateMyAmenity\packages\Newtonsoft.Json.4.5.1\lib\net40\Newtonsoft.Json.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\System.Web.WebPages.dll" />
+      <DeploymentItem filename="C:\Users\mcoffey\EF_Project\RateMyAmenity2\RateMyAmenity\packages\Microsoft.AspNet.Providers.Core.1.0\lib\net40\System.Web.Providers.dll" />
+      <DeploymentItem filename="C:\Users\mcoffey\EF_Project\RateMyAmenity2\RateMyAmenity\packages\EntityFramework.5.0.0-rc\lib\net40\EntityFramework.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\System.Web.Helpers.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\Microsoft.Web.Infrastructure.dll" />
+      <DeploymentItem filename="C:\Users\mcoffey\EF_Project\RateMyAmenity2\RateMyAmenity\packages\WebGrease.1.0.0\lib\WebGrease.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\System.Web.WebPages.Razor.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft ASP.NET\ASP.NET MVC 4\Assemblies\System.Web.Http.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft ASP.NET\ASP.NET MVC 4\Assemblies\System.Web.Mvc.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-07-23T21:11:47.2650000+01:00" queuing="2012-07-23T21:11:49.6080000+01:00" start="2012-07-23T21:11:49.7780000+01:00" finish="2012-07-23T21:12:08.0120000+01:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="6" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="5" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="BOOTCAMP" outcome="Error" timestamp="2012-07-23T21:12:08.0100000+01:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="supportsTypeTest2" storage="c:\users\mcoffey\ef_project\ratemyamenity2\ratemyamenity\csvparsertest\bin\debug\csvparsertest.dll" id="e1252009-4a8c-0eba-c607-bfb1a3f6e85f">
+      <Execution id="6c2e91d1-70da-4b4c-b19a-74e7a958b85b" />
+      <TestMethod codeBase="C:/Users/mcoffey/EF_Project/RateMyAmenity2/RateMyAmenity/CSVParserTest/bin/Debug/CSVParserTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CSVParserTest.CSVParserTest, CSVParserTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="supportsTypeTest2" />
+    </UnitTest>
+    <UnitTest name="CSVParserConstructorTest" storage="c:\users\mcoffey\ef_project\ratemyamenity2\ratemyamenity\csvparsertest\bin\debug\csvparsertest.dll" id="6a236c91-4f56-e5e7-4e69-8b4243ab49ca">
+      <Execution id="2ab82c02-89f8-41af-9cf7-49f4914060e5" />
+      <TestMethod codeBase="C:/Users/mcoffey/EF_Project/RateMyAmenity2/RateMyAmenity/CSVParserTest/bin/Debug/CSVParserTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CSVParserTest.CSVParserTest, CSVParserTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CSVParserConstructorTest" />
+      <AspNet webSiteUrl="http://localhost:57136/">
+        <Host pathToWebApp="C:\Users\mcoffey\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="supportsTypeTest1" storage="c:\users\mcoffey\ef_project\ratemyamenity2\ratemyamenity\csvparsertest\bin\debug\csvparsertest.dll" id="705aa877-230b-8f1f-afe4-86fae479dc72">
+      <Execution id="75402a51-1c7f-4fbe-ad82-3223304bb7b2" />
+      <TestMethod codeBase="C:/Users/mcoffey/EF_Project/RateMyAmenity2/RateMyAmenity/CSVParserTest/bin/Debug/CSVParserTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CSVParserTest.CSVParserTest, CSVParserTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="supportsTypeTest1" />
+    </UnitTest>
+    <UnitTest name="supportsTypeTest3" storage="c:\users\mcoffey\ef_project\ratemyamenity2\ratemyamenity\csvparsertest\bin\debug\csvparsertest.dll" id="42db4b39-5203-7b6a-39b8-2800988ca319">
+      <Execution id="074c79b5-c5fd-4001-8d0f-ab3dfac70595" />
+      <TestMethod codeBase="C:/Users/mcoffey/EF_Project/RateMyAmenity2/RateMyAmenity/CSVParserTest/bin/Debug/CSVParserTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CSVParserTest.CSVParserTest, CSVParserTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="supportsTypeTest3" />
+    </UnitTest>
+    <UnitTest name="parseAmenityTest" storage="c:\users\mcoffey\ef_project\ratemyamenity2\ratemyamenity\csvparsertest\bin\debug\csvparsertest.dll" id="4ec337bb-1073-d5fb-57c0-bb93a94fbb6d">
+      <DeploymentItems>
+        <DeploymentItem filename="RateMyAmenity.dll" />
+      </DeploymentItems>
+      <Execution id="7875bb8f-8400-48c7-b301-03c129461d5e" />
+      <TestMethod codeBase="C:/Users/mcoffey/EF_Project/RateMyAmenity2/RateMyAmenity/CSVParserTest/bin/Debug/CSVParserTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CSVParserTest.CSVParserTest, CSVParserTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="parseAmenityTest" />
+      <AspNet webSiteUrl="http://localhost:57136/">
+        <Host pathToWebApp="C:\Users\mcoffey\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="setStreamSourceTest" storage="c:\users\mcoffey\ef_project\ratemyamenity2\ratemyamenity\csvparsertest\bin\debug\csvparsertest.dll" id="cbe7228b-9640-f481-7a05-a1d64c3d6e64">
+      <Execution id="88e437c9-567a-4ed8-94e4-4320504d81ce" />
+      <TestMethod codeBase="C:/Users/mcoffey/EF_Project/RateMyAmenity2/RateMyAmenity/CSVParserTest/bin/Debug/CSVParserTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CSVParserTest.CSVParserTest, CSVParserTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="setStreamSourceTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="6a236c91-4f56-e5e7-4e69-8b4243ab49ca" executionId="2ab82c02-89f8-41af-9cf7-49f4914060e5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4ec337bb-1073-d5fb-57c0-bb93a94fbb6d" executionId="7875bb8f-8400-48c7-b301-03c129461d5e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cbe7228b-9640-f481-7a05-a1d64c3d6e64" executionId="88e437c9-567a-4ed8-94e4-4320504d81ce" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="705aa877-230b-8f1f-afe4-86fae479dc72" executionId="75402a51-1c7f-4fbe-ad82-3223304bb7b2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e1252009-4a8c-0eba-c607-bfb1a3f6e85f" executionId="6c2e91d1-70da-4b4c-b19a-74e7a958b85b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="42db4b39-5203-7b6a-39b8-2800988ca319" executionId="074c79b5-c5fd-4001-8d0f-ab3dfac70595" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="2ab82c02-89f8-41af-9cf7-49f4914060e5" testId="6a236c91-4f56-e5e7-4e69-8b4243ab49ca" testName="CSVParserConstructorTest" computerName="BOOTCAMP" duration="00:00:17.2810000" startTime="2012-07-23T21:11:50.7300000+01:00" endTime="2012-07-23T21:12:08.0110000+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2ab82c02-89f8-41af-9cf7-49f4914060e5">
+    </UnitTestResult>
+    <UnitTestResult executionId="7875bb8f-8400-48c7-b301-03c129461d5e" testId="4ec337bb-1073-d5fb-57c0-bb93a94fbb6d" testName="parseAmenityTest" computerName="BOOTCAMP" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7875bb8f-8400-48c7-b301-03c129461d5e">
+    </UnitTestResult>
+    <UnitTestResult executionId="88e437c9-567a-4ed8-94e4-4320504d81ce" testId="cbe7228b-9640-f481-7a05-a1d64c3d6e64" testName="setStreamSourceTest" computerName="BOOTCAMP" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="88e437c9-567a-4ed8-94e4-4320504d81ce">
+    </UnitTestResult>
+    <UnitTestResult executionId="75402a51-1c7f-4fbe-ad82-3223304bb7b2" testId="705aa877-230b-8f1f-afe4-86fae479dc72" testName="supportsTypeTest1" computerName="BOOTCAMP" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="75402a51-1c7f-4fbe-ad82-3223304bb7b2">
+    </UnitTestResult>
+    <UnitTestResult executionId="6c2e91d1-70da-4b4c-b19a-74e7a958b85b" testId="e1252009-4a8c-0eba-c607-bfb1a3f6e85f" testName="supportsTypeTest2" computerName="BOOTCAMP" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6c2e91d1-70da-4b4c-b19a-74e7a958b85b">
+    </UnitTestResult>
+    <UnitTestResult executionId="074c79b5-c5fd-4001-8d0f-ab3dfac70595" testId="42db4b39-5203-7b6a-39b8-2800988ca319" testName="supportsTypeTest3" computerName="BOOTCAMP" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="074c79b5-c5fd-4001-8d0f-ab3dfac70595">
+    </UnitTestResult>
+  </Results>
+</TestRun>

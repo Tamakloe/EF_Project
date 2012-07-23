@@ -8,16 +8,14 @@ using System.Web.Mvc;
 using RateMyAmenity.Models;
 using RateMyAmenity.ViewModels;
 using RateMyAmenity.DataImport;
+using RateMyAmenity.DAL;
+using RateMyAmenity.BLL;
 using System.IO;
 
 namespace RateMyAmenity.Controllers
 {
     public class AmenityController : Controller
-<<<<<<< HEAD
     {     
-=======
-    {
->>>>>>> da9d7126f6476305b3ff206c4be1baef7b3fb321
         private RateMyAmenityContext db = new RateMyAmenityContext();
         private AmenityDal amenitydal = new AmenityDal();
 
@@ -30,7 +28,6 @@ namespace RateMyAmenity.Controllers
             return View(db.Amenities.ToList());
         }
 
-<<<<<<< HEAD
 
         [Authorize(Roles = "admin")]
         public ActionResult CreateDB()
@@ -48,12 +45,6 @@ namespace RateMyAmenity.Controllers
 
 
             ViewBag.TypeSortParm = String.IsNullOrEmpty(sortOrder) ? "Type desc" : "";
-=======
-
-        public ViewResult Index(string sortOrder, string searchString)
-        {
-            ViewBag.DescriptionSortParm = String.IsNullOrEmpty(sortOrder) ? "Description desc" : "";
->>>>>>> da9d7126f6476305b3ff206c4be1baef7b3fb321
             ViewBag.NameSortParm = sortOrder == "Name" ? "Name desc" : "Name";
             ViewBag.Address4SortParm = sortOrder == "Address4" ? "Address4 desc" : "Address4";
             var amenities = from s in db.Amenities
@@ -64,7 +55,6 @@ namespace RateMyAmenity.Controllers
             if (!String.IsNullOrEmpty(searchString))
             {
                 amenities = amenities.Where(s => s.Description.ToUpper().Contains(searchString.ToUpper())
-<<<<<<< HEAD
                                         || s.Name.ToUpper().Contains(searchString.ToUpper())
                                         || s.Address1.ToUpper().Contains(searchString.ToUpper())
                                         || s.Address2.ToUpper().Contains(searchString.ToUpper())
@@ -73,26 +63,12 @@ namespace RateMyAmenity.Controllers
                                         || s.Phone.ToUpper().Contains(searchString.ToUpper())
                                         || s.Email.ToUpper().Contains(searchString.ToUpper())
                                         || s.Website.ToUpper().Contains(searchString.ToUpper()));
-=======
-                                       || s.Name.ToUpper().Contains(searchString.ToUpper())
-                                       || s.Address1.ToUpper().Contains(searchString.ToUpper())
-                                       || s.Address2.ToUpper().Contains(searchString.ToUpper())
-                                       || s.Address3.ToUpper().Contains(searchString.ToUpper())
-                                       || s.Address4.ToUpper().Contains(searchString.ToUpper())
-                                       || s.Phone.ToUpper().Contains(searchString.ToUpper())
-                                       || s.Email.ToUpper().Contains(searchString.ToUpper())
-                                       || s.Website.ToUpper().Contains(searchString.ToUpper()));
->>>>>>> da9d7126f6476305b3ff206c4be1baef7b3fb321
             }
 
 
             switch (sortOrder)
             {
-<<<<<<< HEAD
                 case "Type desc":
-=======
-                case "Description desc":
->>>>>>> da9d7126f6476305b3ff206c4be1baef7b3fb321
                     amenities = amenities.OrderByDescending(s => s.Description);
                     break;
                 case "Name":
