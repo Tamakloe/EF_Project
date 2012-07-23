@@ -12,9 +12,16 @@ namespace RateMyAmenity.DAL
     {
        private RateMyAmenityContext context = new RateMyAmenityContext();
 
-        public void Save(List<Amenity> Amenities)
+        public void SaveAmenity(List<Amenity> Amenities)
         {
             Amenities.ForEach(s => context.Amenities.Add(s)); 
+            context.SaveChanges();
+        }
+
+
+        public void SaveParking(List<Parking> Parking)
+        {
+            Parking.ForEach(s => context.Parking.Add(s));
             context.SaveChanges();
         }
     }

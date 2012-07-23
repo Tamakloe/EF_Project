@@ -129,10 +129,12 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="BLL\BLLGetCSV.cs" />
+    <Compile Include="BLL\BLLSortFilterData.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\AmenityController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\RatingController.cs" />
+    <Compile Include="DAL\AmenityDal.cs" />
     <Compile Include="DAL\GetCSV.cs" />
     <Compile Include="DAL\RateMyAmenityContext.cs" />
     <Compile Include="DataImport\CSVParser.cs" />
@@ -142,9 +144,11 @@
     </Compile>
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Models\Amenity.cs" />
+    <Compile Include="Models\Parking.cs" />
     <Compile Include="Models\Rating.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModels\RatingAverage.cs" />
+    <Compile Include="ViewModels\ParkingDetails.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
@@ -281,6 +285,7 @@
     <Content Include="Views\Shared\_Home.cshtml" />
     <Content Include="Views\Amenity\Index.cshtml" />
     <Content Include="Views\Amenity\Details.cshtml" />
+    <Content Include="Views\Amenity\_ParkingDetails.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -298,7 +303,7 @@
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>54340</DevelopmentServerPort>
+          <DevelopmentServerPort>50481</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>
           </IISUrl>

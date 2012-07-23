@@ -12,10 +12,10 @@
     <legend>Amenity</legend>
 
     <div class="display-label">
-         @Html.DisplayNameFor(model => model.Type)
+         @Html.DisplayNameFor(model => model.Description)
     </div>
     <div class="display-field">
-        @Html.DisplayFor(model => model.Type)
+        @Html.DisplayFor(model => model.Description)
     </div>
 
     <div class="display-label">
@@ -75,17 +75,17 @@
     </div>
 
     <div class="display-label">
-         @Html.DisplayNameFor(model => model.Lat)
+         @Html.DisplayNameFor(model => model.Latitude)
     </div>
     <div class="display-field">
-        @Html.DisplayFor(model => model.Lat)
+        @Html.DisplayFor(model => model.Latitude)
     </div>
 
     <div class="display-label">
-         @Html.DisplayNameFor(model => model.Long)
+         @Html.DisplayNameFor(model => model.Longtitude)
     </div>
     <div class="display-field">
-        @Html.DisplayFor(model => model.Long)
+        @Html.DisplayFor(model => model.Longtitude)
     </div>
 
     <div class="display-label">
@@ -109,8 +109,7 @@
         @foreach (var item in Model.Ratings)
         {
             <tr>
-                <td>
-                   
+                <td>             
                     @Html.DisplayName(User.Identity.Name)
                 </td>
                 <td>
@@ -122,13 +121,19 @@
             </tr>
         }
     </table>
+
     <p>
          @Html.ActionLink("Add a Rating", "Create", new { controller = "Rating", action = "Create", id = Model.AmenityID }) 
     </p>
     </div>
+
+
+
 </fieldset>
 
-
+<div id="ParkingDetails">
+    @Html.Action("ParkingDetails" )
+</div>
 
 <p>
     @Html.ActionLink("Edit", "Edit", new { id=Model.AmenityID }) |

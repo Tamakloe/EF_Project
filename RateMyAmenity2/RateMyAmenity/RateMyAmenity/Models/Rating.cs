@@ -14,7 +14,6 @@ namespace RateMyAmenity.Models
         public float RatingValue { get; set; }
         public string Comments { get; set; }
         public string Image { get; set; }
-       /* public virtual User User { get; set; } */
         public virtual Amenity Amenity { get; set; }
 
     }

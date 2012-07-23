@@ -11,6 +11,7 @@ namespace RateMyAmenity.DataImport
     interface IDataParser
     {
         List<Amenity> parseAmenity(String amenitytype);
+        List<Parking> parseParking(String parkingtype);
         void setStreamSource(StreamReader reader);
         Boolean supportsType(String format);
     }

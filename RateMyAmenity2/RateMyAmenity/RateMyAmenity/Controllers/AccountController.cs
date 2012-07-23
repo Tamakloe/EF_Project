@@ -41,7 +41,7 @@ namespace RateMyAmenity.Controllers
                     }
                     else
                     {
-                        return RedirectToAction("Index", "Home");
+                        return RedirectToAction("Index", "Amenity");
                     }
                 }
                 else
@@ -61,7 +61,7 @@ namespace RateMyAmenity.Controllers
         {
             FormsAuthentication.SignOut();
 
-            return RedirectToAction("Index", "Home");
+            return RedirectToAction("Index", "Amenity");
         }
 
         //
@@ -89,7 +89,7 @@ namespace RateMyAmenity.Controllers
                 if (createStatus == MembershipCreateStatus.Success)
                 {
                     FormsAuthentication.SetAuthCookie(model.UserName, createPersistentCookie: false);
-                    return RedirectToAction("Index", "Home");
+                    return RedirectToAction("Index", "Amenity");
                 }
                 else
                 {

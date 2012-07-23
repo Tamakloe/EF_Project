@@ -1,0 +1,40 @@
+﻿@model IEnumerable<RateMyAmenity.ViewModels.ParkingDetails> 
+
+@*
+@model IQueryable<IGrouping<String, RateMyAmenity.ViewModels.ParkingDetails>>
+*@
+
+           
+@{
+    ViewBag.Title = "Nearby Disabled Parking Details";
+}
+
+<h2> Disabled Parking </h2>
+
+<table>
+    <tr>
+        <th>
+            Area Description
+        </th>
+        <th>
+            Road Name
+        </th>
+        <th>
+            Number of Spaces 
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @item.AreaDesc
+        </td>
+        <td>
+            @item.RoadName
+        </td>
+        <td>
+            @item.NoSpaces
+        </td>
+    </tr>
+}
+</table>
