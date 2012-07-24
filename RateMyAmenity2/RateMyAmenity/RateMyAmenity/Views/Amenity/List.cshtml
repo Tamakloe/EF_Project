@@ -4,7 +4,11 @@
     ViewBag.Title = "Amenity List";
 }
 
-<h2>Index</h2>
+<h2>Amenities Listing</h2>
+
+<div id ="Create DB">
+    @Html.ActionLink("Recreate Database", "CreateDB")
+</div>
 
 <p>
     @Html.ActionLink("Create New", "Create")
@@ -12,9 +16,9 @@
 
 @using (Html.BeginForm())
 {
-    <p>
+ @*   <p>
         Find by type or name: @Html.TextBox("SearchString")  
-        <input type="submit" value="Search" /></p>
+        <input type="submit" value="Search" /></p>  *@
 }
 
 
@@ -22,7 +26,7 @@
     <tr>
         <th>
             @* Heading name can be clicked to change sort order *@
-            @Html.ActionLink("Description", "Index", new { sortOrder=ViewBag.DescriptionSortParm })
+            @Html.ActionLink("Type", "Index", new { sortOrder=ViewBag.TypeSortParm })
         </th>
         <th>
             @* Heading name can be clicked to change sort order *@
@@ -54,7 +58,7 @@
             @Html.DisplayNameFor(model => model.Latitude)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Longitude)
+            @Html.DisplayNameFor(model => model.Longtitude)
         </th>
         <th>
             @Html.DisplayNameFor(model => model.DefaultImage)
@@ -64,6 +68,11 @@
 
 @foreach (var item in Model) {
     <tr>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.AmenityID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.AmenityID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.AmenityID })
+        </td>
         <td>
             @Html.DisplayFor(modelItem => item.Description)
         </td>
@@ -95,15 +104,10 @@
             @Html.DisplayFor(modelItem => item.Latitude)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.Longitude)
+            @Html.DisplayFor(modelItem => item.Longtitude)
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.DefaultImage)
-        </td>
-		<td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.AmenityID }) |
-            @Html.ActionLink("Details", "Details", new { id=item.AmenityID }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.AmenityID })
         </td>
 
     </tr>
