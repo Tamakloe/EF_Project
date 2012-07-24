@@ -36,8 +36,8 @@ namespace RateMyAmenity.DAL
              var data = (from parking in context.Parking
                         where parking.Latitude > lat1 - 0.0001 
                             && parking.Latitude < lat1 + 0.0001
-                            || parking.Longtitude > long1 - 0.0001
-                            && parking.Longtitude < long1 + 0.0001
+                            || parking.Longitude > long1 - 0.0001
+                            && parking.Longitude < long1 + 0.0001
                              // || parking.Latitude < lat1 - 0.0001
 
                         //  group parking by parking.AreaDesc into areaDesc

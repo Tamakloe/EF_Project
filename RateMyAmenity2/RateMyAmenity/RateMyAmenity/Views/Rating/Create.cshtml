@@ -1,4 +1,4 @@
-﻿@model RateMyAmenity.Models.Rating
+﻿@* @model RateMyAmenity.Models.Rating *@
 
 @{
     ViewBag.Title = "Create";
@@ -6,6 +6,9 @@
 
 <h2>Create</h2>
 
+@Html.Partial("_RatingForm")
+
+@*
 @using (Html.BeginForm()) {
     @Html.ValidationSummary(true)
 
@@ -45,3 +48,4 @@
 <div>
     @Html.ActionLink("Back to List", "Index")
 </div>
+*@

@@ -29,7 +29,7 @@ namespace RateMyAmenity.Controllers
         }
 
 
-        [Authorize(Roles = "admin")]
+       // [Authorize(Roles = "admin")]
         public ActionResult CreateDB()
         {
             BLLGetCSV bllgetcsv = new BLLGetCSV();
@@ -40,11 +40,11 @@ namespace RateMyAmenity.Controllers
 
         public ViewResult Index(string sortOrder, string searchString)
         {
-            BLLSortFilterData bllsortfilterdata = new BLLSortFilterData();
+          //  BLLSortFilterData bllsortfilterdata = new BLLSortFilterData();
             //var amenities = bllsortfilterdata.SortFilterData(sortOrder, searchString);
 
 
-            ViewBag.TypeSortParm = String.IsNullOrEmpty(sortOrder) ? "Type desc" : "";
+            ViewBag.DescriptionSortParm = String.IsNullOrEmpty(sortOrder) ? "Description desc" : "";
             ViewBag.NameSortParm = sortOrder == "Name" ? "Name desc" : "Name";
             ViewBag.Address4SortParm = sortOrder == "Address4" ? "Address4 desc" : "Address4";
             var amenities = from s in db.Amenities
@@ -68,7 +68,7 @@ namespace RateMyAmenity.Controllers
 
             switch (sortOrder)
             {
-                case "Type desc":
+                case "Description desc":
                     amenities = amenities.OrderByDescending(s => s.Description);
                     break;
                 case "Name":
@@ -128,7 +128,7 @@ namespace RateMyAmenity.Controllers
             Amenity amenity = db.Amenities.Find(id); 
             
             var lat1 = amenity.Latitude;
-            var long1 = amenity.Longtitude;
+            var long1 = amenity.Longitude;
 
             var data = amenitydal.GetParkingDetails(lat1, long1);
 

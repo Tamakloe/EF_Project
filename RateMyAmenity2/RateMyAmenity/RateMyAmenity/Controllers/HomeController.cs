@@ -28,5 +28,13 @@ namespace RateMyAmenity.Controllers
 
             return View();
         }
+
+        public ActionResult MapCheck()
+        {
+            ViewBag.Message = "Test Map Page.";
+
+            return View();
+        }
     }
 }
+

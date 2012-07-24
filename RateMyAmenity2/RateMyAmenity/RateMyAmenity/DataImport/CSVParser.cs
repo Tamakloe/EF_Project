@@ -48,7 +48,7 @@ namespace RateMyAmenity.DataImport
                     } else if (headers[i].Equals("LAT")) {
                         exObj.Latitude = Convert.ToDouble(csv[i]);
                     } else if (headers[i].Equals("LONG")) {
-                        exObj.Longtitude = Convert.ToDouble(csv[i]);
+                        exObj.Longitude = Convert.ToDouble(csv[i]);
                     }
                 }
               exObj.Description = amenitytype;
@@ -82,7 +82,7 @@ namespace RateMyAmenity.DataImport
                     } else if (headers[i].Equals("LAT")) {
                         exObj.Latitude = Convert.ToDouble(csv[i]); 
                     } else if (headers[i].Equals("LONG")) {
-                        exObj.Longtitude = Convert.ToDouble(csv[i]);
+                        exObj.Longitude = Convert.ToDouble(csv[i]);
                     }
                 }
                 exObj.Description = parkingtype;
