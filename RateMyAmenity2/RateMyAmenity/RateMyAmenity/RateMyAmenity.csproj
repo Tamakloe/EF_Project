@@ -133,6 +133,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\AmenityController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\RateAPIController.cs" />
     <Compile Include="Controllers\RatingController.cs" />
     <Compile Include="Controllers\SearchController.cs" />
     <Compile Include="DAL\AmenityDal.cs" />
@@ -149,6 +150,7 @@
     <Compile Include="Models\Parking.cs" />
     <Compile Include="Models\Rating.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModels\RateAPI.cs" />
     <Compile Include="ViewModels\RatingAverage.cs" />
     <Compile Include="ViewModels\ParkingDetails.cs" />
   </ItemGroup>
@@ -182,6 +184,7 @@
     <Content Include="Content\themes\base\jquery.ui.theme.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="Scripts\apiam.js" />
     <Content Include="Scripts\dropList.js" />
     <Content Include="Scripts\jquery-1.6.2-vsdoc.js" />
     <Content Include="Scripts\jquery-1.6.2.js" />
@@ -297,7 +300,12 @@
     <Content Include="Views\Shared\_Clock.cshtml" />
     <Content Include="Views\Shared\_Map.cshtml" />
     <Content Include="Views\Shared\_MapCheck.cshtml" />
+<<<<<<< HEAD
     <Content Include="Views\Amenity\Index-old.cshtml" />
+=======
+    <Content Include="Views\Amenity\Index-orig.cshtml" />
+    <Content Include="Views\Home\APIview.cshtml" />
+>>>>>>> 5dbf85983a11b556d9e69a020fb07852e3625150
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
