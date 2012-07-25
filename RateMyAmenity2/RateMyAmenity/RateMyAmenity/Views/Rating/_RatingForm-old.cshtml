@@ -1,0 +1,31 @@
+﻿@model RateMyAmenity.Models.Amenity
+
+
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true, "Please correct the errors and try again.")
+     <fieldset>
+	 <legend>Rating Form</legend>
+
+     <table>
+        <tr>
+		<td><div id="AmenityDiv">
+            @Html.EditorForModel()
+            <p>
+                <input type="submit" value="Save" />
+            </p>
+        </div> </td>
+        <td> <div id="theMap">
+
+ <div>  @Html.Partial("_Map")</div>
+
+</div>   </td>
+		</tr>
+     </table>
+	
+      @Html.ActionLink("Back to List", "Index")
+
+        
+    </fieldset>
+   
+}

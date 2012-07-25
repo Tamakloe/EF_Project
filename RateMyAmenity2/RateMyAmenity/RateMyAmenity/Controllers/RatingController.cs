@@ -6,6 +6,9 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using RateMyAmenity.Models;
+using RateMyAmenity.ViewModels;
+using RateMyAmenity.DAL;
+using RateMyAmenity.BLL;
 using System.Web.Security;
 
 namespace RateMyAmenity.Controllers
@@ -13,6 +16,7 @@ namespace RateMyAmenity.Controllers
     public class RatingController : Controller
     {
         private RateMyAmenityContext db = new RateMyAmenityContext();
+        private AmenityDal amenitydal = new AmenityDal();
 
         //
         // GET: /Rating/
@@ -20,6 +24,15 @@ namespace RateMyAmenity.Controllers
         public ActionResult Index()
         {
             return View(db.Ratings.ToList());
+        }
+
+
+        [ChildActionOnly]
+        public ActionResult RatingDetails()
+        {
+            var data = amenitydal.GetAvgRating();
+
+            return PartialView("_RatingDetails", data);
         }
 
         //
@@ -46,6 +59,7 @@ namespace RateMyAmenity.Controllers
         //
         // POST: /Rating/Create
 
+        [Authorize]
         [HttpPost]
         public ActionResult Create(Rating rating, int id)
         {
@@ -61,7 +75,7 @@ namespace RateMyAmenity.Controllers
 
                     db.Ratings.Add(rating);
                     db.SaveChanges();
-                    return RedirectToAction("Index");
+                    return RedirectToAction("Index", "Amenity");
                 }
             }
             catch (DataException)

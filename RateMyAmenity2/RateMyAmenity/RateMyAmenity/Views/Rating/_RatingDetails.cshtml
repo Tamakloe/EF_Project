@@ -1,0 +1,30 @@
+﻿@model IEnumerable<RateMyAmenity.ViewModels.RatingDetails>
+
+           
+@{
+    ViewBag.Title = "Rating Average";
+}
+
+<h2> Rating Average </h2>
+
+<table>
+    <tr>
+        <th>
+            Amenity ID
+        </th>
+        <th>
+            Average Rating
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @item.AmenityID
+        </td>
+        <td>
+            @item.RatingValue
+        </td>
+    </tr>
+}
+</table>

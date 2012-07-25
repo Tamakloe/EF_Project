@@ -35,6 +35,11 @@ namespace RateMyAmenity.Controllers
 
             return View();
         }
+        public ActionResult APIView()
+        {
+            ViewBag.Message = "Your WEB_API page.";
+
+            return View();
+        }
     }
 }
-

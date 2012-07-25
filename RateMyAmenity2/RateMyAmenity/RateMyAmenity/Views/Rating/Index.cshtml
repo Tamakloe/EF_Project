@@ -1,4 +1,5 @@
-﻿@model IEnumerable<RateMyAmenity.Models.Rating>
+﻿@model IEnumerable<RateMyAmenity.Models.Rating> 
+@* @model RateMyAmenity.Models.Rating *@
 
 @{
     ViewBag.Title = "Index";
@@ -43,3 +44,11 @@
 }
 
 </table>
+
+
+<p>
+    <div id="RatingAverage">
+        @Html.Action("RatingDetails")
+    </div>
+</p>
+

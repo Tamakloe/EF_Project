@@ -110,14 +110,14 @@ namespace RateMyAmenity.Controllers
             return View(amenity);
         }
 
-
+        /*
         [ChildActionOnly]
         public ActionResult RatingDetails()
         {
             var data = amenitydal.GetAvgRating();
 
             return PartialView("_RatingDetails", data);
-        }
+        }*/
 
 
         // GET: /Amenity/_ParkingDetails
