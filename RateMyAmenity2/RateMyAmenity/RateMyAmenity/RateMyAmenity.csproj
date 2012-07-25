@@ -291,13 +291,13 @@
     <Content Include="Views\Amenity\Details.cshtml" />
     <Content Include="Views\Amenity\_ParkingDetails.cshtml" />
     <Content Include="Views\Amenity\_Map.cshtml" />
-    <Content Include="Views\Amenity\_AmenityDetails.cshtml" />
+    <Content Include="Views\Amenity\_AmenityDetails-old.cshtml" />
     <Content Include="Views\Home\MapCheck.cshtml" />
-    <Content Include="Views\Rating\_RatingForm.cshtml" />
+    <Content Include="Views\Rating\_RatingForm-old.cshtml" />
     <Content Include="Views\Shared\_Clock.cshtml" />
     <Content Include="Views\Shared\_Map.cshtml" />
     <Content Include="Views\Shared\_MapCheck.cshtml" />
-    <Content Include="Views\Amenity\Index-orig.cshtml" />
+    <Content Include="Views\Amenity\Index-old.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -315,7 +315,7 @@
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>50481</DevelopmentServerPort>
+          <DevelopmentServerPort>50265</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>
           </IISUrl>

@@ -46,6 +46,7 @@ namespace RateMyAmenity.Controllers
         //
         // POST: /Rating/Create
 
+        [Authorize]
         [HttpPost]
         public ActionResult Create(Rating rating, int id)
         {
