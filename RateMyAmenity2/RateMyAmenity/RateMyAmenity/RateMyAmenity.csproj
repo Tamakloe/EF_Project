@@ -151,11 +151,7 @@
     <Compile Include="Models\Rating.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModels\RateAPI.cs" />
-<<<<<<< HEAD
     <Compile Include="ViewModels\RatingDetails.cs" />
-=======
-    <Compile Include="ViewModels\RatingAverage.cs" />
->>>>>>> 0ea982992d3acc32c88417af18ca378be4ed0910
     <Compile Include="ViewModels\ParkingDetails.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -299,26 +295,13 @@
     <Content Include="Views\Amenity\_ParkingDetails.cshtml" />
     <Content Include="Views\Amenity\_Map.cshtml" />
     <Content Include="Views\Amenity\_AmenityDetails-old.cshtml" />
-<<<<<<< HEAD
     <Content Include="Views\Home\MapCheck-old.cshtml" />
-=======
-    <Content Include="Views\Home\MapCheck.cshtml" />
->>>>>>> 0ea982992d3acc32c88417af18ca378be4ed0910
     <Content Include="Views\Rating\_RatingForm-old.cshtml" />
     <Content Include="Views\Shared\_Clock.cshtml" />
     <Content Include="Views\Shared\_Map.cshtml" />
     <Content Include="Views\Shared\_MapCheck.cshtml" />
-<<<<<<< HEAD
     <Content Include="Views\Amenity\Index-old.cshtml" />
     <Content Include="Views\Home\APIview.cshtml" />
-=======
-<<<<<<< HEAD
-    <Content Include="Views\Amenity\Index-old.cshtml" />
-=======
-    <Content Include="Views\Amenity\Index-orig.cshtml" />
-    <Content Include="Views\Home\APIview.cshtml" />
->>>>>>> 5dbf85983a11b556d9e69a020fb07852e3625150
->>>>>>> 0ea982992d3acc32c88417af18ca378be4ed0910
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

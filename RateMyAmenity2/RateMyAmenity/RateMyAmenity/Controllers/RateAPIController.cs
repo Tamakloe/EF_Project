@@ -5,16 +5,12 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 using RateMyAmenity.ViewModels;
-<<<<<<< HEAD
 using RateMyAmenity.Models;
 using System.Collections;
-=======
->>>>>>> 0ea982992d3acc32c88417af18ca378be4ed0910
 
 namespace RateMyAmenity.Controllers
 {
 
-<<<<<<< HEAD
     public class RateAPIController : ApiController
 
     {
@@ -51,14 +47,6 @@ namespace RateMyAmenity.Controllers
      RateAPI[] RateAPIs = new RateAPI[] 
 
     {
-=======
-
-    public class RateAPIController : ApiController
-    {
-        RateAPI[] RateAPIs = new RateAPI[] /*calling array*/
-        {
-/* need to connect to DB */
->>>>>>> 0ea982992d3acc32c88417af18ca378be4ed0910
 
         new RateAPI { AmenityID = 1, RatingID = 1,  Name = "Pub", RatingValue = 3, Comments = "la la la"},
         new RateAPI { AmenityID = 2, RatingID = 2,  Name = "Cinema", RatingValue = 2, Comments = "la la la"},
@@ -67,20 +55,13 @@ namespace RateMyAmenity.Controllers
         new RateAPI { AmenityID = 5, RatingID = 2,  Name = "Cinema", RatingValue = 2, Comments = "la la la"},
         new RateAPI { AmenityID = 6, RatingID = 3,  Name = "Toilet", RatingValue = 1, Comments = "la la la"}
     };
-<<<<<<< HEAD
         */
-=======
-
-
-
->>>>>>> 0ea982992d3acc32c88417af18ca378be4ed0910
 
 
         public IEnumerable<RateAPI> GetAllRateAPIs()
         {
             return RateAPIs;
         }
-<<<<<<< HEAD
 
 
         public RateAPI GetRateAPIByAmenityID(int id)
@@ -90,11 +71,6 @@ namespace RateMyAmenity.Controllers
 
           //  Rating RateAPI = db.Ratings.FirstOrDefault((r) => r.AmenityID == id);
             
-=======
-        public RateAPI GetRateAPIByAmenityID(int id)
-        {
-            var RateAPI = RateAPIs.FirstOrDefault((r) => r.AmenityID == id);
->>>>>>> 0ea982992d3acc32c88417af18ca378be4ed0910
             if (RateAPI == null)
             {
                 var resp = new HttpResponseMessage(HttpStatusCode.NotFound);
@@ -104,10 +80,7 @@ namespace RateMyAmenity.Controllers
             return RateAPI;
         }
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 0ea982992d3acc32c88417af18ca378be4ed0910
         public IEnumerable<RateAPI> GetRateAPIsByName(string name)
         {
             return RateAPIs.Where(
