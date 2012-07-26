@@ -80,9 +80,11 @@
         @Html.DisplayFor(model => model.DefaultImage)
     </div>
 
+    <hr />
+
     @* Displays the Ratings / User for each Amenity *@
     <div class="display-label">
-        @Html.LabelFor(model => model.Ratings)
+        <h2>@Html.LabelFor(model => model.Ratings)</h2>
     </div>
     <div class="display-field">
     <table>
@@ -112,6 +114,9 @@
     </p>
     </div>
 </fieldset>
+
+<hr />
+
 <div id="ParkingDetails">
     @Html.Action("ParkingDetails" )
 </div>

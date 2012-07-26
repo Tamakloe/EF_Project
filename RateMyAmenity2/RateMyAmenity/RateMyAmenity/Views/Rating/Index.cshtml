@@ -5,8 +5,17 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+<h2>Rating API</h2>
 
+<p>@Html.ActionLink("Rating API XML", "../api/RateAPI")
+</p>
+
+<p>@Html.ActionLink("Rating API Home Page", "../Home/APIView")
+</p>
+
+<hr />
+
+<h2>Rating Listing</h2>
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
@@ -45,10 +54,10 @@
 
 </table>
 
+<hr />
 
-<p>
     <div id="RatingAverage">
         @Html.Action("RatingDetails")
     </div>
-</p>
+
 
