@@ -1,0 +1,629 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Home Page</title>
+    <link href="/Content/Site.css" rel="stylesheet" type="text/css" />
+    <script src="http://dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=6.3" type="text/javascript"></script>
+	<script src="/Scripts/RateMyAmenity.js" type="text/javascript"></script>
+	<script src="../../Scripts/dropList.js" type="text/javascript"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+	<script src="http://maps.google.com/maps/api/js?sensor=false" type="text/javascript"></script>
+	<script src="/Scripts/jquery-1.5.1.min.js" type="text/javascript"></script>
+    
+
+</head>
+<body>
+    <div class="page">
+       <div id="header">
+            <div id="title">
+                <h1>Rate My Amenity</h1>
+            </div>
+
+     	    <div id ="clockdisplay">
+			      <h4>
+  <script type="text/javascript" >
+
+<!--
+
+  	var tags_before_clock = "<b>Today is: "
+  	var tags_middle_clock = "  "
+  	var tags_after_clock = "</b>"
+
+  	if (navigator.appName == "Netscape") {
+  		document.write('<layer id="clock"></layer><br>');
+  	}
+
+  	if (navigator.appVersion.indexOf("MSIE") != -1) {
+  		document.write('<span id="clock"></span>');
+  	}
+
+  	DaysofWeek = new Array()
+  	DaysofWeek[0] = "Sunday"
+  	DaysofWeek[1] = "Monday"
+  	DaysofWeek[2] = "Tuesday"
+  	DaysofWeek[3] = "Wednesday"
+  	DaysofWeek[4] = "Thursday"
+  	DaysofWeek[5] = "Friday"
+  	DaysofWeek[6] = "Saturday"
+
+  	Months = new Array()
+  	Months[0] = "January"
+  	Months[1] = "February"
+  	Months[2] = "March"
+  	Months[3] = "April"
+  	Months[4] = "May"
+  	Months[5] = "June"
+  	Months[6] = "July"
+  	Months[7] = "August"
+  	Months[8] = "September"
+  	Months[9] = "October"
+  	Months[10] = "November"
+  	Months[11] = "December"
+
+  	function upclock() {
+  		var dte = new Date();
+  		var hrs = dte.getHours();
+  		var min = dte.getMinutes();
+  		var sec = dte.getSeconds();
+  		var day = DaysofWeek[dte.getDay()]
+  		var date = dte.getDate()
+  		var month = Months[dte.getMonth()]
+  		var year = dte.getFullYear()
+
+  		var col = ":";
+  		var spc = " ";
+  		var com = ",";
+  		var per = "."
+
+  		if (date == 1 || date == 21 || date == 31)
+  		{ ender = "<sup>st</sup>" }
+  		else
+  			if (date == 2 || date == 22)
+  			{ ender = "<sup>nd</sup>" }
+  			else
+  				if (date == 3 || date == 23)
+  				{ ender = "<sup>rd</sup>" }
+
+  				else
+  				{ ender = "<sup>th</sup>" }
+
+
+
+  		if (hrs <= 9) hrs = "0" + hrs;
+  		if (min <= 9) min = "0" + min;
+  		if (sec <= 9) sec = "0" + sec;
+
+  		if (navigator.appName == "Netscape") {
+  			document.clock.document.write(tags_before_clock + spc + day + spc + date + ender + spc + month + com + spc + year + per + tags_middle_clock + hrs + col + min + col + sec + spc + tags_after_clock);
+  			document.clock.document.close();
+  		}
+
+  		if (navigator.appVersion.indexOf("MSIE") != -1) {
+  			clock.innerHTML = tags_before_clock + spc + day + spc + date + ender + spc + month + com + spc + year + per + tags_middle_clock + hrs + col + min + col + sec + spc + tags_after_clock;
+  		}
+
+  	}
+
+  	setInterval("upclock()", 1000);
+//-->
+</script>
+
+</h4>
+            </div>
+
+
+            <div id="logindisplay">
+                    <ul>
+        <li><a href="/Account/Register" id="registerLink">Register</a></li>
+        <li><a href="/Account/Login" id="loginLink">Log in</a></li>
+    </ul>
+
+            </div>
+            <div id="menucontainer">
+                <ul id="menu">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/Home/About">About</a></li>
+                   
+                        
+                </ul>
+            </div>
+        </div>
+        <div id="body">
+            
+
+
+
+<div id="submenu">
+	<h3 class="clear" style="display:inline">Amenity Type</h3>
+	 <div class = "center">  
+
+
+<form action="/" method="post">    <p>
+        Find Amenity: <input id="SearchString" name="SearchString" type="text" value="" />  
+        <input type="submit" value="Search" />
+    </p>
+</form>
+		<!--DROP LIST-->
+		<div class="dropList_header">
+			Art Centres 
+		</div>
+	    <div class="dropList_content">
+		<div>				
+
+            <p> 
+                <a href="/Amenity/Details/1">Seamus Ennis Cultural Centre</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/2">The Little Theatre</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/3">Millbank Theatre</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/4">Draiocht</a>
+		    </p>	       
+	    
+        </div>
+		</div>
+		<!--DROP LIST-->
+		<div class="dropList_header">
+			Cinemas 
+		</div>
+	    <div class="dropList_content">
+		<div>				
+
+            <p> 
+                <a href="/Amenity/Details/5">Quayside Cinema</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/6">Movies@Swords</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/7">UCI Blanchardstown</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/8">Santry Omniplex</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/9">UCI Coolock</a>
+		    </p>	       
+	    
+        </div>
+		</div>
+		<!--DROP LIST-->
+		<div class="dropList_header">
+			Heritage Venues 
+		</div>
+	    <div class="dropList_content">
+		<div>				
+
+            <p> 
+                <a href="/Amenity/Details/10">Ardgillan Castle</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/11">Malahide Castle</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/12">Newbridge House</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/13">Newbridge Traditional Farm</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/14">Skerries Mills</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/15">Swords Castle</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/16">Lusk Heritage Centre</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/17">Farmleigh House</a>
+		    </p>	       
+	    
+        </div>
+		</div>
+		<!--DROP LIST-->
+		<div class="dropList_header">
+			Parks 
+		</div>
+	    <div class="dropList_content">
+		<div>				
+
+            <p> 
+                <a href="/Amenity/Details/18">Ardgillan Demesne</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/19">Balheary Park</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/20">Carpenterstown Park</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/21">Carrickhill Park</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/22">Malahide Demesne</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/23">Millennium Park</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/24">Newbridge Demense</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/25">Porterstown Park</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/26">Santry Demense</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/27">Seagrange Park</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/28">Skerries Town Park &amp;</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/29">St. Catherine&#39;s Estate</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/30">St. Catherines Liffey Valley</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/31">St. Molagga&#39;s Park</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/32">Swords Town Park</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/33">Tolka Valley</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/34">The Glebe</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/35">Turvey Nature Reserve</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/36">Ward River Valley Park</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/37">Red Island &amp; South Strand</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/38">Robswalls</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/39">The Sea Banks</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/40">Kingfisher Site Nature Reserve</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/41">Howth Seafront</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/42">Sea Banks</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/43">Broadmeadow Estuary</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/44">Old Yellow Walls Rd</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/45">Balbriggan Town Park</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/46">Balheary Reservoir</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/47">Ballast Pit</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/48">Ballheary - Castlefarm</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/49">Beverton Drive</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/50">Broomfield</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/51">Corduff Park</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/52">Danny&#39;s Pitch</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/53">Elmwood Open Space</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/54">Hartstown Park</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/55">Hazelbury</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/56">Holywell Park</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/57">Lady&#39;s Well Park</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/58">Lanesborough Park</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/59">Mourne Park</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/60">Rivermeade</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/61">Orlynn Park</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/62">Seabury Gardens</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/63">Parklands</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/64">Rathingle Park</a>
+		    </p>	       
+	    
+        </div>
+		</div>
+		<!--DROP LIST-->
+		<div class="dropList_header">
+			Play Areas 
+		</div>
+	    <div class="dropList_content">
+		<div>				
+
+            <p> 
+                <a href="/Amenity/Details/65">Racecourse Park</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/66">Moyclare</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/67">Ardgillan Demesne</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/68">Balheary</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/69">Balheary</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/70">Bayside</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/71">Beechpark</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/72">Boro Court</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/73">Chapel Estate</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/74">Collegefort</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/75">Corduff Facilities Park</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/76">Dun Saithne</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/77">Fortlawn</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/78">Grace O&#39;Malley Park</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/79">Barnwell</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/81">Holywell</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/82">Howth Habour</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/83">Malahide Castle</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/84">Malahide Castle</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/85">Millennium Park</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/86">Millennium Park</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/87">Millennium Park</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/88">Millennium Park</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/89">Mulhuddart Community Centre</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/90">Newbridge Demesne</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/91">Old Yellow Walls Road</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/92">Old Yellow Walls Road</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/93">Ongar</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/94">Parnell Estate</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/95">Portmarnock Sports and Leisure Centre</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/96">Red Island</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/97">Rivermeade</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/98">Rivermeade</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/99">Riverwood</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/100">Robswall</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/101">Santry Demesne</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/102">Seagrange Park</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/104">St. Anne&#39;s</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/105">St. Catherine&#39;s Estate</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/106">St. Catherine&#39;s Estate</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/107">Swords Town Park</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/108">Tyrrelstown</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/109">Tyrrelstown</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/110">Ward River Valley</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/111">Waterville Tolka Valley</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/112">Whitestown</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/113">Waterside</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/114">Millennium Park</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/115">Beechpark</a>
+		    </p>	       
+            <p> 
+                <a href="/Amenity/Details/116">Waterville Tolka Valley</a>
+		    </p>	       
+	    
+        </div>
+		</div>
+
+
+</div>
+ </div>
+
+
+ <div>  
+<script type="text/javascript" src="http://ecn.dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=7.0"></script>
+<script src="../../Scripts/RateMyAmenity.js" type="text/javascript"></script>
+
+
+<div id="map">
+	<h3 style="display:inline">Bing Map</h3>
+
+	<div class = "center">
+ 
+		<div id="searchBox">
+			Enter your location <input id="Location" name="Location" type="text" value="" />
+			<input id="search" type="submit" value="Search"/>
+		</div>
+
+		<div id="theMap">
+		</div>
+
+	</div>
+
+	</div>
+
+<script type="text/javascript">
+
+	$(document).ready(function () {
+		RateMyAmenity.LoadMap();
+		$("#theMap").width("100%").height("360px"); 
+
+	});
+
+	$("#search").click(function (evt) {
+		var where = jQuery.trim($("#Location").val());
+		if (where.length < 1)
+			return;
+		RateMyAmenity.FindAddress(where);
+	});
+
+</script>
+
+	
+</div>
+
+<div>  <div id="twidget">
+	<h3 class="clear" style="display:inline">Twitter Widget</h3>
+	<div class = "center">
+		<script type ="text/javascript" charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script type="text/javascript">
+	new TWTR.Widget({
+		version: 2,
+		type: 'search',
+		search: 'Fingal, Ireland', //Insert Search string here.
+		interval: 30000,
+		title: 'Fingal', 		// Add a title & Subject
+		subject: 'News',
+		width: "100%",
+		height: 300,
+		theme: {
+			shell: {
+				background: '#8ec1da',
+				color: '#ffffff'
+			},
+			tweets: {
+				background: '#ffffff',
+				color: '#444444',
+				links: '#1985b5'
+			}
+		},
+		features: {
+			scrollbar: false,
+			loop: true,
+			live: true,
+			behavior: 'default'
+		}
+	}).render().start();
+</script>
+		</div>
+	</div></div>
+
+
+        </div>
+        <div id="footer">
+        </div>
+    </div>
+</body>
+</html>
+

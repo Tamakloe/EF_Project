@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="62f8b8f9-042a-4ef3-a623-1257ef705a57" name="Gerry@EREBUS 2012-07-26 23:42:54" runUser="EREBUS\Gerry" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="6af298e4-b41d-49b1-affd-d827480eb552">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Gerry_EREBUS 2012-07-26 23_42_54">
+      <DeploymentItem filename="C:\Users\Gerry\Documents\GitHub\EF_Project\RateMyAmenity2\RateMyAmenity\packages\Newtonsoft.Json.4.5.1\lib\net40\Newtonsoft.Json.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft ASP.NET\ASP.NET MVC 4\Assemblies\System.Net.Http.WebRequest.dll" />
+      <DeploymentItem filename="C:\Users\Gerry\Documents\GitHub\EF_Project\RateMyAmenity2\RateMyAmenity\CsvReader_bin\LumenWorks.Framework.IO.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft ASP.NET\ASP.NET MVC 4\Assemblies\System.Web.Http.WebHost.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft ASP.NET\ASP.NET MVC 4\Assemblies\System.Net.Http.Formatting.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\System.Web.WebPages.Deployment.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft ASP.NET\ASP.NET MVC 4\Assemblies\System.Net.Http.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\System.Web.Razor.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\System.Web.WebPages.dll" />
+      <DeploymentItem filename="C:\Users\Gerry\Documents\GitHub\EF_Project\RateMyAmenity2\RateMyAmenity\packages\EntityFramework.5.0.0-rc\lib\net40\EntityFramework.dll" />
+      <DeploymentItem filename="C:\Users\Gerry\Documents\GitHub\EF_Project\RateMyAmenity2\RateMyAmenity\packages\WebGrease.1.0.0\lib\WebGrease.dll" />
+      <DeploymentItem filename="C:\Users\Gerry\Documents\GitHub\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\RateMyAmenity.dll" />
+      <DeploymentItem filename="C:\Users\Gerry\Documents\GitHub\EF_Project\RateMyAmenity2\RateMyAmenity\packages\Microsoft.AspNet.Providers.Core.1.0\lib\net40\System.Web.Providers.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\System.Web.Helpers.dll" />
+      <DeploymentItem filename="C:\Users\Gerry\Documents\GitHub\EF_Project\RateMyAmenity2\RateMyAmenity\packages\WebGrease.1.0.0\lib\Antlr3.Runtime.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\Microsoft.Web.Infrastructure.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\System.Web.WebPages.Razor.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft ASP.NET\ASP.NET MVC 4\Assemblies\System.Web.Http.dll" />
+      <DeploymentItem filename="C:\Users\Gerry\Documents\GitHub\EF_Project\RateMyAmenity2\RateMyAmenity\packages\Microsoft.AspNet.Web.Optimization.1.0.0-beta2\lib\net40\System.Web.Optimization.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft ASP.NET\ASP.NET MVC 4\Assemblies\System.Web.Mvc.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-07-26T23:42:54.9879456+01:00" queuing="2012-07-26T23:43:00.1131646+01:00" start="2012-07-26T23:43:00.3315650+01:00" finish="2012-07-26T23:43:17.1201946+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CommentsTest" storage="c:\users\gerry\documents\github\ef_project\ratemyamenity2\ratemyamenity\ratemytestproject\bin\debug\ratemytestproject.dll" id="68d10e45-1f33-6bec-8b00-3e89abe4ada2">
+      <Execution id="0b585066-cc1c-4a45-a110-6d5d934caa3c" />
+      <TestMethod codeBase="C:/Users/Gerry/Documents/GitHub/EF_Project/RateMyAmenity2/RateMyAmenity/RateMyTestProject/bin/Debug/RateMyTestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RateMyTestProject.RatingTest, RateMyTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CommentsTest" />
+      <AspNet webSiteUrl="http://localhost:50265/">
+        <Host pathToWebApp="C:\Users\Gerry\Documents\GitHub\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="68d10e45-1f33-6bec-8b00-3e89abe4ada2" executionId="0b585066-cc1c-4a45-a110-6d5d934caa3c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="0b585066-cc1c-4a45-a110-6d5d934caa3c" testId="68d10e45-1f33-6bec-8b00-3e89abe4ada2" testName="CommentsTest" computerName="EREBUS" startTime="2012-07-26T23:43:00.7215657+01:00" endTime="2012-07-26T23:43:16.9173943+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0b585066-cc1c-4a45-a110-6d5d934caa3c">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:50265/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_CommentsTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="EREBUS\WebRequestResponse_CommentsTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+  </Results>
+</TestRun>
