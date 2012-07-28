@@ -11,7 +11,7 @@
 
                     // Format the text to display not above information
 
-                    var str = 'Amenity ID: ' + val.AmenityID + ',   Amenity Name: ' + val.Name + ',   Rated Value: ' + val.RatingValue + ',   Comments: ' + val.Comments + ',   Rating ID: ' + val.RatingID;
+                    var str = 'Amenity ID: ' + val.AmenityID + ',  Rated Value: ' + val.RatingValue + ',   Comments: ' + val.Comments + ',   Rating ID: ' + val.RatingID;
 
                     // Add a list item for the Amenity
 
@@ -27,7 +27,7 @@ function find() {
     var id = $('#AmenityID').val();
     $.getJSON("/api/RateAPI/" + id,
                 function (data) {
-                    var str = 'Amenity ID: ' + data.AmenityID + ',   Amenity Name: ' + data.Name + ',   Rated Value: ' + data.RatingValue + ',   Comments: ' + data.Comments + ',   Rating ID: ' + data.RatingID;
+                    var str = 'Amenity ID: ' + data.AmenityID + ',   Rated Value: ' + data.RatingValue + ',   Comments: ' + data.Comments + ',   Rating ID: ' + data.RatingID;
                     $('#RateAPI').html(str);
                 })
             .fail(

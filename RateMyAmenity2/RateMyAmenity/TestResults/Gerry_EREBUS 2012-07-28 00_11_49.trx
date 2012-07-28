@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="952f95bb-b506-4691-86bb-e50e033e44c2" name="Gerry@EREBUS 2012-07-28 00:11:49" runUser="EREBUS\Gerry" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Trace and Test Impact" id="39db9189-49f5-48bd-b8f3-86a828d44a7f">
+    <Description>These are test settings for Trace and Test Impact.</Description>
+    <Deployment runDeploymentRoot="Gerry_EREBUS 2012-07-28 00_11_49">
+      <DeploymentItem filename="C:\Users\Gerry\Documents\GitHub\EF_Project\RateMyAmenity2\RateMyAmenity\packages\Newtonsoft.Json.4.5.1\lib\net40\Newtonsoft.Json.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft ASP.NET\ASP.NET MVC 4\Assemblies\System.Net.Http.WebRequest.dll" />
+      <DeploymentItem filename="C:\Users\Gerry\Documents\GitHub\EF_Project\RateMyAmenity2\RateMyAmenity\packages\WebGrease.1.0.0\lib\WebGrease.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft ASP.NET\ASP.NET MVC 4\Assemblies\System.Web.Http.WebHost.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft ASP.NET\ASP.NET MVC 4\Assemblies\System.Net.Http.Formatting.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\System.Web.WebPages.Deployment.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft ASP.NET\ASP.NET MVC 4\Assemblies\System.Net.Http.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\System.Web.Razor.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\System.Web.WebPages.dll" />
+      <DeploymentItem filename="C:\Users\Gerry\Documents\GitHub\EF_Project\RateMyAmenity2\RateMyAmenity\packages\EntityFramework.5.0.0-rc\lib\net40\EntityFramework.dll" />
+      <DeploymentItem filename="C:\Users\Gerry\Documents\GitHub\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\bin\RateMyAmenity.dll" />
+      <DeploymentItem filename="C:\Users\Gerry\Documents\GitHub\EF_Project\RateMyAmenity2\RateMyAmenity\packages\Microsoft.AspNet.Providers.Core.1.0\lib\net40\System.Web.Providers.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\System.Web.Helpers.dll" />
+      <DeploymentItem filename="C:\Users\Gerry\Documents\GitHub\EF_Project\RateMyAmenity2\RateMyAmenity\packages\WebGrease.1.0.0\lib\Antlr3.Runtime.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\Microsoft.Web.Infrastructure.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\System.Web.WebPages.Razor.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft ASP.NET\ASP.NET MVC 4\Assemblies\System.Web.Http.dll" />
+      <DeploymentItem filename="C:\Users\Gerry\Documents\GitHub\EF_Project\RateMyAmenity2\RateMyAmenity\packages\Microsoft.AspNet.Web.Optimization.1.0.0-beta2\lib\net40\System.Web.Optimization.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft ASP.NET\ASP.NET MVC 4\Assemblies\System.Web.Mvc.dll" />
+    </Deployment>
+    <Execution>
+      <Hosts skipUnhostableTests="false" />
+      <TestTypeSpecific>
+        <UnitTestRunConfig testTypeId="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b">
+          <AssemblyResolution>
+            <TestDirectory useLoadContext="true" />
+          </AssemblyResolution>
+        </UnitTestRunConfig>
+      </TestTypeSpecific>
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-07-28T00:11:49.5294609+01:00" queuing="2012-07-28T00:11:58.5306768+01:00" start="2012-07-28T00:11:58.7022771+01:00" finish="2012-07-28T00:12:03.1512850+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="6" executed="6" passed="2" error="0" failed="4" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="supportsTypeTest2" storage="c:\users\gerry\documents\github\ef_project\ratemyamenity2\ratemyamenity\csvparsertest\bin\debug\csvparsertest.dll" id="e1252009-4a8c-0eba-c607-bfb1a3f6e85f">
+      <Execution id="b584fd5d-b617-4616-9042-5830c167ae76" />
+      <TestMethod codeBase="C:/Users/Gerry/Documents/GitHub/EF_Project/RateMyAmenity2/RateMyAmenity/CSVParserTest/bin/Debug/CSVParserTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CSVParserTest.CSVParserTest, CSVParserTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="supportsTypeTest2" />
+    </UnitTest>
+    <UnitTest name="CSVParserConstructorTest" storage="c:\users\gerry\documents\github\ef_project\ratemyamenity2\ratemyamenity\csvparsertest\bin\debug\csvparsertest.dll" id="6a236c91-4f56-e5e7-4e69-8b4243ab49ca">
+      <Execution id="fbd4c798-888d-4775-b093-1f3d8c5fe069" />
+      <TestMethod codeBase="C:/Users/Gerry/Documents/GitHub/EF_Project/RateMyAmenity2/RateMyAmenity/CSVParserTest/bin/Debug/CSVParserTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CSVParserTest.CSVParserTest, CSVParserTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CSVParserConstructorTest" />
+      <AspNet webSiteUrl="http://localhost:57136/">
+        <Host pathToWebApp="C:\Users\mcoffey\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="supportsTypeTest1" storage="c:\users\gerry\documents\github\ef_project\ratemyamenity2\ratemyamenity\csvparsertest\bin\debug\csvparsertest.dll" id="705aa877-230b-8f1f-afe4-86fae479dc72">
+      <Execution id="dac8f245-ea8d-4f20-b91e-09ba56249841" />
+      <TestMethod codeBase="C:/Users/Gerry/Documents/GitHub/EF_Project/RateMyAmenity2/RateMyAmenity/CSVParserTest/bin/Debug/CSVParserTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CSVParserTest.CSVParserTest, CSVParserTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="supportsTypeTest1" />
+    </UnitTest>
+    <UnitTest name="supportsTypeTest3" storage="c:\users\gerry\documents\github\ef_project\ratemyamenity2\ratemyamenity\csvparsertest\bin\debug\csvparsertest.dll" id="42db4b39-5203-7b6a-39b8-2800988ca319">
+      <Execution id="66beecb7-a310-4e15-bbc5-bde840ace9df" />
+      <TestMethod codeBase="C:/Users/Gerry/Documents/GitHub/EF_Project/RateMyAmenity2/RateMyAmenity/CSVParserTest/bin/Debug/CSVParserTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CSVParserTest.CSVParserTest, CSVParserTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="supportsTypeTest3" />
+    </UnitTest>
+    <UnitTest name="parseAmenityTest" storage="c:\users\gerry\documents\github\ef_project\ratemyamenity2\ratemyamenity\csvparsertest\bin\debug\csvparsertest.dll" id="4ec337bb-1073-d5fb-57c0-bb93a94fbb6d">
+      <DeploymentItems>
+        <DeploymentItem filename="RateMyAmenity.dll" />
+      </DeploymentItems>
+      <Execution id="79fd955e-83ec-4047-a6b4-fef5c21971fa" />
+      <TestMethod codeBase="C:/Users/Gerry/Documents/GitHub/EF_Project/RateMyAmenity2/RateMyAmenity/CSVParserTest/bin/Debug/CSVParserTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CSVParserTest.CSVParserTest, CSVParserTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="parseAmenityTest" />
+      <AspNet webSiteUrl="http://localhost:57136/">
+        <Host pathToWebApp="C:\Users\mcoffey\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="setStreamSourceTest" storage="c:\users\gerry\documents\github\ef_project\ratemyamenity2\ratemyamenity\csvparsertest\bin\debug\csvparsertest.dll" id="cbe7228b-9640-f481-7a05-a1d64c3d6e64">
+      <Execution id="e66f2b03-2517-4d4f-9bdc-4b9e5bba0ec1" />
+      <TestMethod codeBase="C:/Users/Gerry/Documents/GitHub/EF_Project/RateMyAmenity2/RateMyAmenity/CSVParserTest/bin/Debug/CSVParserTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CSVParserTest.CSVParserTest, CSVParserTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="setStreamSourceTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="42db4b39-5203-7b6a-39b8-2800988ca319" executionId="66beecb7-a310-4e15-bbc5-bde840ace9df" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4ec337bb-1073-d5fb-57c0-bb93a94fbb6d" executionId="79fd955e-83ec-4047-a6b4-fef5c21971fa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6a236c91-4f56-e5e7-4e69-8b4243ab49ca" executionId="fbd4c798-888d-4775-b093-1f3d8c5fe069" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="705aa877-230b-8f1f-afe4-86fae479dc72" executionId="dac8f245-ea8d-4f20-b91e-09ba56249841" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cbe7228b-9640-f481-7a05-a1d64c3d6e64" executionId="e66f2b03-2517-4d4f-9bdc-4b9e5bba0ec1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e1252009-4a8c-0eba-c607-bfb1a3f6e85f" executionId="b584fd5d-b617-4616-9042-5830c167ae76" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="66beecb7-a310-4e15-bbc5-bde840ace9df" testId="42db4b39-5203-7b6a-39b8-2800988ca319" testName="supportsTypeTest3" computerName="EREBUS" duration="00:00:00.1331225" startTime="2012-07-28T00:11:59.4042783+01:00" endTime="2012-07-28T00:12:00.5274803+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="66beecb7-a310-4e15-bbc5-bde840ace9df">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;False&gt;. Actual:&lt;True&gt;. </Message>
+          <StackTrace>   at CSVParserTest.CSVParserTest.supportsTypeTest3() in C:\Users\Gerry\Documents\GitHub\EF_Project\RateMyAmenity2\RateMyAmenity\CSVParserTest\CSVParserTest.cs:line 161
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="79fd955e-83ec-4047-a6b4-fef5c21971fa" testId="4ec337bb-1073-d5fb-57c0-bb93a94fbb6d" testName="parseAmenityTest" computerName="EREBUS" startTime="2012-07-28T00:12:00.7146806+01:00" endTime="2012-07-28T00:12:00.7614807+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="79fd955e-83ec-4047-a6b4-fef5c21971fa">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web site path 'C:\Users\mcoffey\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity' does not exist. Tests configured to run in ASP.NET Development Server must specify a valid path to the Web site. Correct the AspNetDevelopmentServerHost attribute for the test. For more information about ASP.NET unit tests, see "How to: Create an ASP.NET Unit Test" (http://go.microsoft.com/fwlink/?LinkId=62608) and "Testing Web Services" (http://go.microsoft.com/fwlink/?LinkId=62609) in the MSDN Library.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fbd4c798-888d-4775-b093-1f3d8c5fe069" testId="6a236c91-4f56-e5e7-4e69-8b4243ab49ca" testName="CSVParserConstructorTest" computerName="EREBUS" startTime="2012-07-28T00:12:00.7926807+01:00" endTime="2012-07-28T00:12:01.0890813+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fbd4c798-888d-4775-b093-1f3d8c5fe069">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web site path 'C:\Users\mcoffey\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity' does not exist. Tests configured to run in ASP.NET Development Server must specify a valid path to the Web site. Correct the AspNetDevelopmentServerHost attribute for the test. For more information about ASP.NET unit tests, see "How to: Create an ASP.NET Unit Test" (http://go.microsoft.com/fwlink/?LinkId=62608) and "Testing Web Services" (http://go.microsoft.com/fwlink/?LinkId=62609) in the MSDN Library.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="dac8f245-ea8d-4f20-b91e-09ba56249841" testId="705aa877-230b-8f1f-afe4-86fae479dc72" testName="supportsTypeTest1" computerName="EREBUS" duration="00:00:00.0006041" startTime="2012-07-28T00:12:01.2762816+01:00" endTime="2012-07-28T00:12:01.3230817+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dac8f245-ea8d-4f20-b91e-09ba56249841">
+    </UnitTestResult>
+    <UnitTestResult executionId="e66f2b03-2517-4d4f-9bdc-4b9e5bba0ec1" testId="cbe7228b-9640-f481-7a05-a1d64c3d6e64" testName="setStreamSourceTest" computerName="EREBUS" duration="00:00:00.0862659" startTime="2012-07-28T00:12:01.4010818+01:00" endTime="2012-07-28T00:12:01.5258820+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e66f2b03-2517-4d4f-9bdc-4b9e5bba0ec1">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method CSVParserTest.CSVParserTest.setStreamSourceTest threw exception: 
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\mcoffey\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\Content\ArtCentres.csv'.</Message>
+          <StackTrace>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path, Boolean detectEncodingFromByteOrderMarks)
+   at CSVParserTest.CSVParserTest.setStreamSourceTest() in C:\Users\Gerry\Documents\GitHub\EF_Project\RateMyAmenity2\RateMyAmenity\CSVParserTest\CSVParserTest.cs:line 109
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b584fd5d-b617-4616-9042-5830c167ae76" testId="e1252009-4a8c-0eba-c607-bfb1a3f6e85f" testName="supportsTypeTest2" computerName="EREBUS" duration="00:00:00.0533874" startTime="2012-07-28T00:12:01.5570821+01:00" endTime="2012-07-28T00:12:01.9470828+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b584fd5d-b617-4616-9042-5830c167ae76">
+    </UnitTestResult>
+  </Results>
+</TestRun>

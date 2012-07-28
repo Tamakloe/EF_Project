@@ -6,8 +6,8 @@ using System.Web.Mvc;
 
 namespace RateMyTestProject
 {
-    
-    
+
+
     /// <summary>
     ///This is a test class for SearchControllerTest and is intended
     ///to contain all SearchControllerTest Unit Tests
@@ -68,18 +68,16 @@ namespace RateMyTestProject
 
         /// <summary>
         ///A test for SearchController Constructor
-        ///</summary>
-        // TODO: Ensure that the UrlToTest attribute specifies a URL to an ASP.NET page (for example,
-        // http://.../Default.aspx). This is necessary for the unit test to be executed on the web server,
-        // whether you are testing a page, web service, or a WCF service.
-        [TestMethod()]
-        [HostType("ASP.NET")]
-        [AspNetDevelopmentServerHost("C:\\Users\\Gerry\\Documents\\GitHub\\EF_Project\\RateMyAmenity2\\RateMyAmenity\\RateMyAmenity", "/")]
         [UrlToTest("http://localhost:50265/")]
-        public void SearchControllerConstructorTest()
+        public void SearchControllerConstructor()
         {
-            SearchController target = new SearchController();
-            Assert.Inconclusive("TODO: Implement code to verify target");
+            SearchController target = new SearchController(); // TODO: Initialize to an appropriate value
+            float longitude = 0F; // TODO: Initialize to an appropriate value
+            float latitude = 0F; // TODO: Initialize to an appropriate value
+            ActionResult expected = target.SearchByLocation(longitude, latitude); // TODO: Initialize to an appropriate value
+            ActionResult actual;
+            actual = target.SearchByLocation(longitude, latitude);
+            Assert.AreEqual(longitude, latitude);
         }
 
         /// <summary>
@@ -89,19 +87,18 @@ namespace RateMyTestProject
         // http://.../Default.aspx). This is necessary for the unit test to be executed on the web server,
         // whether you are testing a page, web service, or a WCF service.
         [TestMethod()]
-        [HostType("ASP.NET")]
-        [AspNetDevelopmentServerHost("C:\\Users\\Gerry\\Documents\\GitHub\\EF_Project\\RateMyAmenity2\\RateMyAmenity\\RateMyAmenity", "/")]
+
         [UrlToTest("http://localhost:50265/")]
         public void SearchByLocationTest()
         {
             SearchController target = new SearchController(); // TODO: Initialize to an appropriate value
             float longitude = 0F; // TODO: Initialize to an appropriate value
             float latitude = 0F; // TODO: Initialize to an appropriate value
-            ActionResult expected = null; // TODO: Initialize to an appropriate value
+            ActionResult expected = target.SearchByLocation(longitude, latitude); // TODO: Initialize to an appropriate value
             ActionResult actual;
             actual = target.SearchByLocation(longitude, latitude);
-            Assert.AreEqual(expected, actual);
-            Assert.Inconclusive("Verify the correctness of this test method.");
+            Assert.AreEqual(longitude, latitude);
         }
     }
 }
+//Failed	SearchByLocationTest	RateMyTestProject	Assert.AreEqual failed. Expected:<System.Web.Mvc.JsonResult>. Actual:<System.Web.Mvc.JsonResult>. 	

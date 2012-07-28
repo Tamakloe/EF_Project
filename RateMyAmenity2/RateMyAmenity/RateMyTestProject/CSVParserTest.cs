@@ -6,10 +6,10 @@ using RateMyAmenity.Models;
 using System.Collections.Generic;
 using System.IO;
 
-namespace RateMyTestProject
+namespace CSVParserTest
 {
-    
-    
+
+
     /// <summary>
     ///This is a test class for CSVParserTest and is intended
     ///to contain all CSVParserTest Unit Tests
@@ -76,8 +76,8 @@ namespace RateMyTestProject
         // whether you are testing a page, web service, or a WCF service.
         [TestMethod()]
         [HostType("ASP.NET")]
-        [AspNetDevelopmentServerHost("C:\\Users\\Gerry\\Documents\\GitHub\\EF_Project\\RateMyAmenity2\\RateMyAmenity\\RateMyAmenity", "/")]
-        [UrlToTest("http://localhost:50265/")]
+        [AspNetDevelopmentServerHost("C:\\Users\\mcoffey\\EF_Project\\RateMyAmenity2\\RateMyAmenity\\RateMyAmenity", "/")]
+        [UrlToTest("http://localhost:57136/")]
         public void CSVParserConstructorTest()
         {
             CSVParser target = new CSVParser();
@@ -86,87 +86,79 @@ namespace RateMyTestProject
 
         /// <summary>
         ///A test for RateMyAmenity.DataImport.IDataParser.parseAmenity
-        ///</summary>
-        // TODO: Ensure that the UrlToTest attribute specifies a URL to an ASP.NET page (for example,
-        // http://.../Default.aspx). This is necessary for the unit test to be executed on the web server,
-        // whether you are testing a page, web service, or a WCF service.
+
         [TestMethod()]
         [HostType("ASP.NET")]
-        [AspNetDevelopmentServerHost("C:\\Users\\Gerry\\Documents\\GitHub\\EF_Project\\RateMyAmenity2\\RateMyAmenity\\RateMyAmenity", "/")]
-        [UrlToTest("http://localhost:50265/")]
+        [AspNetDevelopmentServerHost("C:\\Users\\mcoffey\\EF_Project\\RateMyAmenity2\\RateMyAmenity\\RateMyAmenity", "/")]
+        [UrlToTest("http://localhost:57136/")]
         [DeploymentItem("RateMyAmenity.dll")]
         public void parseAmenityTest()
         {
             IDataParser target = new CSVParser(); // TODO: Initialize to an appropriate value
-            string amenitytype = string.Empty; // TODO: Initialize to an appropriate value
             List<Amenity> expected = null; // TODO: Initialize to an appropriate value
             List<Amenity> actual;
-            actual = target.parseAmenity(amenitytype);
+            actual = target.parseAmenity("Art Centres");
             Assert.AreEqual(expected, actual);
             Assert.Inconclusive("Verify the correctness of this test method.");
         }
 
-        /// <summary>
-        ///A test for RateMyAmenity.DataImport.IDataParser.parseParking
-        ///</summary>
-        // TODO: Ensure that the UrlToTest attribute specifies a URL to an ASP.NET page (for example,
-        // http://.../Default.aspx). This is necessary for the unit test to be executed on the web server,
-        // whether you are testing a page, web service, or a WCF service.
+        // Test to verify file stream
         [TestMethod()]
-        [HostType("ASP.NET")]
-        [AspNetDevelopmentServerHost("C:\\Users\\Gerry\\Documents\\GitHub\\EF_Project\\RateMyAmenity2\\RateMyAmenity\\RateMyAmenity", "/")]
-        [UrlToTest("http://localhost:50265/")]
-        [DeploymentItem("RateMyAmenity.dll")]
-        public void parseParkingTest()
-        {
-            IDataParser target = new CSVParser(); // TODO: Initialize to an appropriate value
-            string parkingtype = string.Empty; // TODO: Initialize to an appropriate value
-            List<Parking> expected = null; // TODO: Initialize to an appropriate value
-            List<Parking> actual;
-            actual = target.parseParking(parkingtype);
-            Assert.AreEqual(expected, actual);
-            Assert.Inconclusive("Verify the correctness of this test method.");
-        }
-
-        /// <summary>
-        ///A test for RateMyAmenity.DataImport.IDataParser.setStreamSource
-        ///</summary>
-        // TODO: Ensure that the UrlToTest attribute specifies a URL to an ASP.NET page (for example,
-        // http://.../Default.aspx). This is necessary for the unit test to be executed on the web server,
-        // whether you are testing a page, web service, or a WCF service.
-        [TestMethod()]
-        [HostType("ASP.NET")]
-        [AspNetDevelopmentServerHost("C:\\Users\\Gerry\\Documents\\GitHub\\EF_Project\\RateMyAmenity2\\RateMyAmenity\\RateMyAmenity", "/")]
-        [UrlToTest("http://localhost:50265/")]
-        [DeploymentItem("RateMyAmenity.dll")]
         public void setStreamSourceTest()
         {
-            IDataParser target = new CSVParser(); // TODO: Initialize to an appropriate value
-            StreamReader reader = null; // TODO: Initialize to an appropriate value
+            StreamReader reader = new StreamReader("%PathToWebRoot%\\Content\\ArtCentres.csv", true); // TODO: Initialize to an appropriate value
+
+            IDataParser target = new CSVParser();
+
             target.setStreamSource(reader);
-            Assert.Inconclusive("A method that does not return a value cannot be verified.");
+
+            //Amenity a1 = new Amenity();
+            // a1.Name = "Draiocht";
+
+            // List<Amenity> expected = new List<Amenity>();
+            //expected.Add(a);
+
+            List<Amenity> actual;
+            actual = target.parseAmenity("Art Centres");
+            Assert.AreEqual(4, actual.Count);
+
+            Amenity amenity = actual.Find(item => item.Website == "http://www.seamusenniscentre.com");
         }
 
-        /// <summary>
-        ///A test for RateMyAmenity.DataImport.IDataParser.supportsType
-        ///</summary>
-        // TODO: Ensure that the UrlToTest attribute specifies a URL to an ASP.NET page (for example,
-        // http://.../Default.aspx). This is necessary for the unit test to be executed on the web server,
-        // whether you are testing a page, web service, or a WCF service.
+        // test to check format = csv
         [TestMethod()]
-        [HostType("ASP.NET")]
-        [AspNetDevelopmentServerHost("C:\\Users\\Gerry\\Documents\\GitHub\\EF_Project\\RateMyAmenity2\\RateMyAmenity\\RateMyAmenity", "/")]
-        [UrlToTest("http://localhost:50265/")]
-        [DeploymentItem("RateMyAmenity.dll")]
-        public void supportsTypeTest()
+        public void supportsTypeTest1()
         {
-            IDataParser target = new CSVParser(); // TODO: Initialize to an appropriate value
-            string format = string.Empty; // TODO: Initialize to an appropriate value
-            bool expected = false; // TODO: Initialize to an appropriate value
+            IDataParser target = new CSVParser();
+            string format = "csv";
+            bool expected = true;
             bool actual;
             actual = target.supportsType(format);
             Assert.AreEqual(expected, actual);
-            Assert.Inconclusive("Verify the correctness of this test method.");
+        }
+
+        // test to check format for null (i.e. no file)
+        [TestMethod()]
+        public void supportsTypeTest2()
+        {
+            IDataParser target = new CSVParser();
+            string format = null;
+            bool expected = false;
+            bool actual;
+            actual = target.supportsType(format);
+            Assert.AreEqual(expected, actual);
+        }
+
+        // test to check format = something other than csv. Note: This test is designed to fail.
+        [TestMethod()]
+        public void supportsTypeTest3()
+        {
+            IDataParser target = new CSVParser();
+            string format = "csv";
+            bool expected = false;
+            bool actual;
+            actual = target.supportsType(format);
+            Assert.AreEqual(expected, actual);
         }
     }
 }

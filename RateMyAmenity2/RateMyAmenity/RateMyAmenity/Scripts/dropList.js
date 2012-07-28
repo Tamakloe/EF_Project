@@ -5,7 +5,7 @@ var dropList_slideSpeed = 5; // Higher value = faster
 var dropList_timer = 15; // Lower value = faster
 
 var objectIdToSlideDown = false;
-var dropList_activeId = false;
+var dropList_activeId = true;
 var dropList_slideInProgress = false;
 var dropList_expandMultiple = false; // true = multiple items expanded at the same time.
 

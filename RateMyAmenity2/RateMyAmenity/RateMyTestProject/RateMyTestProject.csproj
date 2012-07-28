@@ -110,26 +110,9 @@
     </CodeAnalysisDependentAssemblyPaths>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AccountControllerTest.cs" />
-    <Compile Include="AmenityControllerTest.cs" />
     <Compile Include="AmenityDalTest.cs" />
-    <Compile Include="AmenityTest.cs" />
-    <Compile Include="BLLGetCSVTest.cs" />
-    <Compile Include="BLLSortFilterDataTest.cs" />
     <Compile Include="CSVParserTest.cs" />
-    <Compile Include="GetCSVTest.cs" />
-    <Compile Include="HomeControllerTest.cs" />
-    <Compile Include="IDataParserTest.cs" />
-    <Compile Include="JsonAmenityTest.cs" />
-    <Compile Include="LocationDetailTest.cs" />
-    <Compile Include="ParkingDetailsTest.cs" />
-    <Compile Include="ParkingTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RateAPIControllerTest.cs" />
-    <Compile Include="RateMyAmenityContextTest.cs" />
-    <Compile Include="RatingControllerTest.cs" />
-    <Compile Include="RatingDetailsTest.cs" />
-    <Compile Include="RatingTest.cs" />
     <Compile Include="SearchControllerTest.cs" />
   </ItemGroup>
   <ItemGroup>
