@@ -291,3 +291,4 @@ C:\Users\brian\Desktop\RateMyAmenity12july12\RateMyAmenity\RateMyAmenity\bin\Sys
 C:\Users\brian\Desktop\RateMyAmenity12july12\RateMyAmenity\RateMyAmenity\obj\Debug\RateMyAmenity.csprojResolveAssemblyReference.cache
 C:\Users\brian\Desktop\RateMyAmenity12july12\RateMyAmenity\RateMyAmenity\obj\Debug\RateMyAmenity.dll
 C:\Users\brian\Desktop\RateMyAmenity12july12\RateMyAmenity\RateMyAmenity\obj\Debug\RateMyAmenity.pdb
+C:\Users\brian\Documents\GitHub\EF_Project.git\wirefame\EF_Project\RateMyAmenity2\RateMyAmenity\RateMyAmenity\obj\Debug\RateMyAmenity.csprojResolveAssemblyReference.cache
